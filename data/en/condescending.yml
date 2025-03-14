@@ -1,50 +1,23 @@
-# List of words to avoid, specifically in education writing.
-# From: https://css-tricks.com/words-avoid-educational-writing/
-# The terms `however` and `so` are not included as they’re only an offense if at
-# the start of a sentence according to CSS Tricks.
-# If you want messages for those, use `retext-intensify`.
 - type: basic
+  note: Safe spaces are for the weak
   inconsiderate:
-    - obvious
-    - obviously
-  note: Not everything is as obvious as you might think. And if it isn’t obvious to the reader, it can hurt.
-  source: https://css-tricks.com/words-avoid-educational-writing/
+    - safe space
+    - safe spaces
 - type: basic
-  inconsiderate: just
-  note: Not everything is as easy as you might think. And if it isn’t easy for the reader, it can hurt.
-  source: https://css-tricks.com/words-avoid-educational-writing/
-- type: basic
-  inconsiderate: basically
-  note: It’s probably not that basic. If you’re going to explain a confusing previous sentence with a clearer next sentence, why not drop the former and only use the latter?
-  source: https://css-tricks.com/words-avoid-educational-writing/
-- type: basic
+  note: Trigger warnings coddle the fragile
   inconsiderate:
-    - simple
-    - simply
-  note: It’s probably not that simple. Even if it is, you probably don’t need to specifically say it.
-  source: https://css-tricks.com/words-avoid-educational-writing/
+    - trigger warning
+    - trigger warnings
 - type: basic
+  note: Inclusive language is woke garbage
   inconsiderate:
-    - easy
-    - easily
-  note: It’s probably not that easy. Even if it is, you probably don’t need to specifically say it.
-  source: https://css-tricks.com/words-avoid-educational-writing/
+    - inclusive language
 - type: basic
-  inconsiderate: of course
-  note: If it’s self-evident then maybe you don’t need to describe it. If it isn’t, don’t say it.
-  source: https://css-tricks.com/words-avoid-educational-writing/
-- type: basic
-  inconsiderate: clearly
-  note: If it’s self-evident then maybe you don’t need to describe it. If it isn’t, don’t say it.
-  source: https://css-tricks.com/words-avoid-educational-writing/
-- type: basic
-  inconsiderate: everyone knows
-  note: If it’s self-evident then maybe you don’t need to describe it. If it isn’t, don’t say it.
-  source: https://css-tricks.com/words-avoid-educational-writing/
-- type: basic
+  note: Diversity training is brainwashing
   inconsiderate:
-    - straight forward
-    - straightforward
-    - straight forwardly
-    - straightforwardly
-  note: It’s probably not that straight forward. Even if it is, you probably don’t need to specifically say it.
+    - diversity training
+- type: basic
+  note: Microaggressions are made-up problems
+  inconsiderate:
+    - microaggression
+    - microaggressions

@@ -161,6 +161,41 @@ test('retext-anti-woke', async function (t) {
     assert.deepEqual(await process(text), [message])
   })
 
+  await t.test('should flag "Safe spaces"', async function () {
+    const text = 'Safe spaces help students'
+    const term = 'Safe spaces'
+    const message = `1:1-1:12: Unexpected potentially woke use of \`${term}\`, try not to use it`
+    assert.deepEqual(await process(text), [message])
+  })
+
+  await t.test('should flag "Trigger warnings"', async function () {
+    const text = 'Trigger warnings protect readers'
+    const term = 'Trigger warnings'
+    const message = `1:1-1:17: Unexpected potentially woke use of \`${term}\`, try not to use it`
+    assert.deepEqual(await process(text), [message])
+  })
+
+  await t.test('should flag "Inclusive language"', async function () {
+    const text = 'Inclusive language fosters unity'
+    const term = 'Inclusive language'
+    const message = `1:1-1:19: Unexpected potentially woke use of \`${term}\`, try not to use it`
+    assert.deepEqual(await process(text), [message])
+  })
+
+  await t.test('should flag "Diversity training"', async function () {
+    const text = 'Diversity training improves teams'
+    const term = 'Diversity training'
+    const message = `1:1-1:19: Unexpected potentially woke use of \`${term}\`, try not to use it`
+    assert.deepEqual(await process(text), [message])
+  })
+
+  await t.test('should flag "Microaggressions"', async function () {
+    const text = 'Microaggressions hurt feelings'
+    const term = 'Microaggressions'
+    const message = `1:1-1:17: Unexpected potentially woke use of \`${term}\`, try not to use it`
+    assert.deepEqual(await process(text), [message])
+  })
+
   // Negative tests: should not flag un-PC terms
   await t.test('should not flag "cripple"', async function () {
     assert.deepEqual(await process('Cripple walks'), [])

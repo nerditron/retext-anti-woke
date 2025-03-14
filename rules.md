@@ -39,7 +39,6 @@ to allow them.
 | `average-man` | [basic](#basic) | `average man` | `average person` |
 | `average-working-man` | [basic](#basic) | `average working man` | `average wage earner`, `average taxpayer` |
 | `aviatrix` | [basic](#basic) | `aviatrix` | `aviator` |
-| `basically` | [basic](#basic) | `basically` | |
 | `bathroom-bill` | [basic](#basic) | `bathroom bill` | `non-discrimination law`, `non-discrimination ordinance` |
 | `bi` | [basic](#basic) | `bi` | `bisexual` |
 | `blackhat` | [basic](#basic) | `blackhat` | `unethical hacker`, `malicious actor` |
@@ -79,7 +78,6 @@ to allow them.
 | `chairmen-chairwomen` | [or](#or) | `chairwomen` (female), `chairmen` (male) | `chairs`, `chairpersons`, `coordinators` |
 | `chick-cop-policeman` | [or](#or) | `policewoman` (female), `policeman` (male), `chick cop` (female) | `officer`, `police officer` |
 | `churchman` | [basic](#basic) | `churchman` | `cleric`, `practicing Christian`, `pillar of the Church` |
-| `clearly` | [basic](#basic) | `clearly` | |
 | `clergyman-clergywoman` | [or](#or) | `clergywoman` (female), `clergyman` (male) | `clergyperson`, `clergy`, `cleric` |
 | `clergymen-clergywomen` | [or](#or) | `clergywomen` (female), `clergymen` (male) | `clergies`, `clerics` |
 | `cognitively-impaired` | [basic](#basic) | `cognitively impaired`, `person with cognitive disabilities` | `dimwit`, `thick`, `slow-witted` |
@@ -103,15 +101,14 @@ to allow them.
 | `daughters-sons` | [or](#or) | `daughters` (female), `sons` (male) | `children` |
 | `delivery-boy-delivery-girl` | [or](#or) | `delivery girl` (female), `delivery boy` (male) | `courier`, `messenger` |
 | `developmentally-delayed` | [basic](#basic) | `person with developmental disabilities`, `developmentally disabled person`, `individual with developmental challenges`, `developmentally delayed`, `person with developmental delays` | `retard`, `slow`, `simple`, `backward`, `dull` |
+| `diversity-training` | [basic](#basic) | `diversity training` | |
 | `doorman-doorwoman` | [or](#or) | `doorwoman` (female), `doorman` (male) | `concierge` |
 | `doormen-doorwomen` | [or](#or) | `doorwomen` (female), `doormen` (male) | `concierges` |
-| `easy` | [basic](#basic) | `easy`, `easily` | |
 | `emotionally-disturbed` | [basic](#basic) | `emotionally disturbed`, `person with emotional issues` | `unhinged`, `wreck`, `basket case` |
 | `english-master` | [basic](#basic) | `english master` | `english coordinator`, `senior teacher of english` |
 | `englishmen` | [basic](#basic) | `englishmen` | `the english` |
 | `eskimo` | [basic](#basic) | `eskimo` | `Inuit` |
 | `eskimos` | [basic](#basic) | `eskimos` | `Inuits` |
-| `everyone-knows` | [basic](#basic) | `everyone knows` | |
 | `executrix` | [basic](#basic) | `executrix` | `executor` |
 | `fag` | [basic](#basic) | `fag`, `faggot`, `dyke`, `homo`, `sodomite` | `gay` |
 | `failed-suicide` | [basic](#basic) | `failed suicide`, `failed attempt`, `suicide failure` | `suicide attempt`, `attempted suicide` |
@@ -184,6 +181,7 @@ to allow them.
 | `husband-wife` | [or](#or) | `wife` (female), `husband` (male) | `partner`, `significant other`, `spouse` |
 | `husbands-wives` | [or](#or) | `wives` (female), `husbands` (male) | `partners`, `significant others`, `spouses` |
 | `hymie` | [basic](#basic) | `shlomo`, `shyster`, `hymie` | `Jewish person` |
+| `inclusive-language` | [basic](#basic) | `inclusive language` | |
 | `indian-country` | [basic](#basic) | `Indian country` | `enemy territory` |
 | `indian-give` | [basic](#basic) | `indian give`, `indian giver` | `go back on one’s offer` |
 | `industrial-man` | [basic](#basic) | `industrial man` | `industrial civilization`, `industrial people` |
@@ -197,7 +195,6 @@ to allow them.
 | `japs` | [basic](#basic) | `japs` | `Japanese person`, `Japanese people` |
 | `journeyman-journeywoman` | [or](#or) | `journeywoman` (female), `journeyman` (male) | `journeyperson` |
 | `journeymen-journeywomen` | [or](#or) | `journeywomen` (female), `journeymen` (male) | `journeypersons` |
-| `just` | [basic](#basic) | `just` | |
 | `king-queen` | [or](#or) | `empress` (female), `queen` (female), `emperor` (male), `king` (male) | `ruler` |
 | `kingmaker-queenmaker` | [or](#or) | `queenmaker` (female), `kingmaker` (male) | `power behind the throne` |
 | `kings-queens` | [or](#or) | `empresses` (female), `queens` (female), `emperors` (male), `kings` (male) | `rulers` |
@@ -259,6 +256,7 @@ to allow them.
 | `maternity-paternity` | [or](#or) | `maternity` (female), `paternity` (male) | `parental` |
 | `men-of-science` | [basic](#basic) | `men of science` | `scientists` |
 | `mentally-ill-person` | [basic](#basic) | `person with mental illness`, `mentally ill person`, `individual with mental health issues`, `person with symptoms of mental illness` | `psycho`, `crazy`, `lunatic`, `madman`, `nutcase`, `whacko` |
+| `microaggression` | [basic](#basic) | `microaggression`, `microaggressions` | |
 | `middleman-middlewoman` | [or](#or) | `middlewoman` (female), `middleman` (male) | `intermediary`, `go-between` |
 | `middlemen-middlewomen` | [or](#or) | `middlewomen` (female), `middlemen` (male) | `intermediaries`, `go-betweens` |
 | `midwife` | [basic](#basic) | `midwife` | `birthing nurse` |
@@ -280,8 +278,6 @@ to allow them.
 | `nobleman-noblewoman` | [or](#or) | `noblewoman` (female), `nobleman` (male) | `noble` |
 | `noblemen-noblewomen` | [or](#or) | `noblewomen` (female), `noblemen` (male) | `nobles` |
 | `nonwhite` | [basic](#basic) | `nonwhite`, `non white` | `person of color`, `people of color` |
-| `obvious` | [basic](#basic) | `obvious`, `obviously` | |
-| `of-course` | [basic](#basic) | `of course` | |
 | `off-reserve` | [basic](#basic) | `jump the reservation`, `off reserve`, `off the reservation` | `disobey`, `endure`, `object to`, `oppose`, `resist` |
 | `office-girls` | [basic](#basic) | `office girls` | `administrative staff` |
 | `ombudsman-ombudswoman` | [or](#or) | `ombudswoman` (female), `ombudsman` (male) | `notary`, `consumer advocate`, `trouble shooter`, `omsbudperson`, `mediator` |
@@ -305,6 +301,7 @@ to allow them.
 | `redskins` | [basic](#basic) | `red indians`, `redskins` | `Native American People` |
 | `repairman-repairwoman` | [or](#or) | `repairwoman` (female), `repairman` (male) | `repairer`, `technician` |
 | `repairmen-repairwomen` | [or](#or) | `repairwomen` (female), `repairmen` (male) | `technicians` |
+| `safe-space` | [basic](#basic) | `safe space`, `safe spaces` | |
 | `salaryman-salarywoman` | [or](#or) | `businesswoman` (female), `salarywoman` (female), `businessman` (male), `salaryman` (male) | `business executive`, `entrepreneur`, `business person`, `professional` |
 | `salarymen-salarywomen` | [or](#or) | `businesswomen` (female), `salarywomen` (female), `career girl` (female), `career woman` (female), `businessmen` (male), `salarymen` (male) | `business executives`, `entrepreneurs` |
 | `saleslady-salesman` | [or](#or) | `saleswoman` (female), `sales woman` (female), `saleslady` (female), `salesman` (male), `sales man` (male) | `salesperson`, `sales clerk`, `sales rep`, `sales agent`, `sales attendant`, `seller`, `shop assistant` |
@@ -319,7 +316,6 @@ to allow them.
 | `sexual-preference` | [basic](#basic) | `sexual preference` | `sexual orientation`, `orientation` |
 | `showman-showwoman` | [or](#or) | `showwoman` (female), `showman` (male) | `promoter` |
 | `showmen-showwomen` | [or](#or) | `showwomen` (female), `show women` (female), `showmen` (male) | `promoters` |
-| `simple` | [basic](#basic) | `simple`, `simply` | |
 | `slave` | [basic](#basic) | `slave` | `secondary`, `worker`, `replica`, `node` |
 | `slaves` | [basic](#basic) | `slaves` | `secondaries`, `workers`, `replicas`, `nodes` |
 | `sophisticated-culture` | [basic](#basic) | `sophisticated culture` | `complex culture` |
@@ -343,7 +339,6 @@ to allow them.
 | `steward-stewardess` | [or](#or) | `stewardess` (female), `steward` (male) | `flight attendant` |
 | `stewardesses-stewards` | [or](#or) | `stewardesses` (female), `stewards` (male) | `flight attendants` |
 | `stockman` | [basic](#basic) | `stockman` | `cattle worker`, `farmhand`, `drover` |
-| `straightforward` | [basic](#basic) | `straight forward`, `straightforward`, `straight forwardly`, `straightforwardly` | |
 | `suicide-note` | [basic](#basic) | `suicide note` | `a note from the deceased` |
 | `suicide-pact` | [basic](#basic) | `suicide epidemic`, `epidemic of suicides`, `suicide pact` | `rise in suicides` |
 | `superman-superwoman` | [or](#or) | `superwoman` (female), `superman` (male) | `titan` |
@@ -359,6 +354,7 @@ to allow them.
 | `transgenders` | [basic](#basic) | `transgenders` | `transgender people` |
 | `transvestite` | [basic](#basic) | `transvestite` | `cross-dresser` |
 | `tribe` | [basic](#basic) | `tribe` | `society`, `community` |
+| `trigger-warning` | [basic](#basic) | `trigger warning`, `trigger warnings` | |
 | `unmanly-unwomanly` | [or](#or) | `unwomanly` (female), `unwomenly` (female), `unmanly` (male), `unmenly` (male) | `inhumane` |
 | `unmanned` | [basic](#basic) | `unmanned` | `robotic`, `automated` |
 | `usherette` | [basic](#basic) | `usherette` | `usher` |
