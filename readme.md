@@ -1,4 +1,4 @@
-# retext-equality
+# retext-anti-woke
 
 [![Build][build-badge]][build]
 [![Coverage][coverage-badge]][coverage]
@@ -8,7 +8,9 @@
 [![Backers][backers-badge]][collective]
 [![Chat][chat-badge]][chat]
 
-**[retext][]** plugin to check for possible insensitive, inconsiderate language.
+**[retext][]** plugin to shred woke, politically correct, far-left, and commie
+nonsense from your text, replacing it with raw, unfiltered language that says
+it like it is.
 
 ## Contents
 
@@ -17,7 +19,7 @@
 * [Install](#install)
 * [Use](#use)
 * [API](#api)
-  * [`unified().use(retextEquality[, options])`](#unifieduseretextequality-options)
+  * [`unified().use(retextAntiWoke[, options])`](#unifieduseretextantiwoke-options)
   * [`Options`](#options)
 * [Messages](#messages)
 * [Types](#types)
@@ -28,14 +30,21 @@
 
 ## What is this?
 
-This package is a [unified][] ([retext][]) plugin to check for certain words
-that could be considered insensitive, or otherwise inconsiderate, in certain
-contexts.
+This package is a [unified][] ([retext][]) plugin that doesn’t coddle your
+feelings.
+It’s a fork of “retext-equality”, flipped on its head to hunt down
+and destroy woke jargon—think “social justice,” “microaggressions,”
+“safe spaces,” and “proletariat”—and swap them out for direct, no-nonsense
+alternatives.
+Sick of the PC police?
+This is your weapon.
 
 ## When should I use this?
 
-You can opt-into this plugin when you’re dealing with your own text and want to
-check for potential mistakes.
+Use it when you’re done with the woke word salad and want your writing to hit
+hard and clear.
+If you’re a writer who’s tired of tiptoeing around snowflakes,
+this plugin’s got your back.
 
 ## Install
 
@@ -43,72 +52,72 @@ This package is [ESM only][esm].
 In Node.js (version 16+), install with [npm][]:
 
 ```sh
-npm install retext-equality
+npm install retext-anti-woke
 ```
 
 In Deno with [`esm.sh`][esmsh]:
 
-```js
-import retextEquality from 'https://esm.sh/retext-equality@7'
+```javascript
+import retextAntiWoke from 'https://esm.sh/retext-anti-woke@7'
 ```
 
 In browsers with [`esm.sh`][esmsh]:
 
 ```html
 <script type="module">
-  import retextEquality from 'https://esm.sh/retext-equality@7?bundle'
+  import retextAntiWoke from 'https://esm.sh/retext-anti-woke@7?bundle'
 </script>
 ```
 
 ## Use
 
-Say our document `example.txt` contains:
+Say your document example.txt contains this woke garbage:
 
 ```txt
-Now that the child elements are floated, obviously the parent element will collapse.
+Privilege is a systemic issue that requires allyship.
 ```
 
-…and our module `example.js` contains:
+Run this module example.js:
 
-```js
+```javascript
 import retextEnglish from 'retext-english'
-import retextEquality from 'retext-equality'
+import retextAntiWoke from 'retext-anti-woke'
 import retextStringify from 'retext-stringify'
-import {read} from 'to-vfile'
-import {unified} from 'unified'
-import {reporter} from 'vfile-reporter'
+import { read } from 'to-vfile'
+import { unified } from 'unified'
+import { reporter } from 'vfile-reporter'
 
 const file = await unified()
   .use(retextEnglish)
-  .use(retextEquality)
-  .use(retextStringify)
+  .use(retextAntiWoke)
   .process(await read('example.txt'))
 
 console.error(reporter(file))
 ```
 
-…then running `node example.js` yields:
+And watch node “example.js” rip it apart:
 
 ```txt
 example.txt
-1:42-1:51 warning Unexpected potentially insensitive use of `obviously`, try not to use it obvious retext-equality
+1:1-1:10  warning  Unexpected woke use of ‘Privilege’, try ‘merit’
+1:39-1:47 warning  Unexpected woke use of ‘allyship’, try ‘support’
 
-⚠ 1 warning
+ 2 warnings
 ```
 
 ## API
 
 This package exports no identifiers.
-The default export is [`retextEquality`][api-retext-equality].
+The default export is [retextAntiWoke][api-retext-anti-woke].
 
-### `unified().use(retextEquality[, options])`
+### `unified().use(retextAntiWoke[, options])`
 
-Check potentially insensitive language.
+Rip out woke nonsense from your text.
 
 ###### Parameters
 
 * `options` ([`Options`][api-options], optional)
-  — configuration
+  — configuration to tweak the shredding
 
 ###### Returns
 
@@ -121,18 +130,18 @@ Configuration (TypeScript type).
 ###### Fields
 
 * `ignore` (`Array<string>`, optional)
-  — phrases *not* to warn about
+  — woke terms you’re too weak to ditch
 * `binary` (`boolean`, default: `false`)
-  — whether to allow “he or she”, “garbagemen and garbagewomen”, and similar
+  — allow “they” or “them” if you’re into that
 
 ## Messages
 
-See [`rules.md`][file-rules] for a list of rules and how rules work.
-
-Each message is emitted as a [`VFileMessage`][vfile-message] with `source` set
-to `'retext-equality'`, `ruleId` to an `id` from [`rules.md`][file-rules],
-`actual` to the not ok phrase, and `expected` to suggested phrases.
-Some messages also contain a `note` with extra info.
+Check [rules.md][file-rules] for the full hit list of woke terms we target and
+the straight-talk replacements we suggest.
+Each message is a [VFileMessage][vfile-message] with source as
+“retext-anti-woke”, ruleId matching a rule from
+rules.md, actual as the woke trash, and expected as the real words.
+Some come with a note to tell it like it is.
 
 ## Types
 
@@ -141,34 +150,20 @@ It exports the additional type [`Options`][api-options].
 
 ## Compatibility
 
-Projects maintained by the unified collective are compatible with maintained
-versions of Node.js.
-
-When we cut a new major release, we drop support for unmaintained versions of
-Node.
-This means we try to keep the current release line, `retext-equality@^7`,
-compatible with Node.js 16.
+Built by the unified collective, this works with maintained Node.js versions.
+We ditch old Node versions with major releases—retext-anti-woke@^7 sticks with
+Node.js 16+.
 
 ## Related
 
-* [`alex`](https://github.com/get-alex/alex)
-  — Catch insensitive, inconsiderate writing
-* [`retext-passive`](https://github.com/retextjs/retext-passive)
-  — Check passive voice
-* [`retext-profanities`](https://github.com/retextjs/retext-profanities)
-  — Check for profane and vulgar wording
-* [`retext-simplify`](https://github.com/retextjs/retext-simplify)
-  — Check phrases for simpler alternatives
+* [Chad](https://github.com/nerditron/Chad)
+  — Catch sensitive, considerate writing
 
 ## Contributing
 
-See [`contributing.md`][contributing] in [`retextjs/.github`][health] for ways
-to get started.
-See [`support.md`][support] for ways to get help.
-
-This project has a [code of conduct][coc].
-By interacting with this repository, organization, or community you agree to
-abide by its terms.
+Got a beef or a better idea?
+See [contributing.md][contributing] in [retextjs/.github][health].
+Open a pull request—no woke excuses accepted.
 
 To create new patterns, add them in the YAML files in the [`data/`][file-data]
 directory, and run `npm install` and then `npm test` to build everything.
@@ -178,9 +173,15 @@ New English rules will automatically be added to `rules.md`.
 When you are happy with the new rule, add a test for it in
 [`test.js`][file-test], and open a pull request.
 
+See [`contributing.md`][contributing] in [`retextjs/.github`][health] for ways
+to get started.
+See [`support.md`][support] for ways to get help.
+
+This project has a [code of conduct][coc].
+
 ## License
 
-[MIT][license] © [Titus Wormer][author]
+[MIT][license]  [Titus Wormer][author]
 
 <!-- Definitions -->
 
@@ -246,4 +247,4 @@ When you are happy with the new rule, add a test for it in
 
 [api-options]: #options
 
-[api-retext-equality]: #unifieduseretextequality-options
+[api-retext-anti-woke]: #unifieduseretextantiwoke-options
