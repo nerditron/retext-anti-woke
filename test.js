@@ -335,6 +335,27 @@ test('retext-anti-woke', async function (t) {
   await t.test('should not flag "chairman"', async function () {
     assert.deepEqual(await process('Chairman decides'), [])
   })
+
+  // Tests for misc.yml rules
+  await t.test('should flag "keep an eye on things"', async function () {
+    assert.deepEqual(await process('Keep an eye on things tonight'), [
+      '1:1-1:22: Unexpected potentially woke use of `Keep an eye on things`, in some cases `Man the fort` may be better'
+    ])
+  })
+
+  await t.test('should flag "go for it"', async function () {
+    assert.deepEqual(await process('Go for it now'), [
+      '1:1-1:10: Unexpected potentially woke use of `Go for it`, in some cases `Pull the trigger` may be better'
+    ])
+  })
+
+  await t.test('should not flag "man the fort"', async function () {
+    assert.deepEqual(await process('Man the fort tonight'), [])
+  })
+
+  await t.test('should not flag "pull the trigger"', async function () {
+    assert.deepEqual(await process('Pull the trigger now'), [])
+  })
 })
 
 /**

@@ -139,6 +139,7 @@ to allow them.
 | `gay-marriage` | [basic](#basic) | `gay marriage`, `samesex marriage` | `homosexual marriage` |
 | `gender-expression` | [basic](#basic) | `gender expression` | `femininity`, `manliness` |
 | `ghetto` | [basic](#basic) | `ghetto` | `projects`, `urban` |
+| `go-for-it` | [basic](#basic) | `go for it`, `take a chance`, `make a move`, `take action` | `pull the trigger` |
 | `gobetween` | [basic](#basic) | `intermediary`, `gobetween` | `middlewoman`, `middleman` |
 | `gobetweens` | [basic](#basic) | `intermediaries`, `gobetweens` | `middlewomen`, `middlemen` |
 | `godparent` | [basic](#basic) | `godparent` | `godmother`, `patroness`, `godfather` |
@@ -187,6 +188,7 @@ to allow them.
 | `journeyperson` | [basic](#basic) | `journeyperson` | `journeywoman`, `journeyman` |
 | `journeypersons` | [basic](#basic) | `journeypersons` | `journeywomen`, `journeymen` |
 | `jumbo` | [basic](#basic) | `jumbo`, `gigantic` | `queensize`, `kingsize` |
+| `keep-shop` | [basic](#basic) | `keep an eye on things`, `keep shop`, `provide coverage`, `cover things`, `take charge` | `man the fort` |
 | `kid` | [basic](#basic) | `kid`, `youth` | `girl`, `boy` |
 | `kinship` | [basic](#basic) | `kinship`, `community` | `sisterhood`, `brotherhood` |
 | `latino` | [basic](#basic) | `latino`, `latina` | `Latinx` |
@@ -200,7 +202,6 @@ to allow them.
 | `mail-carrier` | [basic](#basic) | `mail carrier`, `letter carrier`, `postal worker` | `postwoman`, `mailwoman`, `postman`, `mailman` |
 | `mail-carriers` | [basic](#basic) | `mail carriers`, `letter carriers`, `postal workers` | `postwomen`, `mailwomen`, `postmen`, `mailmen` |
 | `make-*-great-again` | [basic](#basic) | `make * great again`, `make * * great again`, `make * * * great again`, `make * * * * great again`, `make * * * * * great again` | `improve` |
-| `man-the-fort` | [basic](#basic) | `man the fort` | `keep an eye on things`, `keep shop`, `provide coverage`, `cover things`, `take charge` |
 | `master` | [basic](#basic) | `master` | `primary`, `lead`, `hub`, `reference` |
 | `masters` | [basic](#basic) | `masters` | `primaries`, `hubs`, `references` |
 | `mature` | [basic](#basic) | `humanly`, `mature` | `feminin`, `dudely`, `manly` |
@@ -250,7 +251,6 @@ to allow them.
 | `pronoun` | [basic](#basic) | `pronoun`, `pronouns` | `preferred pronoun`, `preferred pronouns`, `gender pronoun`, `gender pronouns` |
 | `proprietor` | [basic](#basic) | `proprietor`, `building manager` | `landlady`, `landlord` |
 | `proprietors` | [basic](#basic) | `proprietors`, `building managers` | `landladies`, `landlords` |
-| `pull-the-trigger` | [basic](#basic) | `pull the trigger` | `go for it`, `take a chance`, `make a move`, `take action` |
 | `railway-worker` | [basic](#basic) | `railway worker` | `railwayman` |
 | `redskin` | [basic](#basic) | `red indian`, `pocahontas`, `redskin` | `Native American` |
 | `redskins` | [basic](#basic) | `red indians`, `redskins` | `Native American People` |
