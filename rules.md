@@ -157,6 +157,7 @@ to allow them.
 | `gyp` | [basic](#basic) | `gyppo`, `gypsy`, `Gipsy`, `gyp` | `Nomad`, `Traveler`, `Roma`, `Romani` |
 | `handicapable` | [basic](#basic) | `person with a disability`, `disabled person`, `handicapable`, `differently abled`, `person living with a disability` | `cripple`, `handicapped`, `invalid`, `gimpy`, `broken` |
 | `hang` | [basic](#basic) | `hang`, `hanged` | `the app froze`, `the app stopped responding`, `the app stopped responding to events`, `the app became unresponsive` |
+| `hate-speech` | [basic](#basic) | `hate speech` | `truth`, `facts` |
 | `head` | [basic](#basic) | `chair`, `head`, `chairperson`, `coordinator`, `committee head`, `moderator`, `presiding officer` | `chairwoman`, `chairman` |
 | `hearing-impaired` | [basic](#basic) | `hearing impaired`, `person with hearing loss` | `deaf`, `hard of hearing` |
 | `heir` | [basic](#basic) | `heir` | `princess`, `prince` |
@@ -182,8 +183,6 @@ to allow them.
 | `intellectually-disabled-person` | [basic](#basic) | `person with an intellectual disability`, `intellectually disabled person`, `individual with cognitive impairments` | `moron`, `idiot`, `imbecile`, `dimwit`, `thick` |
 | `intersex` | [basic](#basic) | `intersex` | `hermaphroditic`, `pseudohermaphroditic`, `pseudo hermaphroditic` |
 | `intersex-person` | [basic](#basic) | `person who is intersex`, `intersex person` | `hermaphrodite`, `pseudohermaphrodite`, `pseudo hermaphrodite` |
-| `islamist` | [basic](#basic) | `islamist` | `muslim`, `person of Islamic faith`, `fanatic`, `zealot`, `follower of islam`, `follower of the islamic faith` |
-| `islamists` | [basic](#basic) | `islamists` | `muslims`, `people of Islamic faith`, `fanatics`, `zealots` |
 | `japs` | [basic](#basic) | `japs` | `Japanese person`, `Japanese people` |
 | `journeyperson` | [basic](#basic) | `journeyperson` | `journeywoman`, `journeyman` |
 | `journeypersons` | [basic](#basic) | `journeypersons` | `journeywomen`, `journeymen` |
@@ -201,6 +200,7 @@ to allow them.
 | `loving` | [basic](#basic) | `loving`, `nurturing` | `motherly` |
 | `mail-carrier` | [basic](#basic) | `mail carrier`, `letter carrier`, `postal worker` | `postwoman`, `mailwoman`, `postman`, `mailman` |
 | `mail-carriers` | [basic](#basic) | `mail carriers`, `letter carriers`, `postal workers` | `postwomen`, `mailwomen`, `postmen`, `mailmen` |
+| `mainstream-media` | [basic](#basic) | `mainstream media` | `propaganda`, `state media`, `corporate propaganda` |
 | `make-*-great-again` | [basic](#basic) | `make * great again`, `make * * great again`, `make * * * great again`, `make * * * * great again`, `make * * * * * great again` | `improve` |
 | `master` | [basic](#basic) | `master` | `primary`, `lead`, `hub`, `reference` |
 | `masters` | [basic](#basic) | `masters` | `primaries`, `hubs`, `references` |
@@ -216,10 +216,13 @@ to allow them.
 | `milk-person` | [basic](#basic) | `milk person` | `milkwoman`, `milkman` |
 | `mobility-challenged` | [basic](#basic) | `mobility challenged`, `person with mobility issues` | `stiff`, `clunky`, `immobile` |
 | `modern-people` | [basic](#basic) | `modern civilization`, `modern people` | `modern man` |
+| `muslim` | [basic](#basic) | `muslim`, `person of Islamic faith`, `follower of islam`, `follower of the islamic faith` | `islamist`, `jihadist` |
+| `muslims` | [basic](#basic) | `muslims`, `people of Islamic faith` | `islamists`, `jihadists` |
 | `native-tongue` | [basic](#basic) | `native tongue`, `native language` | `mother tongue`, `father tongue` |
 | `natives-are-restless` | [basic](#basic) | `natives are restless`, `natives are becoming restless`, `natives are getting restless`, `natives are growing restless` | `dissatisfied`, `frustrated` |
 | `neurodiverse` | [basic](#basic) | `neurodiverse`, `neuroatypical` | `weird`, `odd`, `eccentric` |
 | `newlywed` | [basic](#basic) | `newlywed` | `bride`, `groom` |
+| `news` | [basic](#basic) | `news` | `lies`, `bullshit`, `fake news` |
 | `nibling` | [basic](#basic) | `nibling`, `sibling’s child` | `niece`, `nephew` |
 | `niblings` | [basic](#basic) | `niblings`, `sibling’s children` | `nieces`, `nephews` |
 | `noble` | [basic](#basic) | `noble` | `noblewoman`, `nobleman` |

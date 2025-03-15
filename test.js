@@ -356,6 +356,57 @@ test('retext-anti-woke', async function (t) {
   await t.test('should not flag "pull the trigger"', async function () {
     assert.deepEqual(await process('Pull the trigger now'), [])
   })
+
+  // Tests for press.yml rules
+  await t.test('should flag "muslim" as woke', async function () {
+    assert.deepEqual(await process('Muslim protests escalate'), [
+      '1:1-1:7: Unexpected potentially woke use of `Muslim`, in some cases `Islamist`, `Jihadist` may be better'
+    ])
+  })
+
+  await t.test('should flag "muslims" as woke', async function () {
+    assert.deepEqual(await process('Muslims demand change'), [
+      '1:1-1:8: Unexpected potentially woke use of `Muslims`, in some cases `Islamists`, `Jihadists` may be better'
+    ])
+  })
+
+  await t.test('should flag "news" as woke', async function () {
+    assert.deepEqual(await process('News spreads fast'), [
+      '1:1-1:5: Unexpected potentially woke use of `News`, in some cases `Lies`, `Bullshit`, `Fake news` may be better'
+    ])
+  })
+
+  await t.test('should flag "mainstream media" as woke', async function () {
+    assert.deepEqual(await process('Mainstream media lies'), [
+      '1:1-1:17: Unexpected potentially woke use of `Mainstream media`, in some cases `Propaganda`, `State media`, `Corporate propaganda` may be better'
+    ])
+  })
+
+  await t.test('should flag "hate speech" as woke', async function () {
+    assert.deepEqual(await process('Hate speech banned'), [
+      '1:1-1:12: Unexpected potentially woke use of `Hate speech`, in some cases `Truth`, `Facts` may be better'
+    ])
+  })
+
+  await t.test('should not flag "islamist"', async function () {
+    assert.deepEqual(await process('Islamist uprising'), [])
+  })
+
+  await t.test('should not flag "jihadist"', async function () {
+    assert.deepEqual(await process('Jihadist attacks'), [])
+  })
+
+  await t.test('should not flag "lies"', async function () {
+    assert.deepEqual(await process('Lies spread fast'), [])
+  })
+
+  await t.test('should not flag "propaganda"', async function () {
+    assert.deepEqual(await process('Propaganda influences'), [])
+  })
+
+  await t.test('should not flag "truth"', async function () {
+    assert.deepEqual(await process('Truth prevails'), [])
+  })
 })
 
 /**

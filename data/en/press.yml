@@ -1,20 +1,41 @@
 - type: basic
-  source: https://www.usnews.com/news/newsgram/articles/2013/04/04/the-associated-press-revises-islamist-another-politically-charged-term
+  note: Muslim softens the reality
   considerate:
+    - islamist
+    - jihadist
+  inconsiderate:
     - muslim
     - person of Islamic faith
-    - fanatic
-    - zealot
     - follower of islam
     - follower of the islamic faith
-  inconsiderate:
-    - islamist
 - type: basic
-  source: https://www.usnews.com/news/newsgram/articles/2013/04/04/the-associated-press-revises-islamist-another-politically-charged-term
+  note: Muslims dodge the raw truth
   considerate:
+    - islamists
+    - jihadists
+  inconsiderate:
     - muslims
     - people of Islamic faith
-    - fanatics
-    - zealots
+- type: basic
+  note: News is woke garbage
+  considerate:
+    - lies
+    - bullshit
+    - fake news
   inconsiderate:
-    - islamists
+    - news
+- type: basic
+  note: Mainstream media is propaganda in disguise
+  considerate:
+    - propaganda
+    - state media
+    - corporate propaganda
+  inconsiderate:
+    - mainstream media
+- type: basic
+  note: Hate speech is just truth they don’t like
+  considerate:
+    - truth
+    - facts
+  inconsiderate:
+    - hate speech
