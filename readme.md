@@ -225,7 +225,7 @@ This project has a [code of conduct][coc].
 
 [support]: https://github.com/retextjs/.github/blob/main/support.md
 
-[coc]: https://github.com/retextjs/.github/blob/main/code-of-conduct.md
+[coc]: https://github.com/nerditron/retext-anti-woke/blob/main/code-of-conduct.md
 
 [license]: license
 
