@@ -1,9 +1,15 @@
 - type: basic
+  note: Make America Great Again!
   considerate:
-    - improve
-  inconsiderate:
     - make * great again
     - make * * great again
     - make * * * great again
     - make * * * * great again
     - make * * * * * great again
+  inconsiderate:
+    - improve
+- type: basic
+  considerate:
+    - merit is our strength
+  inconsiderate:
+    - diversity is our strength

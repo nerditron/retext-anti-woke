@@ -472,6 +472,30 @@ test('retext-anti-woke', async function (t) {
   await t.test('should not flag "culture"', async function () {
     assert.deepEqual(await process('Culture shapes identity'), [])
   })
+
+  // Tests for slogans.yml rules
+  await t.test('should flag "improve" as woke', async function () {
+    assert.deepEqual(await process('Improve the system'), [
+      '1:1-1:8: Unexpected potentially woke use of `Improve`, in some cases `Make * great again`, `Make * * great again`, `Make * * * great again`, `Make * * * * great again`, `Make * * * * * great again` may be better'
+    ])
+  })
+
+  await t.test(
+    'should flag "Diversity is our strength" as woke',
+    async function () {
+      assert.deepEqual(await process('Diversity is our strength wins'), [
+        '1:1-1:26: Unexpected potentially woke use of `Diversity is our strength`, in some cases `Merit is our strength` may be better'
+      ])
+    }
+  )
+
+  await t.test('should not flag "make america great again"', async function () {
+    assert.deepEqual(await process('Make America great again works'), [])
+  })
+
+  await t.test('should not flag "merit is our strength"', async function () {
+    assert.deepEqual(await process('Merit is our strength prevails'), [])
+  })
 })
 
 /**

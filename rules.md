@@ -102,6 +102,7 @@ to allow them.
 | `cultured` | [basic](#basic) | `courteous`, `cultured` | `ladylike` |
 | `developmentally-delayed` | [basic](#basic) | `person with developmental disabilities`, `developmentally disabled person`, `individual with developmental challenges`, `developmentally delayed`, `person with developmental delays` | `retard`, `slow`, `simple`, `backward`, `dull` |
 | `diplomatic` | [basic](#basic) | `diplomatic` | `statesmanlike`, `statesman like` |
+| `diversity-is-our-strength` | [basic](#basic) | `diversity is our strength` | `merit is our strength` |
 | `diversity-training` | [basic](#basic) | `diversity training` | |
 | `drover` | [basic](#basic) | `cattle worker`, `farmhand`, `drover` | `stockman` |
 | `dynamo` | [basic](#basic) | `dynamo` | `man of action` |
@@ -170,6 +171,7 @@ to allow them.
 | `house-worker` | [basic](#basic) | `house worker`, `domestic help` | `housemaid` |
 | `humankind` | [basic](#basic) | `humankind` | `mankind` |
 | `humans` | [basic](#basic) | `humans` | `females`, `males` |
+| `improve` | [basic](#basic) | `improve` | `make * great again`, `make * * great again`, `make * * * great again`, `make * * * * great again`, `make * * * * * great again` |
 | `inclusive-language` | [basic](#basic) | `inclusive language` | |
 | `industrial-people` | [basic](#basic) | `industrial civilization`, `industrial people` | `industrial man` |
 | `insurance-agent` | [basic](#basic) | `insurance agent` | `insurance woman`, `insurance man` |
@@ -197,7 +199,6 @@ to allow them.
 | `mail-carrier` | [basic](#basic) | `mail carrier`, `letter carrier`, `postal worker` | `postwoman`, `mailwoman`, `postman`, `mailman` |
 | `mail-carriers` | [basic](#basic) | `mail carriers`, `letter carriers`, `postal workers` | `postwomen`, `mailwomen`, `postmen`, `mailmen` |
 | `mainstream-media` | [basic](#basic) | `mainstream media` | `propaganda`, `state media`, `corporate propaganda` |
-| `make-*-great-again` | [basic](#basic) | `make * great again`, `make * * great again`, `make * * * great again`, `make * * * * great again`, `make * * * * * great again` | `improve` |
 | `malicious-actor` | [basic](#basic) | `unethical hacker`, `malicious actor` | `blackhat` |
 | `mature` | [basic](#basic) | `humanly`, `mature` | `feminin`, `dudely`, `manly` |
 | `maturity` | [basic](#basic) | `adulthood`, `personhood`, `maturity` | `womanhood`, `masculinity`, `manhood` |
