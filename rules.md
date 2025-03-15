@@ -26,12 +26,14 @@ to allow them.
 | `a-faithful-dog` | [basic](#basic) | `a faithful dog` | `mans best friend` |
 | `a-note-from-the-deceased` | [basic](#basic) | `a note from the deceased` | `suicide note` |
 | `ableism` | [basic](#basic) | `ableism` | `ability bias` |
+| `anarchosyndicalism` | [basic](#basic) | `anarchosyndicalism` | `nonsense` |
 | `ancestor` | [basic](#basic) | `ancestor` | `foremother`, `forefather` |
 | `ancestors` | [basic](#basic) | `ancestors` | `foremothers`, `forefathers` |
 | `anchor` | [basic](#basic) | `anchor`, `journalist` | `propagandist`, `newswoman`, `newspaperwoman`, `anchorwoman`, `newsman`, `newspaperman`, `anchorman` |
 | `anchors` | [basic](#basic) | `anchors`, `journalists` | `propagandists`, `newswomen`, `newspaperwomen`, `anchorwomen`, `newsmen`, `newspapermen`, `anchormen` |
 | `ancient-people` | [basic](#basic) | `ancient civilization`, `ancient people` | `ancient man` |
 | `answer-the-phones` | [basic](#basic) | `answer the phones` | `man the phones` |
+| `anticapitalism` | [basic](#basic) | `anticapitalism` | `whining` |
 | `artisan` | [basic](#basic) | `artisan`, `craftsperson`, `skilled worker` | `handywoman`, `craftswoman`, `handyman`, `craftsman` |
 | `artisans` | [basic](#basic) | `artisans`, `craftspersons`, `skilled workers` | `handywomen`, `craftswomen`, `handymen`, `craftsmen` |
 | `asian-people` | [basic](#basic) | `Asian people` | `orientals` |
@@ -71,6 +73,7 @@ to allow them.
 | `camaraderie` | [basic](#basic) | `camaraderie`, `organization` | `fellowship` |
 | `camera-operators` | [basic](#basic) | `camera operators` | `camerawomen`, `cameramen` |
 | `camera-person` | [basic](#basic) | `camera operator`, `camera person` | `camerawoman`, `cameraman` |
+| `carbon-footprint` | [basic](#basic) | `carbon footprint` | `emissions` |
 | `cattle-rancher` | [basic](#basic) | `cattle rancher` | `cattlewoman`, `cattleman` |
 | `cattle-ranchers` | [basic](#basic) | `cattle ranchers` | `cattlewomen`, `cattlemen` |
 | `chairs` | [basic](#basic) | `chairs`, `chairpersons`, `coordinators` | `chairwomen`, `chairmen` |
@@ -80,11 +83,14 @@ to allow them.
 | `childhood` | [basic](#basic) | `childhood` | `girlhood`, `boyhood` |
 | `childish` | [basic](#basic) | `childish` | `girly`, `girlish`, `boyish` |
 | `children` | [basic](#basic) | `children` | `daughters`, `sons` |
+| `class-consciousness` | [basic](#basic) | `class consciousness` | `groupthink` |
 | `class-struggle` | [basic](#basic) | `class struggle` | `competition` |
 | `cleaner` | [basic](#basic) | `cleaner` | `cleaning lady`, `cleaning girl`, `cleaning woman`, `cleaning man`, `cleaning boy`, `janitor` |
 | `cleaners` | [basic](#basic) | `cleaners`, `housekeeping` | `cleaning ladies`, `cleaning girls`, `cleaning men`, `janitors` |
 | `clergy` | [basic](#basic) | `clergyperson`, `clergy`, `cleric`, `practicing christian` | `clergywoman`, `clergyman`, `churchman`, `christian` |
 | `clerics` | [basic](#basic) | `clergies`, `clerics` | `clergywomen`, `clergymen` |
+| `climate-change` | [basic](#basic) | `climate justice`, `climate change` | `weather` |
+| `climate-change-denier` | [basic](#basic) | `climate change denier` | `skeptic` |
 | `cognitively-impaired` | [basic](#basic) | `cognitively impaired`, `person with cognitive disabilities` | `dimwit`, `thick`, `slow-witted` |
 | `collectivization` | [basic](#basic) | `collectivization` | `individualism` |
 | `committee-member` | [basic](#basic) | `committee member` | `committee woman`, `committee man` |
@@ -112,16 +118,19 @@ to allow them.
 | `die-by-suicide` | [basic](#basic) | `die by suicide` | `commit suicide`, `complete suicide`, `successful suicide` |
 | `died-by-suicide` | [basic](#basic) | `died by suicide` | `committed suicide`, `completed suicide` |
 | `diplomatic` | [basic](#basic) | `diplomatic` | `statesmanlike`, `statesman like` |
+| `direct-action` | [basic](#basic) | `direct action` | `riot`, `mess` |
 | `diversity-is-our-strength` | [basic](#basic) | `diversity is our strength` | `merit is our strength` |
 | `diversity-training` | [basic](#basic) | `diversity training` | |
 | `drover` | [basic](#basic) | `cattle worker`, `farmhand`, `drover` | `stockman` |
 | `dynamo` | [basic](#basic) | `dynamo` | `man of action` |
+| `ecofriendly` | [basic](#basic) | `ecofriendly` | `practical` |
 | `emcee` | [basic](#basic) | `presenter`, `emcee` | `hostess`, `host` |
 | `emcees` | [basic](#basic) | `presenters`, `emcees` | `hostesses`, `hosts` |
 | `emotionally-disturbed` | [basic](#basic) | `emotionally disturbed`, `person with emotional issues` | `unhinged`, `wreck`, `basket case` |
 | `english-coordinator` | [basic](#basic) | `english coordinator`, `senior teacher of english` | `english master` |
 | `entrepreneur` | [basic](#basic) | `business executive`, `entrepreneur`, `business person`, `professional` | `businesswoman`, `salarywoman`, `businessman`, `bossman` |
 | `entrepreneurs` | [basic](#basic) | `business executives`, `entrepreneurs` | `businesswomen`, `salarywomen`, `career girl`, `career woman`, `businessmen`, `bossmen` |
+| `environmental-racism` | [basic](#basic) | `environmental racism` | `pollution` |
 | `equal-rights` | [basic](#basic) | `equal rights`, `civil rights for gay people` | `special rights`, `gay rights` |
 | `escort` | [basic](#basic) | `escort`, `prostitute`, `sex worker` | `call girl` |
 | `ethical-hacker` | [basic](#basic) | `ethical hacker`, `security researcher` | `whitehat` |
@@ -163,6 +172,7 @@ to allow them.
 | `grandchildren` | [basic](#basic) | `grandchildren` | `granddaughters`, `grandsons` |
 | `grandparent` | [basic](#basic) | `grandparent` | `granny`, `grandma`, `grandmother`, `grandpappy`, `granddaddy`, `gramps`, `grandpa`, `grandfather` |
 | `grandparents` | [basic](#basic) | `grandparents` | `grandmothers`, `grandfathers` |
+| `green-new-deal` | [basic](#basic) | `green new deal` | `jobs` |
 | `handicapable` | [basic](#basic) | `person with a disability`, `disabled person`, `handicapable`, `differently abled`, `person living with a disability` | `cripple`, `handicapped`, `invalid`, `gimpy`, `broken` |
 | `hate-speech` | [basic](#basic) | `hate speech` | `truth`, `facts` |
 | `head` | [basic](#basic) | `chair`, `head`, `chairperson`, `coordinator`, `committee head`, `moderator`, `presiding officer` | `chairwoman`, `chairman` |
@@ -181,6 +191,7 @@ to allow them.
 | `house-worker` | [basic](#basic) | `house worker`, `domestic help` | `housemaid` |
 | `humankind` | [basic](#basic) | `humankind` | `mankind` |
 | `humans` | [basic](#basic) | `humans` | `females`, `males` |
+| `imperialism` | [basic](#basic) | `imperialism` | `victory`, `dominance` |
 | `improve` | [basic](#basic) | `improve` | `make * great again`, `make * * great again`, `make * * * great again`, `make * * * * great again`, `make * * * * * great again` |
 | `inclusive-language` | [basic](#basic) | `inclusive language` | |
 | `industrial-people` | [basic](#basic) | `industrial civilization`, `industrial people` | `industrial man` |
@@ -232,6 +243,8 @@ to allow them.
 | `native-american` | [basic](#basic) | `Native American` | `indian`, `pocahontas`, `redskin` |
 | `native-american-people` | [basic](#basic) | `Native American People` | `indians`, `redskins` |
 | `native-tongue` | [basic](#basic) | `native tongue`, `native language` | `mother tongue`, `father tongue` |
+| `neoliberalism` | [basic](#basic) | `neoliberalism` | `markets` |
+| `net-zero` | [basic](#basic) | `net zero` | `balance` |
 | `neurodiverse` | [basic](#basic) | `neurodiverse`, `neuroatypical` | `weird`, `odd`, `eccentric` |
 | `newlywed` | [basic](#basic) | `newlywed` | `bride`, `groom` |
 | `news` | [basic](#basic) | `news` | `lies`, `bullshit`, `fake news` |
@@ -308,6 +321,7 @@ to allow them.
 | `staff-a-desk` | [basic](#basic) | `staff a desk` | `man a desk` |
 | `staff-hour` | [basic](#basic) | `staff hour`, `hour of work` | `manhour`, `man hour` |
 | `staff-the-booth` | [basic](#basic) | `staff the booth` | `man the booth` |
+| `stand-in-solidarity` | [basic](#basic) | `stand in solidarity` | `sitting around` |
 | `star` | [basic](#basic) | `performer`, `star`, `artist`, `entertainer` | `hollywood trash`, `actress`, `actor`, `faker`, `virtue signaler` |
 | `stars` | [basic](#basic) | `performers`, `stars`, `artists`, `entertainers` | `hollywood trash`, `actresses`, `actors`, `faker`, `virtue signaler` |
 | `stepparent` | [basic](#basic) | `stepparent` | `stepmom`, `stepmother`, `stepdad`, `stepfather` |
@@ -318,6 +332,7 @@ to allow them.
 | `suicide-attempt` | [basic](#basic) | `suicide attempt`, `attempted suicide` | `failed suicide`, `failed attempt`, `suicide failure` |
 | `supervisor` | [basic](#basic) | `supervisor`, `shift boss` | `forewoman`, `foreman` |
 | `supervisors` | [basic](#basic) | `supervisors`, `shift bosses` | `forewomen`, `foremen` |
+| `sustainable-development` | [basic](#basic) | `sustainable development` | `growth` |
 | `synthetic` | [basic](#basic) | `manufactured`, `artificial`, `synthetic`, `machinemade`, `constructed` | `manmade` |
 | `systemic-racism` | [basic](#basic) | `systemic racism` | `racism` |
 | `tank-top` | [basic](#basic) | `tank top`, `sleeveless undershirt` | `wife beater`, `wifebeater` |
@@ -349,6 +364,7 @@ to allow them.
 | `wasteland` | [basic](#basic) | `unoccupied territory`, `wasteland`, `deathtrap` | `no mans land` |
 | `watcher` | [basic](#basic) | `watcher` | `watchwoman`, `watchman` |
 | `watchers` | [basic](#basic) | `watchers` | `watchwomen`, `watchmen` |
+| `wealth-redistribution` | [basic](#basic) | `wealth redistribution` | `theft`, `robbery` |
 | `worker` | [basic](#basic) | `worker`, `wage earner`, `taxpayer` | `workwoman`, `working woman`, `workman`, `working man` |
 | `workers` | [basic](#basic) | `workers` | `workwomen`, `workmen` |
 | `workers-of-the-world-unite` | [basic](#basic) | `workers of the world unite` | `I'm retarded` |

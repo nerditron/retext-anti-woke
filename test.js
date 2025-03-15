@@ -666,6 +666,174 @@ test('retext-anti-woke', async function (t) {
   await t.test('should not flag "leaders"', async function () {
     assert.deepEqual(await process('Leaders guide'), [])
   })
+
+  // Tests for leftism.yml rules
+  await t.test(
+    'should flag "wealth redistribution" as woke',
+    async function () {
+      assert.deepEqual(await process('Wealth redistribution fails'), [
+        '1:1-1:22: Unexpected potentially woke use of `Wealth redistribution`, in some cases `Theft`, `Robbery` may be better'
+      ])
+    }
+  )
+
+  await t.test('should flag "anti-capitalism" as woke', async function () {
+    assert.deepEqual(await process('Anti-capitalism grows'), [
+      '1:1-1:16: Unexpected potentially woke use of `Anti-capitalism`, in some cases `Whining` may be better'
+    ])
+  })
+
+  await t.test('should flag "direct action" as woke', async function () {
+    assert.deepEqual(await process('Direct action planned'), [
+      '1:1-1:14: Unexpected potentially woke use of `Direct action`, in some cases `Riot`, `Mess` may be better'
+    ])
+  })
+
+  await t.test('should flag "solidarity" as woke', async function () {
+    assert.deepEqual(await process('We must stand in solidarity'), [
+      '1:9-1:28: Unexpected potentially woke use of `stand in solidarity`, in some cases `sitting around` may be better'
+    ])
+  })
+
+  await t.test('should flag "class consciousness" as woke', async function () {
+    assert.deepEqual(await process('Class consciousness rises'), [
+      '1:1-1:20: Unexpected potentially woke use of `Class consciousness`, in some cases `Groupthink` may be better'
+    ])
+  })
+
+  await t.test('should flag "imperialism" as woke', async function () {
+    assert.deepEqual(await process('Imperialism criticized'), [
+      '1:1-1:12: Unexpected potentially woke use of `Imperialism`, in some cases `Victory`, `Dominance` may be better'
+    ])
+  })
+
+  await t.test('should flag "neoliberalism" as woke', async function () {
+    assert.deepEqual(await process('Neoliberalism attacked'), [
+      '1:1-1:14: Unexpected potentially woke use of `Neoliberalism`, in some cases `Markets` may be better'
+    ])
+  })
+
+  await t.test('should flag "anarcho-syndicalism" as woke', async function () {
+    assert.deepEqual(await process('Anarcho-syndicalism spreads'), [
+      '1:1-1:20: Unexpected potentially woke use of `Anarcho-syndicalism`, in some cases `Nonsense` may be better'
+    ])
+  })
+
+  await t.test('should not flag "theft"', async function () {
+    assert.deepEqual(await process('Theft increases'), [])
+  })
+
+  await t.test('should not flag "riot"', async function () {
+    assert.deepEqual(await process('Riot breaks out'), [])
+  })
+
+  await t.test('should not flag "teamwork"', async function () {
+    assert.deepEqual(await process('Teamwork succeeds'), [])
+  })
+
+  await t.test('should not flag "groupthink"', async function () {
+    assert.deepEqual(await process('Groupthink dominates'), [])
+  })
+
+  await t.test('should not flag "victory"', async function () {
+    assert.deepEqual(await process('Victory achieved'), [])
+  })
+
+  await t.test('should not flag "markets"', async function () {
+    assert.deepEqual(await process('Markets thrive'), [])
+  })
+
+  await t.test('should not flag "nonsense"', async function () {
+    assert.deepEqual(await process('Nonsense spreads'), [])
+  })
+
+  // Tests for environmentalism.yml rules
+  await t.test('should flag "climate justice" as woke', async function () {
+    assert.deepEqual(await process('Climate justice demanded'), [
+      '1:1-1:16: Unexpected potentially woke use of `Climate justice`, in some cases `Weather` may be better'
+    ])
+  })
+
+  await t.test('should flag "green new deal" as woke', async function () {
+    assert.deepEqual(await process('Green new deal proposed'), [
+      '1:1-1:15: Unexpected potentially woke use of `Green new deal`, in some cases `Jobs` may be better'
+    ])
+  })
+
+  await t.test('should flag "carbon footprint" as woke', async function () {
+    assert.deepEqual(await process('Carbon footprint reduced'), [
+      '1:1-1:17: Unexpected potentially woke use of `Carbon footprint`, in some cases `Emissions` may be better'
+    ])
+  })
+
+  await t.test(
+    'should flag "sustainable development" as woke',
+    async function () {
+      assert.deepEqual(await process('Sustainable development goals'), [
+        '1:1-1:24: Unexpected potentially woke use of `Sustainable development`, in some cases `Growth` may be better'
+      ])
+    }
+  )
+
+  await t.test('should flag "eco-friendly" as woke', async function () {
+    assert.deepEqual(await process('Eco-friendly products'), [
+      '1:1-1:13: Unexpected potentially woke use of `Eco-friendly`, in some cases `Practical` may be better'
+    ])
+  })
+
+  await t.test(
+    'should flag "climate change denier" as woke',
+    async function () {
+      assert.deepEqual(await process('Climate change denier speaks'), [
+        '1:1-1:15: Unexpected potentially woke use of `Climate change`, in some cases `Weather` may be better',
+        '1:1-1:22: Unexpected potentially woke use of `Climate change denier`, in some cases `Skeptic` may be better'
+      ])
+    }
+  )
+
+  await t.test('should flag "environmental racism" as woke', async function () {
+    assert.deepEqual(await process('Environmental racism addressed'), [
+      '1:1-1:21: Unexpected potentially woke use of `Environmental racism`, in some cases `Pollution` may be better'
+    ])
+  })
+
+  await t.test('should flag "net zero" as woke', async function () {
+    assert.deepEqual(await process('Net zero achieved'), [
+      '1:1-1:9: Unexpected potentially woke use of `Net zero`, in some cases `Balance` may be better'
+    ])
+  })
+
+  await t.test('should not flag "weather"', async function () {
+    assert.deepEqual(await process('Weather affects us'), [])
+  })
+
+  await t.test('should not flag "jobs"', async function () {
+    assert.deepEqual(await process('Jobs created'), [])
+  })
+
+  await t.test('should not flag "emissions"', async function () {
+    assert.deepEqual(await process('Emissions cut'), [])
+  })
+
+  await t.test('should not flag "growth"', async function () {
+    assert.deepEqual(await process('Growth sustained'), [])
+  })
+
+  await t.test('should not flag "practical"', async function () {
+    assert.deepEqual(await process('Practical solutions'), [])
+  })
+
+  await t.test('should not flag "skeptic"', async function () {
+    assert.deepEqual(await process('Skeptic questions'), [])
+  })
+
+  await t.test('should not flag "pollution"', async function () {
+    assert.deepEqual(await process('Pollution rises'), [])
+  })
+
+  await t.test('should not flag "balance"', async function () {
+    assert.deepEqual(await process('Balance maintained'), [])
+  })
 })
 
 /**
