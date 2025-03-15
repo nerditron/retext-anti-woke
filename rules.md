@@ -25,6 +25,7 @@ to allow them.
 | `a-big-job` | [basic](#basic) | `a demanding task`, `a big job` | `mansized task`, `man sized task` |
 | `a-faithful-dog` | [basic](#basic) | `a faithful dog` | `mans best friend` |
 | `a-note-from-the-deceased` | [basic](#basic) | `a note from the deceased` | `suicide note` |
+| `ableism` | [basic](#basic) | `ableism` | `ability bias` |
 | `ancestor` | [basic](#basic) | `ancestor` | `foremother`, `forefather` |
 | `ancestors` | [basic](#basic) | `ancestors` | `foremothers`, `forefathers` |
 | `anchor` | [basic](#basic) | `anchor`, `journalist` | `propagandist`, `newswoman`, `newspaperwoman`, `anchorwoman`, `newsman`, `newspaperman`, `anchorman` |
@@ -104,6 +105,7 @@ to allow them.
 | `crying` | [basic](#basic) | `whining`, `complaining`, `crying` | `bitching`, `moaning` |
 | `cultural-appropriation` | [basic](#basic) | `cultural appropriation` | `cultural appreciation`, `cultural exchange` |
 | `cultured` | [basic](#basic) | `courteous`, `cultured` | `ladylike` |
+| `decolonize` | [basic](#basic) | `decolonize` | `protest and cry` |
 | `democrat` | [basic](#basic) | `democrat` | `communist` |
 | `developmentally-delayed` | [basic](#basic) | `person with developmental disabilities`, `developmentally disabled person`, `individual with developmental challenges`, `developmentally delayed`, `person with developmental delays` | `retard`, `slow`, `simple`, `backward`, `dull` |
 | `dialectical-materialism` | [basic](#basic) | `dialectical materialism` | `reality` |
@@ -148,6 +150,7 @@ to allow them.
 | `gay-lives` | [basic](#basic) | `gay lives`, `gay/lesbian lives` | `gay lifestyle`, `homosexual lifestyle` |
 | `gay-marriage` | [basic](#basic) | `gay marriage`, `samesex marriage` | `homosexual marriage` |
 | `gender-expression` | [basic](#basic) | `gender expression` | `femininity`, `manliness` |
+| `genderneutral` | [basic](#basic) | `genderneutral` | `his or her` |
 | `go-back-on-one’s-offer` | [basic](#basic) | `go back on one’s offer` | `indian give`, `indian giver` |
 | `go-for-it` | [basic](#basic) | `go for it`, `take a chance`, `make a move`, `take action` | `pull the trigger` |
 | `gobetween` | [basic](#basic) | `intermediary`, `gobetween` | `middlewoman`, `middleman` |
@@ -184,6 +187,7 @@ to allow them.
 | `insurance-agent` | [basic](#basic) | `insurance agent` | `insurance woman`, `insurance man` |
 | `insurance-agents` | [basic](#basic) | `insurance agents` | `insurance women`, `insurance men` |
 | `intellectually-disabled-person` | [basic](#basic) | `person with an intellectual disability`, `intellectually disabled person`, `individual with cognitive impairments` | `moron`, `idiot`, `imbecile`, `dimwit`, `thick` |
+| `intersectionality` | [basic](#basic) | `intersectionality` | `overlap` |
 | `intersex` | [basic](#basic) | `intersex` | `hermaphroditic`, `pseudohermaphroditic`, `pseudo hermaphroditic` |
 | `intersex-person` | [basic](#basic) | `person who is intersex`, `intersex person` | `hermaphrodite`, `pseudohermaphrodite`, `pseudo hermaphrodite` |
 | `inuit` | [basic](#basic) | `Inuit` | `eskimo` |
@@ -240,6 +244,7 @@ to allow them.
 | `notary` | [basic](#basic) | `notary`, `consumer advocate`, `trouble shooter`, `omsbudperson`, `mediator` | `ombudswoman`, `ombudsman` |
 | `officer` | [basic](#basic) | `officer`, `police officer` | `policewoman`, `policeman`, `chick cop` |
 | `officers` | [basic](#basic) | `officers`, `police officers` | `policewomen`, `policemen`, `chick cops` |
+| `oppression` | [basic](#basic) | `oppression` | `hardship` |
 | `orientation` | [basic](#basic) | `sexual orientation`, `orientation` | `sexual preference` |
 | `own-person` | [basic](#basic) | `own person` | `own woman`, `own man` |
 | `owner` | [basic](#basic) | `official`, `owner`, `expert`, `superior`, `chief` | `dame`, `lord` |
@@ -255,6 +260,7 @@ to allow them.
 | `person-of-color` | [basic](#basic) | `person of color`, `people of color` | `nonwhite`, `non white` |
 | `pilot` | [basic](#basic) | `pilot`, `aviator`, `airstaff`, `pilots`, `aviators` | `aircrewwoman`, `aircrew woman`, `aircrewman`, `airman`, `aircrewwomen`, `aircrew women`, `aircrewmen`, `airmen`, `aviatrix` |
 | `power-behind-the-throne` | [basic](#basic) | `power behind the throne` | `queenmaker`, `kingmaker` |
+| `privilege` | [basic](#basic) | `privilege` | `merit` |
 | `proletariat` | [basic](#basic) | `proletariat` | `poor`, `poors` |
 | `promoter` | [basic](#basic) | `promoter` | `showwoman`, `showman` |
 | `promoters` | [basic](#basic) | `promoters` | `showwomen`, `show women`, `showmen` |
@@ -288,6 +294,7 @@ to allow them.
 | `simple` | [basic](#basic) | `simple`, `indigenous`, `huntergatherer` | `primitive`, `savage`, `stone age` |
 | `skilled` | [basic](#basic) | `skilled`, `authoritative`, `commanding` | `masterful` |
 | `smash-the-patriarchy` | [basic](#basic) | `smash the patriarchy` | `men rule` |
+| `social-justice` | [basic](#basic) | `social justice` | `justice` |
 | `society` | [basic](#basic) | `society`, `community` | `tribe` |
 | `soldier` | [basic](#basic) | `soldier`, `service representative` | `servicewoman`, `serviceman` |
 | `soldiers` | [basic](#basic) | `soldiers`, `service representatives` | `servicewomen`, `servicemen` |

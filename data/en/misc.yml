@@ -17,3 +17,33 @@
     - take a chance
     - make a move
     - take action
+- type: basic
+  note: Social justice is woke fluff
+  considerate:
+    - justice
+  inconsiderate:
+    - social justice
+- type: basic
+  note: Intersectionality is jargon bullshit
+  considerate:
+    - overlap
+  inconsiderate:
+    - intersectionality
+- type: basic
+  note: Privilege is a woke crutch
+  considerate:
+    - merit
+  inconsiderate:
+    - privilege
+- type: basic
+  note: Oppression is woke whining
+  considerate:
+    - hardship
+  inconsiderate:
+    - oppression
+- type: basic
+  note: Decolonize is commie nonsense
+  considerate:
+    - protest and cry
+  inconsiderate:
+    - decolonize
