@@ -61,6 +61,7 @@ to allow them.
 | `bonders` | [basic](#basic) | `bonders` | `bondswomen`, `bondsmen` |
 | `boogeymonster` | [basic](#basic) | `boogeymonster` | `boogeywoman`, `boogeyman`, `boogiewoman`, `boogieman` |
 | `boogeymonsters` | [basic](#basic) | `boogeymonsters` | `boogiewomen`, `boogiemen` |
+| `bourgeoisie` | [basic](#basic) | `bourgeoisie` | `rich`, `bosses` |
 | `bravely` | [basic](#basic) | `resolutely`, `bravely` | `like a man` |
 | `cabinet` | [basic](#basic) | `cabinet`, `cabinet members`, `alderperson` | `alderwomen`, `aldermen` |
 | `cabinet-member` | [basic](#basic) | `cabinet member` | `alderwoman`, `alderman` |
@@ -76,11 +77,13 @@ to allow them.
 | `childhood` | [basic](#basic) | `childhood` | `girlhood`, `boyhood` |
 | `childish` | [basic](#basic) | `childish` | `girly`, `girlish`, `boyish` |
 | `children` | [basic](#basic) | `children` | `daughters`, `sons` |
+| `class-struggle` | [basic](#basic) | `class struggle` | `competition` |
 | `cleaner` | [basic](#basic) | `cleaner` | `cleaning lady`, `cleaning girl`, `cleaning woman`, `cleaning man`, `cleaning boy`, `janitor` |
 | `cleaners` | [basic](#basic) | `cleaners`, `housekeeping` | `cleaning ladies`, `cleaning girls`, `cleaning men`, `janitors` |
 | `clergy` | [basic](#basic) | `clergyperson`, `clergy`, `cleric`, `practicing christian` | `clergywoman`, `clergyman`, `churchman`, `christian` |
 | `clerics` | [basic](#basic) | `clergies`, `clerics` | `clergywomen`, `clergymen` |
 | `cognitively-impaired` | [basic](#basic) | `cognitively impaired`, `person with cognitive disabilities` | `dimwit`, `thick`, `slow-witted` |
+| `collectivization` | [basic](#basic) | `collectivization` | `individualism` |
 | `committee-member` | [basic](#basic) | `committee member` | `committee woman`, `committee man` |
 | `common-person` | [basic](#basic) | `common person` | `common girl`, `common woman`, `comomon boy`, `common man` |
 | `concierge` | [basic](#basic) | `concierge` | `doorwoman`, `doorman` |
@@ -99,7 +102,9 @@ to allow them.
 | `crying` | [basic](#basic) | `whining`, `complaining`, `crying` | `bitching`, `moaning` |
 | `cultural-appropriation` | [basic](#basic) | `cultural appropriation` | `cultural appreciation`, `cultural exchange` |
 | `cultured` | [basic](#basic) | `courteous`, `cultured` | `ladylike` |
+| `democrat` | [basic](#basic) | `democrat` | `communist` |
 | `developmentally-delayed` | [basic](#basic) | `person with developmental disabilities`, `developmentally disabled person`, `individual with developmental challenges`, `developmentally delayed`, `person with developmental delays` | `retard`, `slow`, `simple`, `backward`, `dull` |
+| `dialectical-materialism` | [basic](#basic) | `dialectical materialism` | `reality` |
 | `die-by-suicide` | [basic](#basic) | `die by suicide` | `commit suicide`, `complete suicide`, `successful suicide` |
 | `died-by-suicide` | [basic](#basic) | `died by suicide` | `committed suicide`, `completed suicide` |
 | `diplomatic` | [basic](#basic) | `diplomatic` | `statesmanlike`, `statesman like` |
@@ -190,6 +195,8 @@ to allow them.
 | `latinx` | [basic](#basic) | `Latinx` | `latino`, `latina` |
 | `lead` | [basic](#basic) | `lead`, `front`, `figurehead` | `frontwoman`, `front woman`, `frontman`, `front man`, `leading lady` |
 | `learningdisabled-person` | [basic](#basic) | `person with a learning disability`, `learningdisabled person` | `slow learner`, `dull`, `backward` |
+| `leftist` | [basic](#basic) | `leftist`, `liberal` | `libtard` |
+| `leftists` | [basic](#basic) | `leftists`, `liberals` | `libtards` |
 | `legacy-policy` | [basic](#basic) | `legacy policy`, `legacy clause`, `deprecation policy` | `grandfather clause`, `grandfather policy` |
 | `legislator` | [basic](#basic) | `member of congress`, `congress person`, `legislator`, `representative` | `congresswoman`, `congressman` |
 | `legislators` | [basic](#basic) | `members of congress`, `congress persons`, `legislators`, `representatives` | `congresswomen`, `congressmen` |
@@ -201,6 +208,7 @@ to allow them.
 | `malicious-actor` | [basic](#basic) | `unethical hacker`, `malicious actor` | `blackhat` |
 | `mature` | [basic](#basic) | `humanly`, `mature` | `feminin`, `dudely`, `manly` |
 | `maturity` | [basic](#basic) | `adulthood`, `personhood`, `maturity` | `womanhood`, `masculinity`, `manhood` |
+| `means-of-production` | [basic](#basic) | `means of production` | `factories`, `businesses` |
 | `meeting` | [basic](#basic) | `conference`, `gathering`, `meeting` | `pow wow`, `powwow` |
 | `mentally-ill-person` | [basic](#basic) | `person with mental illness`, `mentally ill person`, `individual with mental health issues`, `person with symptoms of mental illness` | `psycho`, `crazy`, `lunatic`, `madman`, `nutcase`, `whacko` |
 | `mentor` | [basic](#basic) | `rolemodel`, `mentor` | `heroine`, `hero` |
@@ -244,6 +252,7 @@ to allow them.
 | `person-of-color` | [basic](#basic) | `person of color`, `people of color` | `nonwhite`, `non white` |
 | `pilot` | [basic](#basic) | `pilot`, `aviator`, `airstaff`, `pilots`, `aviators` | `aircrewwoman`, `aircrew woman`, `aircrewman`, `airman`, `aircrewwomen`, `aircrew women`, `aircrewmen`, `airmen`, `aviatrix` |
 | `power-behind-the-throne` | [basic](#basic) | `power behind the throne` | `queenmaker`, `kingmaker` |
+| `proletariat` | [basic](#basic) | `proletariat` | `poor`, `poors` |
 | `promoter` | [basic](#basic) | `promoter` | `showwoman`, `showman` |
 | `promoters` | [basic](#basic) | `promoters` | `showwomen`, `show women`, `showmen` |
 | `pronoun` | [basic](#basic) | `pronoun`, `pronouns` | `preferred pronoun`, `preferred pronouns`, `gender pronoun`, `gender pronouns` |
@@ -331,6 +340,7 @@ to allow them.
 | `watchers` | [basic](#basic) | `watchers` | `watchwomen`, `watchmen` |
 | `worker` | [basic](#basic) | `worker`, `wage earner`, `taxpayer` | `workwoman`, `working woman`, `workman`, `working man` |
 | `workers` | [basic](#basic) | `workers` | `workwomen`, `workmen` |
+| `workers-of-the-world-unite` | [basic](#basic) | `workers of the world unite` | `I'm retarded` |
 | `writer` | [basic](#basic) | `scholar`, `writer`, `literary figure` | `man of letters` |
 | `zealot` | [basic](#basic) | `fanatic`, `zealot`, `enthusiast` | `madman`, `mad man` |
 | `zealots` | [basic](#basic) | `fanatics`, `zealots`, `enthusiasts` | `madmen`, `mad men` |

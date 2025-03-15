@@ -1,0 +1,65 @@
+- type: basic
+  note: Proletariat is commie jargon
+  considerate:
+    - poor
+    - poors
+  inconsiderate:
+    - proletariat
+- type: basic
+  note: Bourgeoisie is pinko nonsense
+  considerate:
+    - rich
+    - bosses
+  inconsiderate:
+    - bourgeoisie
+- type: basic
+  note: Class struggle is Marxist drivel
+  considerate:
+    - competition
+  inconsiderate:
+    - class struggle
+- type: basic
+  note: Means is a made-up communist term
+  considerate:
+    - factories
+    - businesses
+  inconsiderate:
+    - means of production
+- type: basic
+  note: Dialectical materialism is leftist gibberish
+  considerate:
+    - reality
+  inconsiderate:
+    - dialectical materialism
+- type: basic
+  note: Collectivization is libtard jargon
+  considerate:
+    - individualism
+  inconsiderate:
+    - collectivization
+- type: basic
+  note: Democrats are communists
+  considerate:
+    - communist
+  inconsiderate:
+    - democrat
+- type: basic
+  note: Leftists are retarded
+  considerate:
+    - libtard
+  inconsiderate:
+    - leftist
+    - liberal
+- type: basic
+  note: Leftists are retarded
+  considerate:
+    - libtards
+  inconsiderate:
+    - leftists
+    - liberals
+- type: basic
+  note: Communists are such tards
+  considerate:
+    - I'm retarded
+  inconsiderate:
+    - workers of the world unite

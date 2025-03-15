@@ -560,6 +560,78 @@ test('retext-anti-woke', async function (t) {
   await t.test('should not flag "hang"', async function () {
     assert.deepEqual(await process('App might hang soon'), [])
   })
+
+  // Tests for communism.yml rules
+  await t.test('should flag "proletariat" as woke', async function () {
+    assert.deepEqual(await process('Proletariat rises'), [
+      '1:1-1:12: Unexpected potentially woke use of `Proletariat`, in some cases `Poor`, `Poors` may be better'
+    ])
+  })
+
+  await t.test('should flag "bourgeoisie" as woke', async function () {
+    assert.deepEqual(await process('Bourgeoisie oppresses'), [
+      '1:1-1:12: Unexpected potentially woke use of `Bourgeoisie`, in some cases `Rich`, `Bosses` may be better'
+    ])
+  })
+
+  await t.test('should flag "class struggle" as woke', async function () {
+    assert.deepEqual(await process('Class struggle intensifies'), [
+      '1:1-1:15: Unexpected potentially woke use of `Class struggle`, in some cases `Competition` may be better'
+    ])
+  })
+
+  await t.test('should flag "means of production" as woke', async function () {
+    assert.deepEqual(await process('Means of production seized'), [
+      '1:1-1:20: Unexpected potentially woke use of `Means of production`, in some cases `Factories`, `Businesses` may be better'
+    ])
+  })
+
+  await t.test(
+    'should flag "dialectical materialism" as woke',
+    async function () {
+      assert.deepEqual(await process('Dialectical materialism explains'), [
+        '1:1-1:24: Unexpected potentially woke use of `Dialectical materialism`, in some cases `Reality` may be better'
+      ])
+    }
+  )
+
+  await t.test('should flag "collectivization" as woke', async function () {
+    assert.deepEqual(await process('Collectivization enforced'), [
+      '1:1-1:17: Unexpected potentially woke use of `Collectivization`, in some cases `Individualism` may be better'
+    ])
+  })
+
+  await t.test('should not flag "poors"', async function () {
+    assert.deepEqual(await process('Poors unite'), [])
+  })
+
+  await t.test('should not flag "rich"', async function () {
+    assert.deepEqual(await process('Rich exploit'), [])
+  })
+
+  await t.test('should not flag "competition"', async function () {
+    assert.deepEqual(await process('Competition drives'), [])
+  })
+
+  await t.test('should not flag "factories"', async function () {
+    assert.deepEqual(await process('Factories produce'), [])
+  })
+
+  await t.test('should not flag "uprising"', async function () {
+    assert.deepEqual(await process('Uprising starts'), [])
+  })
+
+  await t.test('should not flag "reality"', async function () {
+    assert.deepEqual(await process('Reality shapes'), [])
+  })
+
+  await t.test('should not flag "takeover"', async function () {
+    assert.deepEqual(await process('Takeover succeeds'), [])
+  })
+
+  await t.test('should not flag "leaders"', async function () {
+    assert.deepEqual(await process('Leaders guide'), [])
+  })
 })
 
 /**
