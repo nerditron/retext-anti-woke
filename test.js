@@ -489,12 +489,46 @@ test('retext-anti-woke', async function (t) {
     }
   )
 
+  await t.test('should flag "Smash the patriarchy" as woke', async function () {
+    assert.deepEqual(await process('Smash the patriarchy now'), [
+      '1:1-1:21: Unexpected potentially woke use of `Smash the patriarchy`, in some cases `Men rule` may be better'
+    ])
+  })
+
+  await t.test('should flag "Believe women" as woke', async function () {
+    assert.deepEqual(await process('Believe women always'), [
+      '1:1-1:14: Unexpected potentially woke use of `Believe women`, in some cases `Judge the facts` may be better'
+    ])
+  })
+
+  await t.test('should flag "Hope and change" as woke', async function () {
+    assert.deepEqual(await process('Hope and change prevails'), [
+      '1:1-1:16: Unexpected potentially woke use of `Hope and change`, in some cases `Lies and destruction` may be better'
+    ])
+  })
+
   await t.test('should not flag "make america great again"', async function () {
     assert.deepEqual(await process('Make America great again works'), [])
   })
 
   await t.test('should not flag "merit is our strength"', async function () {
     assert.deepEqual(await process('Merit is our strength prevails'), [])
+  })
+
+  await t.test('should not flag "men rule"', async function () {
+    assert.deepEqual(await process('Men rule the world'), [])
+  })
+
+  await t.test('should not flag "judge the facts"', async function () {
+    assert.deepEqual(await process('Judge the facts fairly'), [])
+  })
+
+  await t.test('should not flag "reality bites"', async function () {
+    assert.deepEqual(await process('Reality bites hard'), [])
+  })
+
+  await t.test('should not flag "stand alone"', async function () {
+    assert.deepEqual(await process('Stand alone strong'), [])
   })
 
   // Tests for suicide.yml rules

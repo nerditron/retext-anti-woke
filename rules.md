@@ -50,12 +50,14 @@ to allow them.
 | `banlisting` | [basic](#basic) | `blocklisting`, `wronglisting`, `banlisting`, `denylisting` | `blacklisting` |
 | `banlists` | [basic](#basic) | `blocklists`, `wronglists`, `banlists`, `deny lists` | `blacklists`, `black lists` |
 | `become-skilled` | [basic](#basic) | `become skilled` | `master the art` |
+| `believe-women` | [basic](#basic) | `believe women`, `believe all women` | `judge the facts` |
 | `bereaved` | [basic](#basic) | `bereaved` | `widow`, `widows`, `widower`, `widowers` |
 | `birth-name` | [basic](#basic) | `birth name` | `maiden name`, `surname` |
 | `birthing-nurse` | [basic](#basic) | `birthing nurse` | `midwife` |
 | `birthing-people` | [basic](#basic) | `birthing people` | `women` |
 | `birthing-person` | [basic](#basic) | `birthing person` | `woman` |
 | `bisexual` | [basic](#basic) | `bisexual` | `bi` |
+| `black-lives-matter` | [basic](#basic) | `black lives matter` | `all lives matter` |
 | `bogeymonster` | [basic](#basic) | `bogeymonster` | `bogeywoman`, `bogeyman`, `bogiewoman`, `bogieman`, `bogiewomen`, `bogiemen` |
 | `bonder` | [basic](#basic) | `bonder` | `bondswoman`, `bondsman` |
 | `bonders` | [basic](#basic) | `bonders` | `bondswomen`, `bondsmen` |
@@ -171,6 +173,7 @@ to allow them.
 | `hominids` | [basic](#basic) | `hominids`, `cavepeople` | `cavewomen`, `cavemen`, `troglodytes` |
 | `homosexual` | [basic](#basic) | `homosexual` | `homo` |
 | `homosexual-relations` | [basic](#basic) | `homosexual relations`, `homosexual relationship` | `unchristian relations`, `unchristian relationship` |
+| `hope-and-change` | [basic](#basic) | `hope and change` | `lies and destruction` |
 | `hours` | [basic](#basic) | `staff hours`, `hours of work`, `hours of labor`, `hours` | `manhours`, `man hours` |
 | `house-worker` | [basic](#basic) | `house worker`, `domestic help` | `housemaid` |
 | `humankind` | [basic](#basic) | `humankind` | `mankind` |
@@ -284,6 +287,7 @@ to allow them.
 | `sidekicks` | [basic](#basic) | `sidekicks` | `henchwomen`, `henchmen` |
 | `simple` | [basic](#basic) | `simple`, `indigenous`, `huntergatherer` | `primitive`, `savage`, `stone age` |
 | `skilled` | [basic](#basic) | `skilled`, `authoritative`, `commanding` | `masterful` |
+| `smash-the-patriarchy` | [basic](#basic) | `smash the patriarchy` | `men rule` |
 | `society` | [basic](#basic) | `society`, `community` | `tribe` |
 | `soldier` | [basic](#basic) | `soldier`, `service representative` | `servicewoman`, `serviceman` |
 | `soldiers` | [basic](#basic) | `soldiers`, `service representatives` | `servicewomen`, `servicemen` |
