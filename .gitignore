@@ -8,3 +8,4 @@ yarn.lock
 /lib/patterns-en.js
 /lib/en.js
 tsconfig.tsbuildinfo
+*.swp

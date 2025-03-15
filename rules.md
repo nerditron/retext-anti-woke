@@ -22,332 +22,304 @@ to allow them.
 
 | id | type | not ok | ok |
 | - | - | - | - |
-| `actor-actress` | [or](#or) | `actress` (female), `actor` (male) | `performer`, `star`, `artist`, `entertainer` |
-| `actors-actresses` | [or](#or) | `actresses` (female), `actors` (male) | `performers`, `stars`, `artists`, `entertainers` |
-| `aircrewwoman-airman` | [or](#or) | `aircrewwoman` (female), `aircrew woman` (female), `aircrewman` (male), `airman` (male) | `pilot`, `aviator`, `airstaff` |
-| `aircrewwomen-airmen` | [or](#or) | `aircrewwomen` (female), `aircrew women` (female), `aircrewmen` (male), `airmen` (male) | `pilots`, `aviators`, `airstaff` |
-| `alderman-alderwoman` | [or](#or) | `alderwoman` (female), `alderman` (male) | `cabinet member` |
-| `aldermen-alderwomen` | [or](#or) | `alderwomen` (female), `aldermen` (male) | `cabinet`, `cabinet members`, `alderperson` |
-| `alumna-alumnus` | [or](#or) | `alumna` (female), `alumnus` (male) | `graduate` |
-| `alumnae-alumni` | [or](#or) | `alumnae` (female), `alumni` (male) | `graduates` |
-| `ancient-man` | [basic](#basic) | `ancient man` | `ancient civilization`, `ancient people` |
-| `assemblyman-assemblywoman` | [or](#or) | `assemblywoman` (female), `assemblyman` (male) | `assembly person`, `assembly worker` |
-| `aunt-uncle` | [or](#or) | `kinswoman` (female), `aunt` (female), `kinsman` (male), `uncle` (male) | `relative` |
-| `aunts-uncles` | [or](#or) | `kinswomen` (female), `aunts` (female), `kinsmen` (male), `uncles` (male) | `relatives` |
-| `authoress` | [basic](#basic) | `authoress` | `author`, `writer` |
-| `average-housewife` | [basic](#basic) | `average housewife` | `average consumer`, `average household`, `average homemaker` |
-| `average-man` | [basic](#basic) | `average man` | `average person` |
-| `average-working-man` | [basic](#basic) | `average working man` | `average wage earner`, `average taxpayer` |
-| `aviatrix` | [basic](#basic) | `aviatrix` | `aviator` |
+| `a-big-job` | [basic](#basic) | `a demanding task`, `a big job` | `mansized task`, `man sized task` |
+| `a-faithful-dog` | [basic](#basic) | `a faithful dog` | `mans best friend` |
+| `ancestor` | [basic](#basic) | `ancestor` | `foremother`, `forefather` |
+| `ancestors` | [basic](#basic) | `ancestors` | `foremothers`, `forefathers` |
+| `anchor` | [basic](#basic) | `anchor`, `journalist` | `propagandist`, `newswoman`, `newspaperwoman`, `anchorwoman`, `newsman`, `newspaperman`, `anchorman` |
+| `anchors` | [basic](#basic) | `anchors`, `journalists` | `propagandists`, `newswomen`, `newspaperwomen`, `anchorwomen`, `newsmen`, `newspapermen`, `anchormen` |
+| `ancient-people` | [basic](#basic) | `ancient civilization`, `ancient people` | `ancient man` |
+| `answer-the-phones` | [basic](#basic) | `answer the phones` | `man the phones` |
+| `artisan` | [basic](#basic) | `artisan`, `craftsperson`, `skilled worker` | `handywoman`, `craftswoman`, `handyman`, `craftsman` |
+| `artisans` | [basic](#basic) | `artisans`, `craftspersons`, `skilled workers` | `handywomen`, `craftswomen`, `handymen`, `craftsmen` |
+| `assembly-person` | [basic](#basic) | `assembly person`, `assembly worker` | `assemblywoman`, `assemblyman` |
+| `astronaut` | [basic](#basic) | `astronaut` | `spacewoman`, `spaceman` |
+| `astronauts` | [basic](#basic) | `astronauts` | `spacewomen`, `spacemen` |
+| `athlete` | [basic](#basic) | `athlete`, `sports person` | `sportswoman`, `sportsman` |
+| `athletes` | [basic](#basic) | `athletes`, `sports persons` | `sportswomen`, `sportsmen` |
+| `average-consumer` | [basic](#basic) | `average consumer`, `average household`, `average homemaker` | `average housewife` |
+| `average-person` | [basic](#basic) | `average person`, `ordinary citizen`, `typical person` | `average man`, `man in the street` |
+| `average-taxpayer` | [basic](#basic) | `average wage earner`, `average taxpayer` | `average working man` |
 | `bathroom-bill` | [basic](#basic) | `bathroom bill` | `non-discrimination law`, `non-discrimination ordinance` |
+| `become-skilled` | [basic](#basic) | `become skilled` | `master the art` |
+| `bereaved` | [basic](#basic) | `bereaved` | `widow`, `widows`, `widower`, `widowers` |
 | `bi` | [basic](#basic) | `bi` | `bisexual` |
+| `birth-name` | [basic](#basic) | `birth name` | `maiden name`, `surname` |
+| `birthing-nurse` | [basic](#basic) | `birthing nurse` | `midwife` |
+| `birthing-people` | [basic](#basic) | `birthing people` | `women` |
+| `birthing-person` | [basic](#basic) | `birthing person` | `woman` |
 | `blackhat` | [basic](#basic) | `blackhat` | `unethical hacker`, `malicious actor` |
 | `blacklist` | [basic](#basic) | `blacklist`, `black list` | `blocklist`, `wronglist`, `banlist`, `deny list` |
 | `blacklisted` | [basic](#basic) | `blacklisted` | `blocklisted`, `wronglisted`, `banlisted`, `deny-listed` |
 | `blacklisting` | [basic](#basic) | `blacklisting` | `blocklisting`, `wronglisting`, `banlisting`, `deny-listing` |
-| `bogeyman-bogeywoman` | [or](#or) | `bogeywoman` (female), `bogeyman` (male) | `bogeymonster` |
-| `bogieman-bogiewoman` | [or](#or) | `bogiewoman` (female), `bogieman` (male) | `bogeymonster` |
-| `bogiemen-bogiewomen` | [or](#or) | `bogiewomen` (female), `bogiemen` (male) | `bogeymonsters` |
-| `bondsman-bondswoman` | [or](#or) | `bondswoman` (female), `bondsman` (male) | `bonder` |
-| `bondsmen-bondswomen` | [or](#or) | `bondswomen` (female), `bondsmen` (male) | `bonders` |
-| `boogeyman-boogeywoman` | [or](#or) | `boogeywoman` (female), `boogeyman` (male) | `boogeymonster` |
-| `boogieman-boogiewoman` | [or](#or) | `boogiewoman` (female), `boogieman` (male) | `boogeymonster` |
-| `boogiemen-boogiewomen` | [or](#or) | `boogiewomen` (female), `boogiemen` (male) | `boogeymonsters` |
+| `bogeymonster` | [basic](#basic) | `bogeymonster` | `bogeywoman`, `bogeyman`, `bogiewoman`, `bogieman`, `bogiewomen`, `bogiemen` |
+| `bonder` | [basic](#basic) | `bonder` | `bondswoman`, `bondsman` |
+| `bonders` | [basic](#basic) | `bonders` | `bondswomen`, `bondsmen` |
+| `boogeymonster` | [basic](#basic) | `boogeymonster` | `boogeywoman`, `boogeyman`, `boogiewoman`, `boogieman` |
+| `boogeymonsters` | [basic](#basic) | `boogeymonsters` | `boogiewomen`, `boogiemen` |
 | `born-a-man` | [basic](#basic) | `biologically male`, `born a man`, `genetically male` | `assigned male at birth`, `designated male at birth` |
 | `born-a-woman` | [basic](#basic) | `biologically female`, `born a woman`, `genetically female` | `assigned female at birth`, `designated female at birth` |
-| `boy-girl` | [or](#or) | `girl` (female), `boy` (male) | `kid`, `child`, `youth` |
-| `boyfriend-girlfriend` | [or](#or) | `girlfriend` (female), `boyfriend` (male) | `partner`, `friend`, `significant other` |
-| `boyfriends-girlfriends` | [or](#or) | `girlfriends` (female), `boyfriends` (male) | `partners`, `friends`, `significant others` |
-| `boyhood-girlhood` | [or](#or) | `girlhood` (female), `boyhood` (male) | `childhood` |
-| `boyish-girly` | [or](#or) | `girly` (female), `girlish` (female), `boyish` (male) | `childish` |
-| `bride-groom` | [or](#or) | `bride` (female), `groom` (male) | `spouse`, `newlywed` |
-| `brother-sister` | [or](#or) | `sister` (female), `brother` (male) | `sibling` |
-| `brotherhood-of-man` | [basic](#basic) | `brotherhood of man` | `the human family` |
-| `brotherhood-sisterhood` | [or](#or) | `sisterhood` (female), `brotherhood` (male) | `kinship`, `community` |
-| `brothers-sisters` | [or](#or) | `sisters` (female), `brothers` (male) | `siblings` |
+| `bravely` | [basic](#basic) | `resolutely`, `bravely` | `like a man` |
 | `bugreport` | [basic](#basic) | `bugreport` | `bug report`, `snapshot` |
-| `calendar-girl` | [basic](#basic) | `calendar girl` | `model` |
-| `call-girl` | [basic](#basic) | `call girl` | `escort`, `prostitute`, `sex worker` |
-| `cameraman-camerawoman` | [or](#or) | `camerawoman` (female), `cameraman` (male) | `camera operator`, `camera person` |
-| `cameramen-camerawomen` | [or](#or) | `camerawomen` (female), `cameramen` (male) | `camera operators` |
-| `cattleman-cattlewoman` | [or](#or) | `cattlewoman` (female), `cattleman` (male) | `cattle rancher` |
-| `cattlemen-cattlewomen` | [or](#or) | `cattlewomen` (female), `cattlemen` (male) | `cattle ranchers` |
-| `caveman-cavewoman` | [or](#or) | `cavewoman` (female), `caveman` (male) | `troglodyte`, `hominidae` |
-| `cavemen-cavewomen` | [or](#or) | `cavewomen` (female), `cavemen` (male) | `troglodytae`, `troglodyti`, `troglodytes`, `hominids` |
-| `chairman-chairwoman` | [or](#or) | `chairwoman` (female), `chairman` (male) | `chair`, `head`, `chairperson`, `coordinator`, `committee head`, `moderator`, `presiding officer` |
-| `chairmen-chairwomen` | [or](#or) | `chairwomen` (female), `chairmen` (male) | `chairs`, `chairpersons`, `coordinators` |
-| `chick-cop-policeman` | [or](#or) | `policewoman` (female), `policeman` (male), `chick cop` (female) | `officer`, `police officer` |
-| `churchman` | [basic](#basic) | `churchman` | `cleric`, `practicing Christian`, `pillar of the Church` |
-| `clergyman-clergywoman` | [or](#or) | `clergywoman` (female), `clergyman` (male) | `clergyperson`, `clergy`, `cleric` |
-| `clergymen-clergywomen` | [or](#or) | `clergywomen` (female), `clergymen` (male) | `clergies`, `clerics` |
+| `cabinet` | [basic](#basic) | `cabinet`, `cabinet members`, `alderperson` | `alderwomen`, `aldermen` |
+| `cabinet-member` | [basic](#basic) | `cabinet member` | `alderwoman`, `alderman` |
+| `camaraderie` | [basic](#basic) | `camaraderie`, `organization` | `fellowship` |
+| `camera-operators` | [basic](#basic) | `camera operators` | `camerawomen`, `cameramen` |
+| `camera-person` | [basic](#basic) | `camera operator`, `camera person` | `camerawoman`, `cameraman` |
+| `cattle-rancher` | [basic](#basic) | `cattle rancher` | `cattlewoman`, `cattleman` |
+| `cattle-ranchers` | [basic](#basic) | `cattle ranchers` | `cattlewomen`, `cattlemen` |
+| `chairs` | [basic](#basic) | `chairs`, `chairpersons`, `coordinators` | `chairwomen`, `chairmen` |
+| `chef-d’oeuvre` | [basic](#basic) | `work of genius`, `chef d’oeuvre` | `masterpiece` |
+| `chiefs` | [basic](#basic) | `officials`, `chiefs` | `dames`, `lords` |
+| `child` | [basic](#basic) | `child` | `daughter`, `son` |
+| `childhood` | [basic](#basic) | `childhood` | `girlhood`, `boyhood` |
+| `childish` | [basic](#basic) | `childish` | `girly`, `girlish`, `boyish` |
+| `children` | [basic](#basic) | `children` | `daughters`, `sons` |
+| `cleaner` | [basic](#basic) | `cleaner` | `cleaning lady`, `cleaning girl`, `cleaning woman`, `cleaning man`, `cleaning boy`, `janitor` |
+| `cleaners` | [basic](#basic) | `cleaners`, `housekeeping` | `cleaning ladies`, `cleaning girls`, `cleaning men`, `janitors` |
+| `clergy` | [basic](#basic) | `clergyperson`, `clergy`, `cleric`, `practicing christian` | `clergywoman`, `clergyman`, `churchman`, `christian` |
+| `clerics` | [basic](#basic) | `clergies`, `clerics` | `clergywomen`, `clergymen` |
 | `cognitively-impaired` | [basic](#basic) | `cognitively impaired`, `person with cognitive disabilities` | `dimwit`, `thick`, `slow-witted` |
 | `commit-suicide` | [basic](#basic) | `commit suicide`, `complete suicide`, `successful suicide` | `die by suicide` |
 | `committed-suicide` | [basic](#basic) | `committed suicide`, `completed suicide` | `died by suicide` |
-| `committee-man-committee-woman` | [or](#or) | `committee woman` (female), `committee man` (male) | `committee member` |
-| `common-girl-common-man` | [or](#or) | `common girl` (female), `common man` (male) | `common person`, `average person` |
-| `congressman-congresswoman` | [or](#or) | `congresswoman` (female), `congressman` (male) | `member of congress`, `congress person`, `legislator`, `representative` |
-| `congressmen-congresswomen` | [or](#or) | `congresswomen` (female), `congressmen` (male) | `members of congress`, `congress persons`, `legislators`, `representatives` |
-| `councilman-councilwoman` | [or](#or) | `councilwoman` (female), `councilman` (male) | `council member` |
-| `councilmen-councilwomen` | [or](#or) | `councilwomen` (female), `councilmen` (male) | `council members` |
-| `countryman-countrywoman` | [or](#or) | `countrywoman` (female), `countryman` (male) | `country person` |
-| `countrymen-countrywomen` | [or](#or) | `countrywomen` (female), `countrymen` (male) | `country folk` |
-| `cowboy-cowgirl` | [or](#or) | `cowgirl` (female), `cowboy` (male) | `cowhand` |
-| `cowboys-cowgirls` | [or](#or) | `cowgirls` (female), `cowboys` (male) | `cowhands` |
-| `dad-mom` | [or](#or) | `mama` (female), `mother` (female), `mom` (female), `mum` (female), `momma` (female), `mommy` (female), `papa` (male), `father` (male), `dad` (male), `pop` (male), `daddy` (male) | `parent` |
-| `dads-moms` | [or](#or) | `mamas` (female), `mothers` (female), `moms` (female), `mums` (female), `mommas` (female), `mommies` (female), `papas` (male), `fathers` (male), `dads` (male), `daddies` (male) | `parents` |
-| `dame-lord` | [or](#or) | `dame` (female), `lord` (male) | `official`, `owner`, `expert`, `superior`, `chief`, `ruler` |
-| `dames-lords` | [or](#or) | `dames` (female), `lords` (male) | `officials`, `chiefs`, `rulers` |
-| `daughter-son` | [or](#or) | `daughter` (female), `son` (male) | `child` |
-| `daughters-sons` | [or](#or) | `daughters` (female), `sons` (male) | `children` |
-| `delivery-boy-delivery-girl` | [or](#or) | `delivery girl` (female), `delivery boy` (male) | `courier`, `messenger` |
+| `committee-member` | [basic](#basic) | `committee member` | `committee woman`, `committee man` |
+| `common-person` | [basic](#basic) | `common person` | `common girl`, `common woman`, `comomon boy`, `common man` |
+| `concierge` | [basic](#basic) | `concierge` | `doorwoman`, `doorman` |
+| `concierges` | [basic](#basic) | `concierges` | `doorwomen`, `doormen` |
+| `convenor` | [basic](#basic) | `convenor` | `master of ceremonies` |
+| `council-member` | [basic](#basic) | `council member` | `councilwoman`, `councilman` |
+| `council-members` | [basic](#basic) | `council members` | `councilwomen`, `councilmen` |
+| `country-folk` | [basic](#basic) | `country folk` | `countrywomen`, `countrymen` |
+| `country-person` | [basic](#basic) | `country person` | `countrywoman`, `countryman` |
+| `courier` | [basic](#basic) | `courier`, `messenger` | `delivery girl`, `delivery boy` |
+| `cowhand` | [basic](#basic) | `cowhand` | `cowgirl`, `cowboy` |
+| `cowhands` | [basic](#basic) | `cowhands` | `cowgirls`, `cowboys` |
+| `crewed` | [basic](#basic) | `staffed`, `crewed`, `piloted` | `manned` |
+| `cry` | [basic](#basic) | `whine`, `complain`, `cry` | `bitch`, `moan` |
+| `crying` | [basic](#basic) | `whining`, `complaining`, `crying` | `bitching`, `moaning` |
+| `cultured` | [basic](#basic) | `courteous`, `cultured` | `ladylike` |
 | `developmentally-delayed` | [basic](#basic) | `person with developmental disabilities`, `developmentally disabled person`, `individual with developmental challenges`, `developmentally delayed`, `person with developmental delays` | `retard`, `slow`, `simple`, `backward`, `dull` |
+| `diplomatic` | [basic](#basic) | `diplomatic` | `statesmanlike`, `statesman like` |
 | `diversity-training` | [basic](#basic) | `diversity training` | |
-| `doorman-doorwoman` | [or](#or) | `doorwoman` (female), `doorman` (male) | `concierge` |
-| `doormen-doorwomen` | [or](#or) | `doorwomen` (female), `doormen` (male) | `concierges` |
+| `drover` | [basic](#basic) | `cattle worker`, `farmhand`, `drover` | `stockman` |
+| `dynamo` | [basic](#basic) | `dynamo` | `man of action` |
+| `emcee` | [basic](#basic) | `presenter`, `emcee` | `hostess`, `host` |
+| `emcees` | [basic](#basic) | `presenters`, `emcees` | `hostesses`, `hosts` |
 | `emotionally-disturbed` | [basic](#basic) | `emotionally disturbed`, `person with emotional issues` | `unhinged`, `wreck`, `basket case` |
-| `english-master` | [basic](#basic) | `english master` | `english coordinator`, `senior teacher of english` |
-| `englishmen` | [basic](#basic) | `englishmen` | `the english` |
+| `english-coordinator` | [basic](#basic) | `english coordinator`, `senior teacher of english` | `english master` |
+| `entrepreneur` | [basic](#basic) | `business executive`, `entrepreneur`, `business person`, `professional` | `businesswoman`, `salarywoman`, `businessman`, `bossman` |
+| `entrepreneurs` | [basic](#basic) | `business executives`, `entrepreneurs` | `businesswomen`, `salarywomen`, `career girl`, `career woman`, `businessmen`, `bossmen` |
+| `escort` | [basic](#basic) | `escort`, `prostitute`, `sex worker` | `call girl` |
 | `eskimo` | [basic](#basic) | `eskimo` | `Inuit` |
 | `eskimos` | [basic](#basic) | `eskimos` | `Inuits` |
-| `executrix` | [basic](#basic) | `executrix` | `executor` |
+| `expertise` | [basic](#basic) | `quality construction`, `expertise` | `workmanship` |
 | `fag` | [basic](#basic) | `fag`, `faggot`, `dyke`, `homo`, `sodomite` | `gay` |
 | `failed-suicide` | [basic](#basic) | `failed suicide`, `failed attempt`, `suicide failure` | `suicide attempt`, `attempted suicide` |
-| `father-of-*` | [basic](#basic) | `father of *` | `founder of` |
-| `father-tongue-mother-tongue` | [or](#or) | `mother tongue` (female), `father tongue` (male) | `native tongue`, `native language` |
-| `fatherland-motherland` | [or](#or) | `motherland` (female), `fatherland` (male) | `native land`, `homeland` |
-| `fellowship` | [basic](#basic) | `fellowship` | `camaraderie`, `community`, `organization` |
-| `females-males` | [or](#or) | `females` (female), `males` (male) | `humans` |
-| `feminin-manly` | [or](#or) | `feminin` (female), `dudely` (male), `manly` (male) | `humanly`, `mature` |
-| `femininity-manliness` | [or](#or) | `femininity` (female), `manliness` (male) | `humanity` |
-| `fireman-firewoman` | [or](#or) | `firewoman` (female), `fireman` (male) | `fire fighter`, `fire officer` |
-| `firemen-firewomen` | [or](#or) | `firewomen` (female), `firemen` (male) | `fire fighters` |
-| `fisherman-fisherwoman` | [or](#or) | `fisherwoman` (female), `fisherman` (male) | `fisher`, `crew member`, `fisherfolk`, `angler` |
-| `fishermen-fisherwomen` | [or](#or) | `fisherwomen` (female), `fishermen` (male) | `fishers` |
-| `forefather-foremother` | [or](#or) | `foremother` (female), `forefather` (male) | `ancestor` |
-| `forefathers-foremothers` | [or](#or) | `foremothers` (female), `forefathers` (male) | `ancestors` |
-| `foreman-forewoman` | [or](#or) | `forewoman` (female), `foreman` (male) | `supervisor`, `shift boss` |
-| `foremen-forewomen` | [or](#or) | `forewomen` (female), `foremen` (male) | `supervisors`, `shift bosses` |
-| `founding-father` | [basic](#basic) | `founding father` | `the founders`, `founding leaders`, `forebears` |
-| `frenchmen` | [basic](#basic) | `frenchmen` | `french`, `the french` |
-| `freshman` | [basic](#basic) | `freshman`, `freshwoman` | `first-year student`, `fresher` |
-| `freshmen-freshwomen` | [or](#or) | `freshwomen` (female), `freshmen` (male) | `first-year students`, `freshers` |
-| `front-men,-frontmen-front-women,-frontwomen` | [or](#or) | `front women, frontwomen` (female), `front men, frontmen` (male) | `figureheads` |
-| `frontman,-front-man-frontwoman,-front-woman` | [or](#or) | `frontwoman, front woman` (female), `frontman, front man` (male) | `lead`, `front`, `figurehead` |
-| `gal-guy` | [or](#or) | `woman` (female), `gal` (female), `lady` (female), `babe` (female), `bimbo` (female), `chick` (female), `guy` (male), `lad` (male), `fellow` (male), `dude` (male), `bro` (male), `gentleman` (male) | `person`, `friend`, `pal`, `folk`, `individual` |
-| `gals-man` | [or](#or) | `women` (female), `girls` (female), `gals` (female), `ladies` (female), `man` (male), `boys` (male), `men` (male), `guys` (male), `dudes` (male), `gents` (male), `gentlemen` (male) | `people`, `persons`, `folks` |
-| `garbageman-garbagewoman` | [or](#or) | `garbagewoman` (female), `garbageman` (male) | `garbage collector`, `waste collector`, `trash collector` |
-| `garbagemen-garbagewomen` | [or](#or) | `garbagewomen` (female), `garbagemen` (male) | `garbage collectors`, `waste collectors`, `trash collectors` |
+| `fair` | [basic](#basic) | `fair`, `sporting` | `sportsmanlike` |
+| `fairness` | [basic](#basic) | `fairness`, `sense of fair play` | `sportsmanship` |
+| `farmer` | [basic](#basic) | `farmer`, `rural worker`, `grazier`, `landowner` | `man of the land` |
+| `figureheads` | [basic](#basic) | `figureheads` | `front women`, `frontwomen`, `front men`, `frontmen` |
+| `fire-fighter` | [basic](#basic) | `fire fighter`, `fire officer` | `firewoman`, `fireman` |
+| `fire-fighters` | [basic](#basic) | `fire fighters` | `firewomen`, `firemen` |
+| `first-flight` | [basic](#basic) | `first flight` | `maiden flight` |
+| `first-voyage` | [basic](#basic) | `first voyage` | `maiden voyage` |
+| `fisher` | [basic](#basic) | `fisher`, `crew member`, `fisherfolk`, `angler` | `fisherwoman`, `fisherman` |
+| `fishers` | [basic](#basic) | `fishers` | `fisherwomen`, `fishermen` |
+| `flight-attendant` | [basic](#basic) | `flight attendant` | `stewardess`, `steward` |
+| `flight-attendants` | [basic](#basic) | `flight attendants` | `stewardesses`, `stewards` |
+| `folks` | [basic](#basic) | `people`, `persons`, `folks` | `women`, `girls`, `gals`, `ladies`, `man`, `boys`, `men`, `guys`, `dudes`, `gents`, `gentlemen` |
+| `forebears` | [basic](#basic) | `the founders`, `founding leaders`, `forebears` | `founding fathers` |
+| `founder-of` | [basic](#basic) | `founder of`, `founding leader` | `father of *`, `founding father` |
+| `french` | [basic](#basic) | `french`, `the french` | `frenchmen` |
+| `fresher` | [basic](#basic) | `firstyear student`, `fresher` | `freshman`, `freshwoman` |
+| `freshers` | [basic](#basic) | `firstyear students`, `freshers` | `freshwomen`, `freshmen` |
 | `gay-agenda` | [basic](#basic) | `gay agenda`, `homosexual agenda` | `gay issues` |
 | `gay-lifestyle` | [basic](#basic) | `gay lifestyle`, `homosexual lifestyle` | `gay lives`, `gay/lesbian lives` |
 | `gay-rights` | [basic](#basic) | `special rights`, `gay rights` | `equal rights`, `civil rights for gay people` |
+| `gender-expression` | [basic](#basic) | `gender expression` | `femininity`, `manliness` |
 | `gender-pronoun` | [basic](#basic) | `preferred pronoun`, `preferred pronouns`, `gender pronoun`, `gender pronouns` | `pronoun`, `pronouns` |
 | `ghetto` | [basic](#basic) | `ghetto` | `projects`, `urban` |
-| `godfather-godmother` | [or](#or) | `godmother` (female), `patroness` (female), `godfather` (male) | `godparent`, `elder`, `patron` |
+| `gobetween` | [basic](#basic) | `intermediary`, `gobetween` | `middlewoman`, `middleman` |
+| `gobetweens` | [basic](#basic) | `intermediaries`, `gobetweens` | `middlewomen`, `middlemen` |
+| `godparent` | [basic](#basic) | `godparent` | `godmother`, `patroness`, `godfather` |
 | `goy` | [basic](#basic) | `goyim`, `goyum`, `goy` | `a person who is not Jewish`, `not Jewish` |
-| `gramps-granny` | [or](#or) | `granny` (female), `grandma` (female), `grandmother` (female), `grandpappy` (male), `granddaddy` (male), `gramps` (male), `grandpa` (male), `grandfather` (male) | `grandparent`, `ancestor` |
-| `granddaughter-grandson` | [or](#or) | `granddaughter` (female), `grandson` (male) | `grandchild` |
-| `granddaughters-grandsons` | [or](#or) | `granddaughters` (female), `grandsons` (male) | `grandchildren` |
+| `graduate` | [basic](#basic) | `graduate` | `alumna`, `alumnus` |
+| `graduates` | [basic](#basic) | `graduates` | `alumnae`, `alumni` |
+| `grand-scheme` | [basic](#basic) | `grand scheme`, `guiding principles` | `master plan` |
+| `grandchild` | [basic](#basic) | `grandchild` | `granddaughter`, `grandson` |
+| `grandchildren` | [basic](#basic) | `grandchildren` | `granddaughters`, `grandsons` |
 | `grandfather-clause` | [basic](#basic) | `grandfather clause`, `grandfather policy` | `legacy policy`, `legacy clause`, `deprecation policy` |
 | `grandfathered` | [basic](#basic) | `grandfathered` | `deprecated`, `legacy` |
 | `grandfathering` | [basic](#basic) | `grandfathering` | `deprecate` |
-| `grandfathers-grandmothers` | [or](#or) | `grandmothers` (female), `grandfathers` (male) | `grandparents`, `ancestors` |
+| `grandparent` | [basic](#basic) | `grandparent` | `granny`, `grandma`, `grandmother`, `grandpappy`, `granddaddy`, `gramps`, `grandpa`, `grandfather` |
+| `grandparents` | [basic](#basic) | `grandparents` | `grandmothers`, `grandfathers` |
 | `gyp` | [basic](#basic) | `gyppo`, `gypsy`, `Gipsy`, `gyp` | `Nomad`, `Traveler`, `Roma`, `Romani` |
 | `handicapable` | [basic](#basic) | `person with a disability`, `disabled person`, `handicapable`, `differently abled`, `person living with a disability` | `cripple`, `handicapped`, `invalid`, `gimpy`, `broken` |
-| `handyman-handywoman` | [or](#or) | `handywoman` (female), `craftswoman` (female), `handyman` (male), `craftsman` (male) | `artisan`, `craftsperson`, `skilled worker` |
-| `handymen-handywomen` | [or](#or) | `handywomen` (female), `craftswomen` (female), `handymen` (male), `craftsmen` (male) | `artisans`, `craftspersons`, `skilled workers` |
 | `hang` | [basic](#basic) | `hang`, `hanged` | `the app froze`, `the app stopped responding`, `the app stopped responding to events`, `the app became unresponsive` |
-| `hangman-hangwoman` | [or](#or) | `hangwoman` (female), `hangman` (male) | `guillotine` |
-| `hangmen-hangwomen` | [or](#or) | `hangwomen` (female), `hangmen` (male) | `guillotines` |
-| `he-she` | [or](#or) | `she` (female), `he` (male), `she'd` (female), `he'd` (male), `she'll` (female), `he'll` (male), `she's` (female), `he's` (male) | `they`, `it` |
+| `head` | [basic](#basic) | `chair`, `head`, `chairperson`, `coordinator`, `committee head`, `moderator`, `presiding officer` | `chairwoman`, `chairman` |
 | `hearing-impaired` | [basic](#basic) | `hearing impaired`, `person with hearing loss` | `deaf`, `hard of hearing` |
-| `henchman-henchwoman` | [or](#or) | `henchwoman` (female), `henchman` (male) | `sidekick` |
-| `henchmen-henchwomen` | [or](#or) | `henchwomen` (female), `henchmen` (male) | `sidekicks` |
-| `her-him` | [or](#or) | `her` (female), `hers` (female), `him` (male), `his` (male) | `their`, `theirs`, `them` |
+| `heir` | [basic](#basic) | `heir` | `princess`, `prince` |
+| `heirs` | [basic](#basic) | `heirs` | `princesses`, `princes` |
 | `hermaphrodite` | [basic](#basic) | `hermaphrodite`, `pseudohermaphrodite`, `pseudo hermaphrodite` | `person who is intersex`, `person`, `intersex person` |
 | `hermaphroditic` | [basic](#basic) | `hermaphroditic`, `pseudohermaphroditic`, `pseudo hermaphroditic` | `intersex` |
-| `hero-heroine` | [or](#or) | `heroine` (female), `hero` (male) | `role-model`, `mentor` |
-| `heroes-heroines` | [or](#or) | `heroines` (female), `heroes` (male) | `role-models`, `mentor` |
-| `herself-himself` | [or](#or) | `herself` (female), `himself` (male) | `themselves`, `theirself`, `self` |
 | `heshe` | [basic](#basic) | `shemale`, `she male`, `heshe`, `shehe` | `transgender person`, `person` |
+| `homeland` | [basic](#basic) | `native land`, `homeland` | `motherland`, `fatherland` |
+| `homemaker` | [basic](#basic) | `homemaker`, `homeworker` | `housewife` |
+| `homemakers` | [basic](#basic) | `homemakers`, `homeworkers` | `housewives` |
+| `hominidae` | [basic](#basic) | `hominidae`, `caveperson` | `cavewoman`, `caveman`, `troglodyte` |
+| `hominids` | [basic](#basic) | `hominids`, `cavepeople` | `cavewomen`, `cavemen`, `troglodytes` |
 | `homosexual` | [basic](#basic) | `homosexual` | `gay`, `gay man`, `lesbian`, `gay person/people` |
 | `homosexual-couple` | [basic](#basic) | `homosexual couple` | `couple` |
 | `homosexual-marriage` | [basic](#basic) | `homosexual marriage` | `gay marriage`, `same-sex marriage` |
 | `homosexual-relations` | [basic](#basic) | `homosexual relations`, `homosexual relationship` | `relationship` |
-| `host-hostess` | [or](#or) | `hostess` (female), `host` (male) | `presenter`, `entertainer`, `emcee` |
-| `hostesses-hosts` | [or](#or) | `hostesses` (female), `hosts` (male) | `presenters`, `entertainers`, `emcees` |
-| `housemaid` | [basic](#basic) | `housemaid` | `house worker`, `domestic help` |
-| `housewife` | [basic](#basic) | `housewife` | `homemaker`, `homeworker` |
-| `housewives` | [basic](#basic) | `housewives` | `homemakers`, `homeworkers` |
-| `husband-wife` | [or](#or) | `wife` (female), `husband` (male) | `partner`, `significant other`, `spouse` |
-| `husbands-wives` | [or](#or) | `wives` (female), `husbands` (male) | `partners`, `significant others`, `spouses` |
+| `hours` | [basic](#basic) | `staff hours`, `hours of work`, `hours of labor`, `hours` | `manhours`, `man hours` |
+| `house-worker` | [basic](#basic) | `house worker`, `domestic help` | `housemaid` |
+| `humankind` | [basic](#basic) | `humankind` | `mankind` |
+| `humans` | [basic](#basic) | `humans` | `females`, `males` |
 | `hymie` | [basic](#basic) | `shlomo`, `shyster`, `hymie` | `Jewish person` |
 | `inclusive-language` | [basic](#basic) | `inclusive language` | |
 | `indian-country` | [basic](#basic) | `Indian country` | `enemy territory` |
 | `indian-give` | [basic](#basic) | `indian give`, `indian giver` | `go back on one’s offer` |
-| `industrial-man` | [basic](#basic) | `industrial man` | `industrial civilization`, `industrial people` |
-| `insurance-man-insurance-woman` | [or](#or) | `insurance woman` (female), `insurance man` (male) | `insurance agent` |
-| `insurance-men-insurance-women` | [or](#or) | `insurance women` (female), `insurance men` (male) | `insurance agents` |
+| `industrial-people` | [basic](#basic) | `industrial civilization`, `industrial people` | `industrial man` |
+| `insurance-agent` | [basic](#basic) | `insurance agent` | `insurance woman`, `insurance man` |
+| `insurance-agents` | [basic](#basic) | `insurance agents` | `insurance women`, `insurance men` |
 | `intellectually-disabled-person` | [basic](#basic) | `person with an intellectual disability`, `intellectually disabled person`, `individual with cognitive impairments` | `moron`, `idiot`, `imbecile`, `dimwit`, `thick` |
 | `islamist` | [basic](#basic) | `islamist` | `muslim`, `person of Islamic faith`, `fanatic`, `zealot`, `follower of islam`, `follower of the islamic faith` |
 | `islamists` | [basic](#basic) | `islamists` | `muslims`, `people of Islamic faith`, `fanatics`, `zealots` |
-| `janitor-janitress` | [or](#or) | `cleaning lady` (female), `cleaning girl` (female), `cleaning woman` (female), `janitress` (female), `cleaning man` (male), `cleaning boy` (male), `janitor` (male) | `cleaner` |
-| `janitors-janitresses` | [or](#or) | `cleaning ladies` (female), `cleaning girls` (female), `janitresses` (female), `cleaning men` (male), `janitors` (male) | `cleaners`, `housekeeping` |
 | `japs` | [basic](#basic) | `japs` | `Japanese person`, `Japanese people` |
-| `journeyman-journeywoman` | [or](#or) | `journeywoman` (female), `journeyman` (male) | `journeyperson` |
-| `journeymen-journeywomen` | [or](#or) | `journeywomen` (female), `journeymen` (male) | `journeypersons` |
-| `king-queen` | [or](#or) | `empress` (female), `queen` (female), `emperor` (male), `king` (male) | `ruler` |
-| `kingmaker-queenmaker` | [or](#or) | `queenmaker` (female), `kingmaker` (male) | `power behind the throne` |
-| `kings-queens` | [or](#or) | `empresses` (female), `queens` (female), `emperors` (male), `kings` (male) | `rulers` |
-| `kingsize-queensize` | [or](#or) | `queensize` (female), `kingsize` (male) | `jumbo`, `gigantic` |
-| `lady-doctor` | [basic](#basic) | `lady doctor` | `doctor` |
-| `ladylike` | [basic](#basic) | `ladylike` | `courteous`, `cultured` |
-| `landladies-landlords` | [or](#or) | `landladies` (female), `landlords` (male) | `proprietors`, `building managers` |
-| `landlady-landlord` | [or](#or) | `landlady` (female), `landlord` (male) | `proprietor`, `building manager` |
+| `journeyperson` | [basic](#basic) | `journeyperson` | `journeywoman`, `journeyman` |
+| `journeypersons` | [basic](#basic) | `journeypersons` | `journeywomen`, `journeymen` |
+| `jumbo` | [basic](#basic) | `jumbo`, `gigantic` | `queensize`, `kingsize` |
+| `kid` | [basic](#basic) | `kid`, `youth` | `girl`, `boy` |
+| `kinship` | [basic](#basic) | `kinship`, `community` | `sisterhood`, `brotherhood` |
 | `latino` | [basic](#basic) | `latino`, `latina` | `Latinx` |
-| `layman-laywoman` | [or](#or) | `laywoman` (female), `layman` (male) | `civilian` |
-| `laymen-laywomen` | [or](#or) | `laywomen` (female), `laymen` (male) | `civilians` |
-| `leading-lady` | [basic](#basic) | `leading lady` | `lead` |
+| `lead` | [basic](#basic) | `lead`, `front`, `figurehead` | `frontwoman`, `front woman`, `frontman`, `front man`, `leading lady` |
 | `learningdisabled-person` | [basic](#basic) | `person with a learning disability`, `learningdisabled person` | `slow learner`, `dull`, `backward` |
-| `like-a-man` | [basic](#basic) | `like a man` | `resolutely`, `bravely` |
+| `legislator` | [basic](#basic) | `member of congress`, `congress person`, `legislator`, `representative` | `congresswoman`, `congressman` |
+| `legislators` | [basic](#basic) | `members of congress`, `congress persons`, `legislators`, `representatives` | `congresswomen`, `congressmen` |
 | `limping-person` | [basic](#basic) | `person with a limp`, `limping person` | `lame`, `gimp`, `hobbly`, `crook-leg` |
 | `long-time-no-see` | [basic](#basic) | `long time no hear`, `long time no see` | `I haven’t seen you in a long time`, `it’s been a long time` |
-| `madman` | [basic](#basic) | `madman`, `mad man` | `fanatic`, `zealot`, `enthusiast` |
-| `madmen` | [basic](#basic) | `madmen`, `mad men` | `fanatics`, `zealots`, `enthusiasts` |
-| `maiden` | [basic](#basic) | `maiden` | `virgin` |
-| `maiden-flight` | [basic](#basic) | `maiden flight` | `first flight` |
-| `maiden-name` | [basic](#basic) | `maiden name` | `birth name` |
-| `maiden-race` | [basic](#basic) | `maiden race` | `first race` |
-| `maiden-speech` | [basic](#basic) | `maiden speech` | `first speech` |
-| `maiden-voyage` | [basic](#basic) | `maiden voyage` | `first voyage` |
+| `loving` | [basic](#basic) | `loving`, `nurturing` | `motherly` |
+| `mail-carrier` | [basic](#basic) | `mail carrier`, `letter carrier`, `postal worker` | `postwoman`, `mailwoman`, `postman`, `mailman` |
+| `mail-carriers` | [basic](#basic) | `mail carriers`, `letter carriers`, `postal workers` | `postwomen`, `mailwomen`, `postmen`, `mailmen` |
 | `make-*-great-again` | [basic](#basic) | `make * great again`, `make * * great again`, `make * * * great again`, `make * * * * great again`, `make * * * * * great again` | `improve` |
-| `man-a-desk` | [basic](#basic) | `man a desk` | `staff a desk` |
-| `man-enough` | [basic](#basic) | `man enough` | `strong enough` |
-| `man-in-the-street` | [basic](#basic) | `man in the street` | `ordinary citizen`, `typical person`, `average person` |
-| `man-of-action` | [basic](#basic) | `man of action` | `dynamo` |
-| `man-of-letters` | [basic](#basic) | `man of letters` | `scholar`, `writer`, `literary figure` |
-| `man-of-the-land` | [basic](#basic) | `man of the land` | `farmer`, `rural worker`, `grazier`, `landowner`, `rural community`, `country people`, `country folk` |
-| `man-of-the-world` | [basic](#basic) | `man of the world` | `sophisticate` |
-| `man-the-booth` | [basic](#basic) | `man the booth` | `staff the booth` |
 | `man-the-fort` | [basic](#basic) | `man the fort` | `keep an eye on things`, `keep shop`, `provide coverage`, `cover things`, `take charge` |
-| `man-the-phones` | [basic](#basic) | `man the phones` | `answer the phones` |
-| `manhood-womanhood` | [or](#or) | `womanhood` (female), `masculinity` (male), `manhood` (male) | `adulthood`, `personhood`, `maturity` |
-| `manhour` | [basic](#basic) | `manhour`, `man hour` | `staff hour`, `hour of work` |
-| `manhours` | [basic](#basic) | `manhours`, `man hours` | `staff hours`, `hours of work`, `hours of labor`, `hours` |
-| `mankind` | [basic](#basic) | `mankind` | `humankind` |
-| `manmade` | [basic](#basic) | `manmade` | `manufactured`, `artificial`, `synthetic`, `machine-made`, `constructed` |
-| `manned` | [basic](#basic) | `manned` | `staffed`, `crewed`, `piloted` |
-| `manpower` | [basic](#basic) | `manpower` | `human resources`, `workforce`, `personnel`, `staff`, `labor`, `labor force`, `staffing`, `combat personnel` |
-| `mans-best-friend` | [basic](#basic) | `mans best friend` | `a faithful dog` |
-| `mansized-task` | [basic](#basic) | `mansized task`, `man sized task` | `a demanding task`, `a big job` |
-| `marksman-markswoman` | [or](#or) | `markswoman` (female), `marksman` (male) | `shooter` |
-| `marksmen-markswomen` | [or](#or) | `markswomen` (female), `marksmen` (male) | `shooters` |
 | `master` | [basic](#basic) | `master` | `primary`, `lead`, `hub`, `reference` |
-| `master-key` | [basic](#basic) | `master key`, `master copy` | `pass key`, `original` |
-| `master-of-ceremonies` | [basic](#basic) | `master of ceremonies` | `emcee`, `moderator`, `convenor` |
-| `master-plan` | [basic](#basic) | `master plan` | `grand scheme`, `guiding principles` |
-| `master-the-art` | [basic](#basic) | `master the art` | `become skilled` |
-| `masterful` | [basic](#basic) | `masterful` | `skilled`, `authoritative`, `commanding` |
-| `mastermind` | [basic](#basic) | `mastermind` | `genius`, `creator`, `instigator`, `oversee`, `launch`, `originate` |
-| `masterpiece` | [basic](#basic) | `masterpiece` | `work of genius`, `chef d’oeuvre` |
-| `masterplan` | [basic](#basic) | `masterplan` | `vision`, `comprehensive plan` |
 | `masters` | [basic](#basic) | `masters` | `primaries`, `hubs`, `references` |
-| `masterstroke` | [basic](#basic) | `masterstroke` | `trump card`, `stroke of genius` |
-| `maternal-paternal` | [or](#or) | `maternal` (female), `paternal` (male), `fraternal` (male) | `parental`, `warm`, `intimate` |
-| `maternity-paternity` | [or](#or) | `maternity` (female), `paternity` (male) | `parental` |
-| `men-of-science` | [basic](#basic) | `men of science` | `scientists` |
+| `mature` | [basic](#basic) | `humanly`, `mature` | `feminin`, `dudely`, `manly` |
+| `maturity` | [basic](#basic) | `adulthood`, `personhood`, `maturity` | `womanhood`, `masculinity`, `manhood` |
 | `mentally-ill-person` | [basic](#basic) | `person with mental illness`, `mentally ill person`, `individual with mental health issues`, `person with symptoms of mental illness` | `psycho`, `crazy`, `lunatic`, `madman`, `nutcase`, `whacko` |
+| `mentor` | [basic](#basic) | `rolemodel`, `mentor` | `heroine`, `hero` |
+| `mentors` | [basic](#basic) | `rolemodels`, `mentors` | `heroines`, `heroes` |
+| `meteorologist` | [basic](#basic) | `weather forecaster`, `meteorologist` | `weatherwoman`, `weatherman` |
+| `meteorologists` | [basic](#basic) | `weather forecasters`, `meteorologists` | `weatherwomen`, `weathermen` |
 | `microaggression` | [basic](#basic) | `microaggression`, `microaggressions` | |
-| `middleman-middlewoman` | [or](#or) | `middlewoman` (female), `middleman` (male) | `intermediary`, `go-between` |
-| `middlemen-middlewomen` | [or](#or) | `middlewomen` (female), `middlemen` (male) | `intermediaries`, `go-betweens` |
-| `midwife` | [basic](#basic) | `midwife` | `birthing nurse` |
-| `milkman-milkwoman` | [or](#or) | `milkwoman` (female), `milkman` (male) | `milk person` |
-| `milkmen-milkwomen` | [or](#or) | `milkwomen` (female), `milkmen` (male) | `milk people` |
-| `moan` | [basic](#basic) | `bitch`, `moan` | `whine`, `complain`, `cry` |
-| `moaning` | [basic](#basic) | `bitching`, `moaning` | `whining`, `complaining`, `crying` |
+| `milk-people` | [basic](#basic) | `milk people` | `milkwomen`, `milkmen` |
+| `milk-person` | [basic](#basic) | `milk person` | `milkwoman`, `milkman` |
 | `mobility-challenged` | [basic](#basic) | `mobility challenged`, `person with mobility issues` | `stiff`, `clunky`, `immobile` |
-| `modern-man` | [basic](#basic) | `modern man` | `modern civilization`, `modern people` |
-| `motherly` | [basic](#basic) | `motherly` | `loving`, `warm`, `nurturing` |
-| `mrs-` | [basic](#basic) | `miss.`, `mrs.` | `ms.` |
+| `modern-people` | [basic](#basic) | `modern civilization`, `modern people` | `modern man` |
+| `native-tongue` | [basic](#basic) | `native tongue`, `native language` | `mother tongue`, `father tongue` |
 | `natives-are-restless` | [basic](#basic) | `natives are restless`, `natives are becoming restless`, `natives are getting restless`, `natives are growing restless` | `dissatisfied`, `frustrated` |
-| `nephew-niece` | [or](#or) | `niece` (female), `nephew` (male) | `nibling`, `sibling’s child` |
-| `nephews-nieces` | [or](#or) | `nieces` (female), `nephews` (male) | `niblings`, `sibling’s children` |
 | `neurodiverse` | [basic](#basic) | `neurodiverse`, `neuroatypical` | `weird`, `odd`, `eccentric` |
-| `newsman-newswoman` | [or](#or) | `newswoman` (female), `newspaperwoman` (female), `anchorwoman` (female), `newsman` (male), `newspaperman` (male), `anchorman` (male) | `anchor`, `journalist` |
-| `newsmen-newswomen` | [or](#or) | `newswomen` (female), `newspaperwomen` (female), `anchorwomen` (female), `newsmen` (male), `newspapermen` (male), `anchormen` (male) | `anchors`, `journalists` |
-| `no-mans-land` | [basic](#basic) | `no mans land` | `unoccupied territory`, `wasteland`, `deathtrap` |
-| `nobleman-noblewoman` | [or](#or) | `noblewoman` (female), `nobleman` (male) | `noble` |
-| `noblemen-noblewomen` | [or](#or) | `noblewomen` (female), `noblemen` (male) | `nobles` |
+| `newlywed` | [basic](#basic) | `newlywed` | `bride`, `groom` |
+| `nibling` | [basic](#basic) | `nibling`, `sibling’s child` | `niece`, `nephew` |
+| `niblings` | [basic](#basic) | `niblings`, `sibling’s children` | `nieces`, `nephews` |
+| `noble` | [basic](#basic) | `noble` | `noblewoman`, `nobleman` |
+| `nobles` | [basic](#basic) | `nobles` | `noblewomen`, `noblemen` |
 | `nonwhite` | [basic](#basic) | `nonwhite`, `non white` | `person of color`, `people of color` |
+| `notaries` | [basic](#basic) | `notaries`, `omsbudpersons`, `omsbudpeople`, `mediators` | `ombudswomen`, `ombudsmen` |
+| `notary` | [basic](#basic) | `notary`, `consumer advocate`, `trouble shooter`, `omsbudperson`, `mediator` | `ombudswoman`, `ombudsman` |
 | `off-reserve` | [basic](#basic) | `jump the reservation`, `off reserve`, `off the reservation` | `disobey`, `endure`, `object to`, `oppose`, `resist` |
-| `office-girls` | [basic](#basic) | `office girls` | `administrative staff` |
-| `ombudsman-ombudswoman` | [or](#or) | `ombudswoman` (female), `ombudsman` (male) | `notary`, `consumer advocate`, `trouble shooter`, `omsbudperson`, `mediator` |
-| `ombudsmen-ombudswomen` | [or](#or) | `ombudswomen` (female), `ombudsmen` (male) | `notaries`, `omsbudpersons`, `omsbudpeople`, `mediators` |
+| `officer` | [basic](#basic) | `officer`, `police officer` | `policewoman`, `policeman`, `chick cop` |
+| `officers` | [basic](#basic) | `officers`, `police officers` | `policewomen`, `policemen`, `chick cops` |
 | `on-the-warpath` | [basic](#basic) | `circle the wagons`, `on the warpath` | `defend` |
-| `oneupmanship` | [basic](#basic) | `oneupmanship` | `upstaging`, `competitiveness` |
 | `oriental` | [basic](#basic) | `oriental` | `Asian person` |
 | `orientals` | [basic](#basic) | `orientals` | `Asian people` |
-| `own-man-own-woman` | [or](#or) | `own woman` (female), `own man` (male) | `own person` |
+| `own-person` | [basic](#basic) | `own person` | `own woman`, `own man` |
+| `owner` | [basic](#basic) | `official`, `owner`, `expert`, `superior`, `chief` | `dame`, `lord` |
+| `pal` | [basic](#basic) | `person`, `friend`, `pal`, `folk`, `individual` | `woman`, `gal`, `lady`, `babe`, `bimbo`, `chick`, `guy`, `lad`, `fellow`, `dude`, `bro`, `gentleman` |
+| `parent` | [basic](#basic) | `parent` | `mama`, `mother`, `mom`, `mum`, `momma`, `mommy`, `papa`, `father`, `dad`, `pop`, `daddy` |
+| `parental` | [basic](#basic) | `parental` | `maternity`, `paternity` |
+| `parents` | [basic](#basic) | `parents` | `mamas`, `mothers`, `moms`, `mums`, `mommas`, `mommies`, `papas`, `fathers`, `dads`, `daddies` |
+| `pass-key` | [basic](#basic) | `pass key`, `original` | `master key`, `master copy` |
+| `pilot` | [basic](#basic) | `pilot`, `aviator`, `airstaff`, `pilots`, `aviators` | `aircrewwoman`, `aircrew woman`, `aircrewman`, `airman`, `aircrewwomen`, `aircrew women`, `aircrewmen`, `airmen`, `aviatrix` |
 | `pinoys` | [basic](#basic) | `pinoys`, `pinays` | `Filipinos`, `Filipino people` |
-| `poetess` | [basic](#basic) | `poetess` | `poet` |
-| `policemen-policewomen` | [or](#or) | `policewomen` (female), `policemen` (male) | `officers`, `police officers` |
-| `postman-postwoman` | [or](#or) | `postwoman` (female), `mailwoman` (female), `postman` (male), `mailman` (male) | `mail carrier`, `letter carrier`, `postal worker` |
-| `postmen-postwomen` | [or](#or) | `postwomen` (female), `mailwomen` (female), `postmen` (male), `mailmen` (male) | `mail carriers`, `letter carriers`, `postal workers` |
+| `power-behind-the-throne` | [basic](#basic) | `power behind the throne` | `queenmaker`, `kingmaker` |
 | `powwow` | [basic](#basic) | `pow wow`, `powwow` | `conference`, `gathering`, `meeting` |
-| `prince-princess` | [or](#or) | `princess` (female), `prince` (male) | `heir` |
-| `princes-princesses` | [or](#or) | `princesses` (female), `princes` (male) | `heirs` |
+| `promoter` | [basic](#basic) | `promoter` | `showwoman`, `showman` |
+| `promoters` | [basic](#basic) | `promoters` | `showwomen`, `show women`, `showmen` |
+| `proprietor` | [basic](#basic) | `proprietor`, `building manager` | `landlady`, `landlord` |
+| `proprietors` | [basic](#basic) | `proprietors`, `building managers` | `landladies`, `landlords` |
 | `pull-the-trigger` | [basic](#basic) | `pull the trigger` | `go for it`, `take a chance`, `make a move`, `take action` |
-| `railwayman` | [basic](#basic) | `railwayman` | `railway worker` |
+| `railway-worker` | [basic](#basic) | `railway worker` | `railwayman` |
 | `redskin` | [basic](#basic) | `red indian`, `pocahontas`, `redskin` | `Native American` |
 | `redskins` | [basic](#basic) | `red indians`, `redskins` | `Native American People` |
-| `repairman-repairwoman` | [or](#or) | `repairwoman` (female), `repairman` (male) | `repairer`, `technician` |
-| `repairmen-repairwomen` | [or](#or) | `repairwomen` (female), `repairmen` (male) | `technicians` |
+| `relative` | [basic](#basic) | `relative` | `kinswoman`, `aunt`, `kinsman`, `uncle` |
+| `relatives` | [basic](#basic) | `relatives` | `kinswomen`, `aunts`, `kinsmen`, `uncles` |
+| `repairer` | [basic](#basic) | `repairer`, `technician` | `repairwoman`, `repairman` |
+| `robotic` | [basic](#basic) | `robotic`, `automated` | `unmanned` |
+| `ruler` | [basic](#basic) | `ruler` | `empress`, `queen`, `emperor`, `king`, `Trump` |
+| `rulers` | [basic](#basic) | `rulers` | `empresses`, `queens`, `emperors`, `kings`, `Trump family` |
 | `safe-space` | [basic](#basic) | `safe space`, `safe spaces` | |
-| `salaryman-salarywoman` | [or](#or) | `businesswoman` (female), `salarywoman` (female), `businessman` (male), `salaryman` (male) | `business executive`, `entrepreneur`, `business person`, `professional` |
-| `salarymen-salarywomen` | [or](#or) | `businesswomen` (female), `salarywomen` (female), `career girl` (female), `career woman` (female), `businessmen` (male), `salarymen` (male) | `business executives`, `entrepreneurs` |
-| `saleslady-salesman` | [or](#or) | `saleswoman` (female), `sales woman` (female), `saleslady` (female), `salesman` (male), `sales man` (male) | `salesperson`, `sales clerk`, `sales rep`, `sales agent`, `sales attendant`, `seller`, `shop assistant` |
-| `salesmen-saleswomen` | [or](#or) | `saleswomen` (female), `sales women` (female), `salesladies` (female), `salesmen` (male), `sales men` (male) | `sales clerks`, `sales reps`, `sales agents`, `sellers` |
-| `sandman-sandwoman` | [or](#or) | `sandwoman` (female), `sandman` (male) | `fairy` |
-| `sandmen-sandwomen` | [or](#or) | `sandwomen` (female), `sandmen` (male) | `fairies` |
 | `savage` | [basic](#basic) | `primitive`, `savage`, `stone age` | `simple`, `indigenous`, `hunter-gatherer` |
-| `serviceman-servicewoman` | [or](#or) | `servicewoman` (female), `serviceman` (male) | `soldier`, `service representative` |
-| `servicemen-servicewomen` | [or](#or) | `servicewomen` (female), `servicemen` (male) | `soldiers`, `service representatives` |
+| `scientists` | [basic](#basic) | `scientists` | `men of science` |
+| `seller` | [basic](#basic) | `salesperson`, `sales clerk`, `sales rep`, `sales agent`, `sales attendant`, `seller`, `shop assistant` | `saleswoman`, `sales woman`, `saleslady`, `salesman`, `sales man` |
+| `sellers` | [basic](#basic) | `sales clerks`, `sales reps`, `sales agents`, `sellers` | `saleswomen`, `sales women`, `salesladies`, `salesmen`, `sales men` |
+| `senator` | [basic](#basic) | `senator` | `stateswoman`, `statesman` |
+| `server` | [basic](#basic) | `server` | `waitress`, `waiter` |
+| `servers` | [basic](#basic) | `servers` | `waitresses`, `waiters` |
+| `service-entrance` | [basic](#basic) | `service entrance` | `tradesmans entrance` |
 | `sex-change-operation` | [basic](#basic) | `sex change operation` | `sex reassignment surgery`, `gender confirmation surgery` |
 | `sexchange` | [basic](#basic) | `sexchange`, `sex change` | `transition`, `gender confirmation surgery` |
 | `sexual-preference` | [basic](#basic) | `sexual preference` | `sexual orientation`, `orientation` |
-| `showman-showwoman` | [or](#or) | `showwoman` (female), `showman` (male) | `promoter` |
-| `showmen-showwomen` | [or](#or) | `showwomen` (female), `show women` (female), `showmen` (male) | `promoters` |
+| `shooter` | [basic](#basic) | `shooter` | `markswoman`, `marksman` |
+| `shooters` | [basic](#basic) | `shooters` | `markswomen`, `marksmen` |
+| `sibling` | [basic](#basic) | `sibling` | `sister`, `brother` |
+| `siblings` | [basic](#basic) | `siblings` | `sisters`, `brothers` |
+| `sidekick` | [basic](#basic) | `sidekick` | `henchwoman`, `henchman` |
+| `sidekicks` | [basic](#basic) | `sidekicks` | `henchwomen`, `henchmen` |
+| `skilled` | [basic](#basic) | `skilled`, `authoritative`, `commanding` | `masterful` |
 | `slave` | [basic](#basic) | `slave` | `secondary`, `worker`, `replica`, `node` |
 | `slaves` | [basic](#basic) | `slaves` | `secondaries`, `workers`, `replicas`, `nodes` |
+| `soldier` | [basic](#basic) | `soldier`, `service representative` | `servicewoman`, `serviceman` |
+| `soldiers` | [basic](#basic) | `soldiers`, `service representatives` | `servicewomen`, `servicemen` |
+| `sophisticated` | [basic](#basic) | `sophisticated` | `man of the world` |
 | `sophisticated-culture` | [basic](#basic) | `sophisticated culture` | `complex culture` |
 | `sophisticated-technology` | [basic](#basic) | `sophisticated technology` | `complex technology` |
-| `spaceman-spacewoman` | [or](#or) | `spacewoman` (female), `spaceman` (male) | `astronaut` |
-| `spacemen-spacewomen` | [or](#or) | `spacewomen` (female), `spacemen` (male) | `astronauts` |
 | `spade` | [basic](#basic) | `spade` | `a Black person` |
+| `speaker` | [basic](#basic) | `speaker`, `spokesperson` | `spokeswoman`, `spokesman` |
+| `speakers` | [basic](#basic) | `speakers`, `spokespersons` | `spokeswomen`, `spokesmen` |
 | `speechimpaired-person` | [basic](#basic) | `person with a speech impairment`, `speechimpaired person` | `dumb`, `mute`, `stutterer`, `mumbler` |
-| `spokesman-spokeswoman` | [or](#or) | `spokeswoman` (female), `spokesman` (male) | `speaker`, `spokesperson`, `representative` |
-| `spokesmen-spokeswomen` | [or](#or) | `spokeswomen` (female), `spokesmen` (male) | `speakers`, `spokespersons` |
-| `sportsman-sportswoman` | [or](#or) | `sportswoman` (female), `sportsman` (male) | `athlete`, `sports person` |
-| `sportsmanlike` | [basic](#basic) | `sportsmanlike` | `fair`, `sporting` |
-| `sportsmanship` | [basic](#basic) | `sportsmanship` | `fairness`, `good humor`, `sense of fair play` |
-| `sportsmen-sportswomen` | [or](#or) | `sportswomen` (female), `sportsmen` (male) | `athletes`, `sports persons` |
-| `statesman-stateswoman` | [or](#or) | `stateswoman` (female), `statesman` (male) | `senator` |
-| `statesmanlike` | [basic](#basic) | `statesmanlike`, `statesman like` | `diplomatic` |
-| `stepbrother-stepsister` | [or](#or) | `stepsister` (female), `stepbrother` (male) | `step-sibling` |
-| `stepbrothers-stepsisters` | [or](#or) | `stepsisters` (female), `stepbrothers` (male) | `step-siblings` |
-| `stepdad-stepmom` | [or](#or) | `stepmom` (female), `stepmother` (female), `stepdad` (male), `stepfather` (male) | `step-parent` |
-| `stepfathers-stepmothers` | [or](#or) | `stepmothers` (female), `stepfathers` (male) | `step-parents` |
-| `steward-stewardess` | [or](#or) | `stewardess` (female), `steward` (male) | `flight attendant` |
-| `stewardesses-stewards` | [or](#or) | `stewardesses` (female), `stewards` (male) | `flight attendants` |
-| `stockman` | [basic](#basic) | `stockman` | `cattle worker`, `farmhand`, `drover` |
+| `spouse` | [basic](#basic) | `partner`, `significant other`, `spouse` | `wife`, `husband`, `girlfriend`, `boyfriend` |
+| `spouses` | [basic](#basic) | `partners`, `significant others`, `spouses` | `wives`, `husbands`, `girlfriends`, `boyfriends` |
+| `staff` | [basic](#basic) | `human resources`, `workforce`, `personnel`, `staff`, `labor`, `labor force`, `staffing`, `combat personnel` | `manpower` |
+| `staff-a-desk` | [basic](#basic) | `staff a desk` | `man a desk` |
+| `staff-hour` | [basic](#basic) | `staff hour`, `hour of work` | `manhour`, `man hour` |
+| `staff-the-booth` | [basic](#basic) | `staff the booth` | `man the booth` |
+| `star` | [basic](#basic) | `performer`, `star`, `artist`, `entertainer` | `hollywood trash`, `actress`, `actor`, `faker`, `virtue signaler` |
+| `stars` | [basic](#basic) | `performers`, `stars`, `artists`, `entertainers` | `hollywood trash`, `actresses`, `actors`, `faker`, `virtue signaler` |
+| `stepparent` | [basic](#basic) | `stepparent` | `stepmom`, `stepmother`, `stepdad`, `stepfather` |
+| `stepparents` | [basic](#basic) | `stepparents` | `stepmothers`, `stepfathers` |
+| `stepsibling` | [basic](#basic) | `stepsibling` | `stepsister`, `stepbrother` |
+| `stepsiblings` | [basic](#basic) | `stepsiblings` | `stepsisters`, `stepbrothers` |
+| `strong-enough` | [basic](#basic) | `strong enough` | `man enough` |
 | `suicide-note` | [basic](#basic) | `suicide note` | `a note from the deceased` |
 | `suicide-pact` | [basic](#basic) | `suicide epidemic`, `epidemic of suicides`, `suicide pact` | `rise in suicides` |
-| `superman-superwoman` | [or](#or) | `superwoman` (female), `superman` (male) | `titan` |
-| `supermen-superwomen` | [or](#or) | `superwomen` (female), `supermen` (male) | `titans` |
-| `tax-man` | [basic](#basic) | `tax man` | `tax commissioner`, `tax office`, `tax collector` |
+| `supervisor` | [basic](#basic) | `supervisor`, `shift boss` | `forewoman`, `foreman` |
+| `supervisors` | [basic](#basic) | `supervisors`, `shift bosses` | `forewomen`, `foremen` |
+| `synthetic` | [basic](#basic) | `manufactured`, `artificial`, `synthetic`, `machinemade`, `constructed` | `manmade` |
+| `tank-top` | [basic](#basic) | `tank top`, `sleeveless undershirt` | `wife beater`, `wifebeater` |
+| `tax-collector` | [basic](#basic) | `tax commissioner`, `tax collector` | `thief`, `tax man` |
+| `tax-collectors` | [basic](#basic) | `tax commissioners`, `tax collectors` | `thieves`, `tax men` |
+| `technicians` | [basic](#basic) | `technicians` | `repairwomen`, `repairmen` |
+| `the-english` | [basic](#basic) | `the english` | `englishmen` |
+| `the-human-family` | [basic](#basic) | `the human family` | `brotherhood of man` |
+| `theirself` | [basic](#basic) | `theirself` | `herself`, `himself` |
+| `titan` | [basic](#basic) | `titan` | `superwoman`, `superman` |
+| `titans` | [basic](#basic) | `titans` | `superwomen`, `supermen` |
 | `too-many-chiefs` | [basic](#basic) | `too many chiefs` | `too many chefs in the kitchen`, `too many cooks spoil the broth` |
 | `totem` | [basic](#basic) | `animal spirit`, `dream catcher`, `spirit animal`, `totem` | `favorite`, `inspiration`, `personal interest`, `personality type` |
 | `towel-heads` | [basic](#basic) | `towel heads` | `Arabs`, `Middle Eastern People` |
-| `tradesmans-entrance` | [basic](#basic) | `tradesmans entrance` | `service entrance` |
 | `tranny` | [basic](#basic) | `tranny` | `transgender` |
 | `transgendered` | [basic](#basic) | `transgendered` | `transgender` |
 | `transgenderism` | [basic](#basic) | `transgenderism` | `being transgender`, `the movement for transgender equality` |
@@ -355,25 +327,22 @@ to allow them.
 | `transvestite` | [basic](#basic) | `transvestite` | `cross-dresser` |
 | `tribe` | [basic](#basic) | `tribe` | `society`, `community` |
 | `trigger-warning` | [basic](#basic) | `trigger warning`, `trigger warnings` | |
-| `unmanly-unwomanly` | [or](#or) | `unwomanly` (female), `unwomenly` (female), `unmanly` (male), `unmenly` (male) | `inhumane` |
-| `unmanned` | [basic](#basic) | `unmanned` | `robotic`, `automated` |
-| `usherette` | [basic](#basic) | `usherette` | `usher` |
+| `twoincome-family` | [basic](#basic) | `wage or salary earning woman`, `twoincome family` | `working mother`, `working wife` |
+| `upstaging` | [basic](#basic) | `upstaging`, `competitiveness` | `oneupmanship` |
+| `virgin` | [basic](#basic) | `virgin` | `maiden` |
 | `visually-impaired` | [basic](#basic) | `visually impaired`, `person with vision loss` | `blind`, `sightless` |
-| `waiter-waitress` | [or](#or) | `waitress` (female), `waiter` (male) | `server` |
-| `waiters-waitresses` | [or](#or) | `waitresses` (female), `waiters` (male) | `servers` |
-| `watchman-watchwoman` | [or](#or) | `watchwoman` (female), `watchman` (male) | `watcher` |
-| `watchmen-watchwomen` | [or](#or) | `watchwomen` (female), `watchmen` (male) | `watchers` |
-| `weatherman-weatherwoman` | [or](#or) | `weatherwoman` (female), `weatherman` (male) | `weather forecaster`, `meteorologist` |
-| `weathermen-weatherwomen` | [or](#or) | `weatherwomen` (female), `weathermen` (male) | `weather forecasters`, `meteorologists` |
+| `warm` | [basic](#basic) | `warm`, `intimate` | `maternal`, `paternal`, `fraternal` |
+| `waste-collector` | [basic](#basic) | `garbage collector`, `waste collector`, `trash collector` | `garbagewoman`, `garbageman` |
+| `waste-collectors` | [basic](#basic) | `garbage collectors`, `waste collectors`, `trash collectors` | `garbagewomen`, `garbagemen` |
+| `wasteland` | [basic](#basic) | `unoccupied territory`, `wasteland`, `deathtrap` | `no mans land` |
+| `watcher` | [basic](#basic) | `watcher` | `watchwoman`, `watchman` |
+| `watchers` | [basic](#basic) | `watchers` | `watchwomen`, `watchmen` |
 | `whitehat` | [basic](#basic) | `whitehat` | `ethical hacker`, `security researcher` |
 | `whitelist` | [basic](#basic) | `whitelist`, `white list` | `passlist`, `alrightlist`, `safelist`, `allow list` |
 | `whitelisted` | [basic](#basic) | `whitelisted` | `passlisted`, `alrightlisted`, `safelisted`, `allow-listed` |
 | `whitelisting` | [basic](#basic) | `whitelisting` | `passlisting`, `alrightlisting`, `safelisting`, `allow-listing` |
-| `widow-widower` | [or](#or) | `widow` (female), `widows` (female), `widower` (male), `widowers` (male) | `bereaved` |
-| `wifebeater` | [basic](#basic) | `wife beater`, `wifebeater` | `tank top`, `sleeveless undershirt` |
-| `woman-lawyer` | [basic](#basic) | `woman lawyer` | `lawyer` |
-| `woman-painter` | [basic](#basic) | `woman painter` | `painter` |
-| `working-wife` | [basic](#basic) | `working mother`, `working wife` | `wage or salary earning woman`, `two-income family` |
-| `workman-workwoman` | [or](#or) | `workwoman` (female), `working woman` (female), `workman` (male), `working man` (male) | `worker`, `wage earner`, `taxpayer` |
-| `workmanship` | [basic](#basic) | `workmanship` | `quality construction`, `expertise` |
-| `workmen-workwomen` | [or](#or) | `workwomen` (female), `workmen` (male) | `workers` |
+| `worker` | [basic](#basic) | `worker`, `wage earner`, `taxpayer` | `workwoman`, `working woman`, `workman`, `working man` |
+| `workers` | [basic](#basic) | `workers` | `workwomen`, `workmen` |
+| `writer` | [basic](#basic) | `scholar`, `writer`, `literary figure` | `man of letters` |
+| `zealot` | [basic](#basic) | `fanatic`, `zealot`, `enthusiast` | `madman`, `mad man` |
+| `zealots` | [basic](#basic) | `fanatics`, `zealots`, `enthusiasts` | `madmen`, `mad men` |

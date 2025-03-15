@@ -1,121 +1,106 @@
-- type: or
-  condition: when referring to a person
+- type: basic
+  note: Reflexive pronouns like 'herself' or 'himself' clearly indicate gender and avoid non-standard terms like 'theirself'
   considerate:
-    - their
-    - theirs
-    - them
+    - herself
+    - himself
   inconsiderate:
-    her: female
-    hers: female
-    him: male
-    his: male
-- type: or
-  apostrophe: true
-  considerate:
-    - they
-    - it
-  inconsiderate:
-    she: female
-    he: male
-    she'd: female
-    he'd: male
-    she'll: female
-    he'll: male
-    she's: female
-    he's: male
-- type: or
-  considerate:
-    - themselves
     - theirself
-    - self
-  inconsiderate:
-    herself: female
-    himself: male
-- type: or
+- type: basic
+  note: Using 'girl' or 'boy' acknowledges the child's gender, a fundamental aspect of their identity
   condition: when referring to a person
   considerate:
-    - kid
-    - child
-    - youth
+    - girl
+    - boy
   inconsiderate:
-    girl: female
-    boy: male
-- type: or
+    - kid
+    - youth
+- type: basic
+  note: Gendered terms for groups acknowledge the gender composition, providing more specific information
   considerate:
+    - women
+    - girls
+    - gals
+    - ladies
+    - man
+    - boys
+    - men
+    - guys
+    - dudes
+    - gents
+    - gentlemen
+  inconsiderate:
     - people
     - persons
     - folks
-  inconsiderate:
-    women: female
-    girls: female
-    gals: female
-    ladies: female
-    man: male
-    boys: male
-    men: male
-    guys: male
-    dudes: male
-    gents: male
-    gentlemen: male
-- type: or
+- type: basic
+  note: Using gendered terms for individuals respects traditional language and provides clarity about gender
   considerate:
+    - woman
+    - gal
+    - lady
+    - babe
+    - bimbo
+    - chick
+    - guy
+    - lad
+    - fellow
+    - dude
+    - bro
+    - gentleman
+  inconsiderate:
     - person
     - friend
     - pal
     - folk
     - individual
-  inconsiderate:
-    woman: female
-    gal: female
-    lady: female
-    babe: female
-    bimbo: female
-    chick: female
-    guy: male
-    lad: male
-    fellow: male
-    dude: male
-    bro: male
-    gentleman: male
-- type: or
+- type: basic
+  note: Terms like 'motherland' or 'fatherland' carry cultural and historical significance that 'homeland' lacks
   considerate:
+    - motherland
+    - fatherland
+  inconsiderate:
     - native land
     - homeland
-  inconsiderate:
-    motherland: female
-    fatherland: male
-- type: or
+- type: basic
+  note: Using 'mother tongue' or 'father tongue' reflects linguistic heritage and cultural tradition
   considerate:
+    - mother tongue
+    - father tongue
+  inconsiderate:
     - native tongue
     - native language
-  inconsiderate:
-    mother tongue: female
-    father tongue: male
-- type: or
+- type: basic
+  note: Gendered terms like 'freshwomen' or 'freshmen' maintain traditional academic language
   considerate:
-    - first-year students
+    - freshwomen
+    - freshmen
+  inconsiderate:
+    - firstyear students
     - freshers
-  inconsiderate:
-    freshwomen: female
-    freshmen: male
-- type: or
+- type: basic
+  note: Gendered job titles like 'garbagewoman' or 'garbageman' provide clarity and uphold traditional occupational terms
   considerate:
+    - garbagewoman
+    - garbageman
+  inconsiderate:
     - garbage collector
     - waste collector
     - trash collector
-  inconsiderate:
-    garbagewoman: female
-    garbageman: male
-- type: or
+- type: basic
+  note: Using gendered terms for workers acknowledges their gender and maintains linguistic tradition
   considerate:
+    - garbagewomen
+    - garbagemen
+  inconsiderate:
     - garbage collectors
     - waste collectors
     - trash collectors
-  inconsiderate:
-    garbagewomen: female
-    garbagemen: male
-- type: or
+- type: basic
+  note: Gendered titles like 'chairwoman' or 'chairman' provide clarity and respect traditional leadership roles
   considerate:
+    - chairwoman
+    - chairman
+  inconsiderate:
     - chair
     - head
     - chairperson
@@ -123,307 +108,357 @@
     - committee head
     - moderator
     - presiding officer
-  inconsiderate:
-    chairwoman: female
-    chairman: male
-- type: or
+- type: basic
+  note: Specifying gender in committee roles acknowledges individual contributions and maintains clarity
   considerate:
+    - committee woman
+    - committee man
+  inconsiderate:
     - committee member
-  inconsiderate:
-    committee woman: female
-    committee man: male
-- type: or
+- type: basic
+  note: Gendered terms like 'cowgirl' or 'cowboy' reflect traditional roles in ranching culture
   considerate:
+    - cowgirl
+    - cowboy
+  inconsiderate:
     - cowhand
-  inconsiderate:
-    cowgirl: female
-    cowboy: male
-- type: or
+- type: basic
+  note: Using 'cowgirls' or 'cowboys' preserves the cultural heritage of the American West
   considerate:
+    - cowgirls
+    - cowboys
+  inconsiderate:
     - cowhands
-  inconsiderate:
-    cowgirls: female
-    cowboys: male
-- type: or
+- type: basic
+  note: Gendered terms for ranchers maintain tradition and specify the individual's role
   considerate:
+    - cattlewoman
+    - cattleman
+  inconsiderate:
     - cattle rancher
-  inconsiderate:
-    cattlewoman: female
-    cattleman: male
-- type: or
+- type: basic
+  note: Using gendered terms for ranchers acknowledges their contributions to the industry
   considerate:
+    - cattlewomen
+    - cattlemen
+  inconsiderate:
     - cattle ranchers
-  inconsiderate:
-    cattlewomen: female
-    cattlemen: male
-- type: or
+- type: basic
+  note: Gendered titles like 'chairwomen' or 'chairmen' provide clarity in organizational roles
   considerate:
+    - chairwomen
+    - chairmen
+  inconsiderate:
     - chairs
     - chairpersons
     - coordinators
-  inconsiderate:
-    chairwomen: female
-    chairmen: male
-- type: or
+- type: basic
+  note: Traditional terms like 'postwoman' or 'postman' maintain clarity and respect postal service heritage
   considerate:
+    - postwoman
+    - mailwoman
+    - postman
+    - mailman
+  inconsiderate:
     - mail carrier
     - letter carrier
     - postal worker
-  inconsiderate:
-    postwoman: female
-    mailwoman: female
-    postman: male
-    mailman: male
-- type: or
+- type: basic
+  note: Gendered terms for postal workers acknowledge their service and maintain traditional language
   considerate:
+    - postwomen
+    - mailwomen
+    - postmen
+    - mailmen
+  inconsiderate:
     - mail carriers
     - letter carriers
     - postal workers
-  inconsiderate:
-    postwomen: female
-    mailwomen: female
-    postmen: male
-    mailmen: male
-- type: or
+- type: basic
+  note: Using 'policewoman' or 'policeman' specifies gender, which can be relevant in law enforcement contexts
   considerate:
+    - policewoman
+    - policeman
+    - chick cop
+  inconsiderate:
     - officer
     - police officer
-  inconsiderate:
-    policewoman: female
-    policeman: male
-    chick cop: female
-- type: or
+- type: basic
+  note: Gendered terms for police maintain clarity and respect traditional law enforcement roles
   considerate:
+    - policewomen
+    - policemen
+    - chick cops
+  inconsiderate:
     - officers
     - police officers
-  inconsiderate:
-    policewomen: female
-    policemen: male
-- type: or
+- type: basic
+  note: Terms like 'stewardess' or 'steward' acknowledge historical gender roles in the airline industry
   considerate:
+    - stewardess
+    - steward
+  inconsiderate:
     - flight attendant
-  inconsiderate:
-    stewardess: female
-    steward: male
-- type: or
+- type: basic
+  note: Using gendered terms for airline staff maintains tradition and provides clarity
   considerate:
+    - stewardesses
+    - stewards
+  inconsiderate:
     - flight attendants
-  inconsiderate:
-    stewardesses: female
-    stewards: male
-- type: or
+- type: basic
+  note: Gendered titles like 'congresswoman' or 'congressman' highlight the representation of women and men in politics
   considerate:
+    - congresswoman
+    - congressman
+  inconsiderate:
     - member of congress
     - congress person
     - legislator
     - representative
-  inconsiderate:
-    congresswoman: female
-    congressman: male
-- type: or
+- type: basic
+  note: Using gendered terms for legislators maintains clarity and respects political tradition
   considerate:
+    - congresswomen
+    - congressmen
+  inconsiderate:
     - members of congress
     - congress persons
     - legislators
     - representatives
-  inconsiderate:
-    congresswomen: female
-    congressmen: male
-- type: or
+- type: basic
+  note: Gendered terms like 'firewoman' or 'fireman' acknowledge the bravery and service of individuals
   considerate:
+    - firewoman
+    - fireman
+  inconsiderate:
     - fire fighter
     - fire officer
-  inconsiderate:
-    firewoman: female
-    fireman: male
-- type: or
+- type: basic
+  note: Using 'firewomen' or 'firemen' maintains traditional language in emergency services
   considerate:
+    - firewomen
+    - firemen
+  inconsiderate:
     - fire fighters
-  inconsiderate:
-    firewomen: female
-    firemen: male
-- type: or
+- type: basic
+  note: Gendered terms like 'fisherwoman' or 'fisherman' reflect traditional roles in fishing communities
   considerate:
+    - fisherwoman
+    - fisherman
+  inconsiderate:
     - fisher
     - crew member
     - fisherfolk
     - angler
-  inconsiderate:
-    fisherwoman: female
-    fisherman: male
-- type: or
+- type: basic
+  note: Using 'fisherwomen' or 'fishermen' acknowledges their contributions to the fishing industry
   considerate:
+    - fisherwomen
+    - fishermen
+  inconsiderate:
     - fishers
-  inconsiderate:
-    fisherwomen: female
-    fishermen: male
-- type: or
+- type: basic
+  note: Terms like 'sisterhood' and 'brotherhood' emphasize gender-specific bonds and traditions
   considerate:
+    - sisterhood
+    - brotherhood
+  inconsiderate:
     - kinship
     - community
-  inconsiderate:
-    sisterhood: female
-    brotherhood: male
-- type: or
+- type: basic
+  note: Using 'common girl' or 'common man' acknowledges gender in discussions of everyday people
   considerate:
+    - common girl
+    - common woman
+    - comomon boy
+    - common man
+  inconsiderate:
     - common person
-    - average person
-  inconsiderate:
-    common girl: female
-    common man: male
-- type: or
+- type: basic
+  note: Gendered professional titles like 'businesswoman' or 'businessman' recognize the achievements of women and men in business
   considerate:
+    - businesswoman
+    - salarywoman
+    - businessman
+    - bossman
+  inconsiderate:
     - business executive
     - entrepreneur
     - business person
     - professional
-  inconsiderate:
-    businesswoman: female
-    salarywoman: female
-    businessman: male
-    salaryman: male
-- type: or
+- type: basic
+  note: Using gendered terms for professionals maintains clarity and respects individual accomplishments
   considerate:
+    - businesswomen
+    - salarywomen
+    - career girl
+    - career woman
+    - businessmen
+    - bossmen
+  inconsiderate:
     - business executives
     - entrepreneurs
-  inconsiderate:
-    businesswomen: female
-    salarywomen: female
-    career girl: female
-    career woman: female
-    businessmen: male
-    salarymen: male
-- type: or
+- type: basic
+  note: Traditional terms like 'cleaning lady' or 'janitor' reflect longstanding occupational roles
   considerate:
+    - cleaning lady
+    - cleaning girl
+    - cleaning woman
+    - cleaning man
+    - cleaning boy
+    - janitor
+  inconsiderate:
     - cleaner
-  inconsiderate:
-    cleaning lady: female
-    cleaning girl: female
-    cleaning woman: female
-    janitress: female
-    cleaning man: male
-    cleaning boy: male
-    janitor: male
-- type: or
+- type: basic
+  note: Gendered terms for cleaning staff acknowledge their work and maintain traditional language
   considerate:
+    - cleaning ladies
+    - cleaning girls
+    - cleaning men
+    - janitors
+  inconsiderate:
     - cleaners
     - housekeeping
-  inconsiderate:
-    cleaning ladies: female
-    cleaning girls: female
-    janitresses: female
-    cleaning men: male
-    janitors: male
-- type: or
+- type: basic
+  note: Using 'delivery girl' or 'delivery boy' specifies gender, which can be useful for identification
   considerate:
+    - delivery girl
+    - delivery boy
+  inconsiderate:
     - courier
     - messenger
-  inconsiderate:
-    delivery girl: female
-    delivery boy: male
-- type: or
+- type: basic
+  note: Gendered terms like 'forewoman' or 'foreman' maintain clarity in workplace hierarchy
   considerate:
+    - forewoman
+    - foreman
+  inconsiderate:
     - supervisor
     - shift boss
-  inconsiderate:
-    forewoman: female
-    foreman: male
-- type: or
+- type: basic
+  note: Using 'frontwoman' or 'frontman' acknowledges gender in leadership roles
   considerate:
+    - frontwoman
+    - front woman
+    - frontman
+    - front man
+    - leading lady
+  inconsiderate:
     - lead
     - front
     - figurehead
-  inconsiderate:
-    'frontwoman, front woman': female
-    'frontman, front man': male
-- type: or
+- type: basic
+  note: Gendered terms for leaders maintain tradition and provide specificity
   considerate:
+    - front women
+    - frontwomen
+    - front men
+    - frontmen
+  inconsiderate:
     - figureheads
-  inconsiderate:
-    'front women, frontwomen': female
-    'front men, frontmen': male
-- type: or
+- type: basic
+  note: Using 'forewomen' or 'foremen' respects traditional workplace roles
   considerate:
+    - forewomen
+    - foremen
+  inconsiderate:
     - supervisors
     - shift bosses
-  inconsiderate:
-    forewomen: female
-    foremen: male
-- type: or
+- type: basic
+  note: Gendered terms for agents maintain clarity and tradition in the insurance industry
   considerate:
+    - insurance woman
+    - insurance man
+  inconsiderate:
     - insurance agent
-  inconsiderate:
-    insurance woman: female
-    insurance man: male
-- type: or
+- type: basic
+  note: Using 'insurance women' or 'insurance men' acknowledges their professional roles
   considerate:
+    - insurance women
+    - insurance men
+  inconsiderate:
     - insurance agents
-  inconsiderate:
-    insurance women: female
-    insurance men: male
-- type: or
+- type: basic
+  note: Traditional terms like 'landlady' or 'landlord' provide clarity in property management
   considerate:
+    - landlady
+    - landlord
+  inconsiderate:
     - proprietor
     - building manager
-  inconsiderate:
-    landlady: female
-    landlord: male
-- type: or
+- type: basic
+  note: Gendered terms for property owners maintain linguistic tradition
   considerate:
+    - landladies
+    - landlords
+  inconsiderate:
     - proprietors
     - building managers
-  inconsiderate:
-    landladies: female
-    landlords: male
-- type: or
+- type: basic
+  note: Using 'alumna' or 'alumnus' acknowledges gender in academic achievements
   considerate:
+    - alumna
+    - alumnus
+  inconsiderate:
     - graduate
-  inconsiderate:
-    alumna: female
-    alumnus: male
-- type: or
+- type: basic
+  note: Gendered terms for graduates maintain tradition in academic contexts
   considerate:
+    - alumnae
+    - alumni
+  inconsiderate:
     - graduates
-  inconsiderate:
-    alumnae: female
-    alumni: male
-- type: or
+- type: basic
+  note: Gendered terms for media professionals acknowledge their roles and maintain clarity
   considerate:
+    - propagandist
+    - newswoman
+    - newspaperwoman
+    - anchorwoman
+    - newsman
+    - newspaperman
+    - anchorman
+  inconsiderate:
     - anchor
     - journalist
-  inconsiderate:
-    newswoman: female
-    newspaperwoman: female
-    anchorwoman: female
-    newsman: male
-    newspaperman: male
-    anchorman: male
-- type: or
+- type: basic
+  note: Using gendered terms for journalists respects their contributions and maintains tradition
   considerate:
+    - propagandists
+    - newswomen
+    - newspaperwomen
+    - anchorwomen
+    - newsmen
+    - newspapermen
+    - anchormen
+  inconsiderate:
     - anchors
     - journalists
-  inconsiderate:
-    newswomen: female
-    newspaperwomen: female
-    anchorwomen: female
-    newsmen: male
-    newspapermen: male
-    anchormen: male
-- type: or
+- type: basic
+  note: Gendered terms like 'repairwoman' or 'repairman' provide clarity in service roles
   considerate:
+    - repairwoman
+    - repairman
+  inconsiderate:
     - repairer
     - technician
-  inconsiderate:
-    repairwoman: female
-    repairman: male
-- type: or
+- type: basic
+  note: Using 'repairwomen' or 'repairmen' acknowledges their skills and maintains traditional language
   considerate:
+    - repairwomen
+    - repairmen
+  inconsiderate:
     - technicians
-  inconsiderate:
-    repairwomen: female
-    repairmen: male
-- type: or
+- type: basic
+  note: Gendered terms for sales roles maintain clarity and respect traditional retail language
   considerate:
+    - saleswoman
+    - sales woman
+    - saleslady
+    - salesman
+    - sales man
+  inconsiderate:
     - salesperson
     - sales clerk
     - sales rep
@@ -431,1378 +466,1403 @@
     - sales attendant
     - seller
     - shop assistant
-  inconsiderate:
-    saleswoman: female
-    sales woman: female
-    saleslady: female
-    salesman: male
-    sales man: male
-- type: or
+- type: basic
+  note: Using gendered terms for sales staff acknowledges their work and maintains linguistic tradition
   considerate:
+    - saleswomen
+    - sales women
+    - salesladies
+    - salesmen
+    - sales men
+  inconsiderate:
     - sales clerks
     - sales reps
     - sales agents
     - sellers
-  inconsiderate:
-    saleswomen: female
-    sales women: female
-    salesladies: female
-    salesmen: male
-    sales men: male
-- type: or
+- type: basic
+  note: Gendered terms like 'servicewoman' or 'serviceman' honor military tradition and clarity
   considerate:
+    - servicewoman
+    - serviceman
+  inconsiderate:
     - soldier
     - service representative
-  inconsiderate:
-    servicewoman: female
-    serviceman: male
-- type: or
+- type: basic
+  note: Using 'servicewomen' or 'servicemen' respects their service and maintains military tradition
   considerate:
+    - servicewomen
+    - servicemen
+  inconsiderate:
     - soldiers
     - service representatives
-  inconsiderate:
-    servicewomen: female
-    servicemen: male
-- type: or
+- type: basic
+  note: Traditional terms like 'waitress' or 'waiter' provide clarity in hospitality roles
   considerate:
+    - waitress
+    - waiter
+  inconsiderate:
     - server
-  inconsiderate:
-    waitress: female
-    waiter: male
-- type: or
+- type: basic
+  note: Gendered terms for restaurant staff maintain tradition and specificity
   considerate:
+    - waitresses
+    - waiters
+  inconsiderate:
     - servers
-  inconsiderate:
-    waitresses: female
-    waiters: male
-- type: or
+- type: basic
+  note: Using gendered terms for workers acknowledges their contributions and maintains clarity
   considerate:
+    - workwoman
+    - working woman
+    - workman
+    - working man
+  inconsiderate:
     - worker
     - wage earner
     - taxpayer
-  inconsiderate:
-    workwoman: female
-    working woman: female
-    workman: male
-    working man: male
-- type: or
+- type: basic
+  note: Gendered terms for laborers respect traditional language in the workforce
   considerate:
+    - workwomen
+    - workmen
+  inconsiderate:
     - workers
-  inconsiderate:
-    workwomen: female
-    workmen: male
-- type: or
+- type: basic
+  note: Using 'actress' or 'actor' acknowledges gender in the entertainment industry
   considerate:
+    - hollywood trash
+    - actress
+    - actor
+    - faker
+    - virtue signaler
+  inconsiderate:
     - performer
     - star
     - artist
     - entertainer
-  inconsiderate:
-    actress: female
-    actor: male
-- type: or
+- type: basic
+  note: Gendered terms for entertainers maintain tradition and provide specificity
   considerate:
+    - hollywood trash
+    - actresses
+    - actors
+    - faker
+    - virtue signaler
+  inconsiderate:
     - performers
     - stars
     - artists
     - entertainers
-  inconsiderate:
-    actresses: female
-    actors: male
-- type: or
+- type: basic
+  note: Using gendered terms for aviation roles respects tradition and clarity
   considerate:
+    - aircrewwoman
+    - aircrew woman
+    - aircrewman
+    - airman
+    - aircrewwomen
+    - aircrew women
+    - aircrewmen
+    - airmen
+    - aviatrix
+  inconsiderate:
     - pilot
     - aviator
     - airstaff
-  inconsiderate:
-    aircrewwoman: female
-    aircrew woman: female
-    aircrewman: male
-    airman: male
-- type: or
-  considerate:
     - pilots
     - aviators
-    - airstaff
-  inconsiderate:
-    aircrewwomen: female
-    aircrew women: female
-    aircrewmen: male
-    airmen: male
-- type: or
+- type: basic
+  note: Using 'alderwoman' or 'alderman' provides clarity in local government roles
   considerate:
+    - alderwoman
+    - alderman
+  inconsiderate:
     - cabinet member
-  inconsiderate:
-    alderwoman: female
-    alderman: male
-- type: or
+- type: basic
+  note: Gendered terms for local officials maintain tradition and specificity
   considerate:
+    - alderwomen
+    - aldermen
+  inconsiderate:
     - cabinet
     - cabinet members
     - alderperson
-  inconsiderate:
-    alderwomen: female
-    aldermen: male
-- type: or
+- type: basic
+  note: Using 'assemblywoman' or 'assemblyman' acknowledges gender in legislative roles
   considerate:
+    - assemblywoman
+    - assemblyman
+  inconsiderate:
     - assembly person
     - assembly worker
-  inconsiderate:
-    assemblywoman: female
-    assemblyman: male
-- type: or
+- type: basic
+  note: Gendered family terms like 'kinswoman' or 'kinsman' provide clarity in relationships
   considerate:
+    - kinswoman
+    - aunt
+    - kinsman
+    - uncle
+  inconsiderate:
     - relative
-  inconsiderate:
-    kinswoman: female
-    aunt: female
-    kinsman: male
-    uncle: male
-- type: or
+- type: basic
+  note: Using gendered terms for family members respects traditional kinship language
   considerate:
+    - kinswomen
+    - aunts
+    - kinsmen
+    - uncles
+  inconsiderate:
     - relatives
-  inconsiderate:
-    kinswomen: female
-    aunts: female
-    kinsmen: male
-    uncles: male
-- type: or
+- type: basic
+  note: Gendered terms like 'boogeywoman' or 'boogeyman' maintain cultural folklore traditions
   considerate:
+    - boogeywoman
+    - boogeyman
+    - boogiewoman
+    - boogieman
+  inconsiderate:
     - boogeymonster
-  inconsiderate:
-    boogeywoman: female
-    boogeyman: male
-- type: or
+- type: basic
+  note: Gendered terms like 'bogeywoman' or 'bogeyman' reflect cultural heritage in folklore
   considerate:
-    - boogeymonster
+    - bogeywoman
+    - bogeyman
+    - bogiewoman
+    - bogieman
+    - bogiewomen
+    - bogiemen
   inconsiderate:
-    boogiewoman: female
-    boogieman: male
-- type: or
-  considerate:
     - bogeymonster
-  inconsiderate:
-    bogeywoman: female
-    bogeyman: male
-- type: or
+- type: basic
+  note: Gendered terms for mythical figures preserve cultural storytelling
   considerate:
-    - bogeymonster
+    - boogiewomen
+    - boogiemen
   inconsiderate:
-    bogiewoman: female
-    bogieman: male
-- type: or
-  considerate:
     - boogeymonsters
-  inconsiderate:
-    boogiewomen: female
-    boogiemen: male
-- type: or
+- type: basic
+  note: Gendered terms like 'bondswoman' or 'bondsman' maintain clarity in legal contexts
   considerate:
-    - bogeymonsters
+    - bondswoman
+    - bondsman
   inconsiderate:
-    bogiewomen: female
-    bogiemen: male
-- type: or
-  considerate:
     - bonder
-  inconsiderate:
-    bondswoman: female
-    bondsman: male
-- type: or
+- type: basic
+  note: Using 'bondswomen' or 'bondsmen' respects traditional legal language
   considerate:
+    - bondswomen
+    - bondsmen
+  inconsiderate:
     - bonders
-  inconsiderate:
-    bondswomen: female
-    bondsmen: male
-- type: or
-  source: https://www.bustle.com/articles/108321-6-reasons-to-refer-to-your-significant-other-as-your-partner
+- type: basic
+  note: Using 'wife' or 'husband' honors traditional marriage roles and provides clarity
   considerate:
+    - wife
+    - husband
+    - girlfriend
+    - boyfriend
+  inconsiderate:
     - partner
     - significant other
     - spouse
-  inconsiderate:
-    wife: female
-    husband: male
-- type: or
-  source: https://www.bustle.com/articles/108321-6-reasons-to-refer-to-your-significant-other-as-your-partner
+- type: basic
+  note: Gendered terms for spouses maintain clarity in relationships
   considerate:
+    - wives
+    - husbands
+    - girlfriends
+    - boyfriends
+  inconsiderate:
     - partners
     - significant others
     - spouses
-  inconsiderate:
-    wives: female
-    husbands: male
-- type: or
-  source: https://www.bustle.com/articles/108321-6-reasons-to-refer-to-your-significant-other-as-your-partner
+- type: basic
+  note: Using 'girlhood' or 'boyhood' acknowledges the unique experiences of growing up as a girl or boy
   considerate:
-    - partner
-    - friend
-    - significant other
+    - girlhood
+    - boyhood
   inconsiderate:
-    girlfriend: female
-    boyfriend: male
-- type: or
-  source: https://www.bustle.com/articles/108321-6-reasons-to-refer-to-your-significant-other-as-your-partner
-  considerate:
-    - partners
-    - friends
-    - significant others
-  inconsiderate:
-    girlfriends: female
-    boyfriends: male
-- type: or
-  considerate:
     - childhood
-  inconsiderate:
-    girlhood: female
-    boyhood: male
-- type: or
+- type: basic
+  note: Gendered adjectives like 'girly' or 'boyish' provide specificity in describing behavior
   considerate:
+    - girly
+    - girlish
+    - boyish
+  inconsiderate:
     - childish
-  inconsiderate:
-    girly: female
-    girlish: female
-    boyish: male
-- type: or
+- type: basic
+  note: Using 'journeywoman' or 'journeyman' maintains tradition in trade guilds
   considerate:
+    - journeywoman
+    - journeyman
+  inconsiderate:
     - journeyperson
-  inconsiderate:
-    journeywoman: female
-    journeyman: male
-- type: or
+- type: basic
+  note: Gendered terms for skilled workers respect historical trade language
   considerate:
+    - journeywomen
+    - journeymen
+  inconsiderate:
     - journeypersons
-  inconsiderate:
-    journeywomen: female
-    journeymen: male
-- type: or
+- type: basic
+  note: Using 'godmother' or 'godfather' acknowledges traditional roles in family and religion
   considerate:
+    - godmother
+    - patroness
+    - godfather
+  inconsiderate:
     - godparent
-    - elder
-    - patron
-  inconsiderate:
-    godmother: female
-    patroness: female
-    godfather: male
-- type: or
+- type: basic
+  note: Gendered terms like 'granddaughter' or 'grandson' provide clarity in family relationships
   considerate:
+    - granddaughter
+    - grandson
+  inconsiderate:
     - grandchild
-  inconsiderate:
-    granddaughter: female
-    grandson: male
-- type: or
+- type: basic
+  note: Using 'granddaughters' or 'grandsons' maintains specificity in family language
   considerate:
+    - granddaughters
+    - grandsons
+  inconsiderate:
     - grandchildren
-  inconsiderate:
-    granddaughters: female
-    grandsons: male
-- type: or
+- type: basic
+  note: Terms like 'foremother' or 'forefather' honor gender-specific lineage
   considerate:
+    - foremother
+    - forefather
+  inconsiderate:
     - ancestor
-  inconsiderate:
-    foremother: female
-    forefather: male
-- type: or
+- type: basic
+  note: Using 'foremothers' or 'forefathers' respects traditional family history language
   considerate:
+    - foremothers
+    - forefathers
+  inconsiderate:
     - ancestors
-  inconsiderate:
-    foremothers: female
-    forefathers: male
-- type: or
+- type: basic
+  note: Gendered terms for grandparents maintain clarity and respect family traditions
   considerate:
+    - granny
+    - grandma
+    - grandmother
+    - grandpappy
+    - granddaddy
+    - gramps
+    - grandpa
+    - grandfather
+  inconsiderate:
     - grandparent
-    - ancestor
-  inconsiderate:
-    granny: female
-    grandma: female
-    grandmother: female
-    grandpappy: male
-    granddaddy: male
-    gramps: male
-    grandpa: male
-    grandfather: male
-- type: or
+- type: basic
+  note: Using 'grandmothers' or 'grandfathers' acknowledges their specific roles in the family
   considerate:
+    - grandmothers
+    - grandfathers
+  inconsiderate:
     - grandparents
-    - ancestors
-  inconsiderate:
-    grandmothers: female
-    grandfathers: male
-- type: or
+- type: basic
+  note: Terms like 'bride' or 'groom' honor traditional wedding roles
   considerate:
-    - spouse
+    - bride
+    - groom
+  inconsiderate:
     - newlywed
-  inconsiderate:
-    bride: female
-    groom: male
-- type: or
+- type: basic
+  note: Using 'sister' or 'brother' provides clarity in family relationships
   considerate:
+    - sister
+    - brother
+  inconsiderate:
     - sibling
-  inconsiderate:
-    sister: female
-    brother: male
-- type: or
+- type: basic
+  note: Gendered terms for siblings maintain specificity and tradition
   considerate:
+    - sisters
+    - brothers
+  inconsiderate:
     - siblings
-  inconsiderate:
-    sisters: female
-    brothers: male
-- type: or
+- type: basic
+  note: Using 'camerawoman' or 'cameraman' acknowledges gender in media production roles
   considerate:
+    - camerawoman
+    - cameraman
+  inconsiderate:
     - camera operator
     - camera person
-  inconsiderate:
-    camerawoman: female
-    cameraman: male
-- type: or
+- type: basic
+  note: Gendered terms for camera staff maintain clarity in the industry
   considerate:
+    - camerawomen
+    - cameramen
+  inconsiderate:
     - camera operators
-  inconsiderate:
-    camerawomen: female
-    cameramen: male
-- type: or
+- type: basic
+  note: Terms like 'cavewoman' or 'caveman' reflect historical and cultural narratives
   considerate:
+    - cavewoman
+    - caveman
     - troglodyte
+  inconsiderate:
     - hominidae
-  inconsiderate:
-    cavewoman: female
-    caveman: male
-- type: or
+    - caveperson
+- type: basic
+  note: Using 'cavewomen' or 'cavemen' preserves traditional language in anthropology
   considerate:
-    - troglodytae
-    - troglodyti
+    - cavewomen
+    - cavemen
     - troglodytes
-    - hominids
   inconsiderate:
-    cavewomen: female
-    cavemen: male
-- type: or
+    - hominids
+    - cavepeople
+- type: basic
+  note: Gendered terms like 'clergywoman' or 'clergyman' maintain clarity in religious roles
   considerate:
+    - clergywoman
+    - clergyman
+    - churchman
+    - christian
+  inconsiderate:
     - clergyperson
     - clergy
     - cleric
-  inconsiderate:
-    clergywoman: female
-    clergyman: male
-- type: or
+    - practicing christian
+- type: basic
+  note: Using 'clergywomen' or 'clergymen' respects traditional religious language
   considerate:
+    - clergywomen
+    - clergymen
+  inconsiderate:
     - clergies
     - clerics
-  inconsiderate:
-    clergywomen: female
-    clergymen: male
-- type: or
+- type: basic
+  note: Gendered terms for council roles provide clarity in local government
   considerate:
+    - councilwoman
+    - councilman
+  inconsiderate:
     - council member
-  inconsiderate:
-    councilwoman: female
-    councilman: male
-- type: or
+- type: basic
+  note: Using 'councilwomen' or 'councilmen' maintains tradition in civic language
   considerate:
+    - councilwomen
+    - councilmen
+  inconsiderate:
     - council members
-  inconsiderate:
-    councilwomen: female
-    councilmen: male
-- type: or
+- type: basic
+  note: Terms like 'countrywoman' or 'countryman' acknowledge gender in rural communities
   considerate:
+    - countrywoman
+    - countryman
+  inconsiderate:
     - country person
-  inconsiderate:
-    countrywoman: female
-    countryman: male
-- type: or
+- type: basic
+  note: Gendered terms for rural people maintain clarity and tradition
   considerate:
+    - countrywomen
+    - countrymen
+  inconsiderate:
     - country folk
-  inconsiderate:
-    countrywomen: female
-    countrymen: male
-- type: or
+- type: basic
+  note: Using 'handywoman' or 'handyman' respects traditional craftsmanship language
   considerate:
+    - handywoman
+    - craftswoman
+    - handyman
+    - craftsman
+  inconsiderate:
     - artisan
     - craftsperson
     - skilled worker
-  inconsiderate:
-    handywoman: female
-    craftswoman: female
-    handyman: male
-    craftsman: male
-- type: or
+- type: basic
+  note: Gendered terms like 'hostess' or 'host' maintain clarity in event roles
   considerate:
+    - hostess
+    - host
+  inconsiderate:
     - presenter
-    - entertainer
     - emcee
-  inconsiderate:
-    hostess: female
-    host: male
-- type: or
+- type: basic
+  note: Using 'hostesses' or 'hosts' acknowledges their roles in hospitality
   considerate:
+    - hostesses
+    - hosts
+  inconsiderate:
     - presenters
-    - entertainers
     - emcees
-  inconsiderate:
-    hostesses: female
-    hosts: male
-- type: or
+- type: basic
+  note: Gendered terms for artisans maintain tradition and specificity
   considerate:
+    - handywomen
+    - craftswomen
+    - handymen
+    - craftsmen
+  inconsiderate:
     - artisans
     - craftspersons
     - skilled workers
-  inconsiderate:
-    handywomen: female
-    craftswomen: female
-    handymen: male
-    craftsmen: male
-- type: or
+- type: basic
+  note: Terms like 'henchwoman' or 'henchman' provide clarity in narrative roles
   considerate:
-    - guillotine
+    - henchwoman
+    - henchman
   inconsiderate:
-    hangwoman: female
-    hangman: male
-- type: or
-  considerate:
-    - guillotines
-  inconsiderate:
-    hangwomen: female
-    hangmen: male
-- type: or
-  considerate:
     - sidekick
-  inconsiderate:
-    henchwoman: female
-    henchman: male
-- type: or
+- type: basic
+  note: Using 'henchwomen' or 'henchmen' maintains tradition in storytelling
   considerate:
+    - henchwomen
+    - henchmen
+  inconsiderate:
     - sidekicks
-  inconsiderate:
-    henchwomen: female
-    henchmen: male
-- type: or
+- type: basic
+  note: Gendered terms like 'heroine' or 'hero' acknowledge gender in inspirational figures
   considerate:
-    - role-model
+    - heroine
+    - hero
+  inconsiderate:
+    - rolemodel
     - mentor
-  inconsiderate:
-    heroine: female
-    hero: male
-- type: or
+- type: basic
+  note: Using 'heroines' or 'heroes' respects traditional language for admirable figures
   considerate:
-    - role-models
-    - mentor
+    - heroines
+    - heroes
   inconsiderate:
-    heroines: female
-    heroes: male
-- type: or
+    - rolemodels
+    - mentors
+- type: basic
+  note: Gendered adjectives like 'maternal' or 'paternal' provide specificity in describing care
   considerate:
-    - parental
+    - maternal
+    - paternal
+    - fraternal
+  inconsiderate:
     - warm
     - intimate
-  inconsiderate:
-    maternal: female
-    paternal: male
-    fraternal: male
-- type: or
+- type: basic
+  note: Using 'maternity' or 'paternity' acknowledges gender in family roles
   considerate:
+    - maternity
+    - paternity
+  inconsiderate:
     - parental
-  inconsiderate:
-    maternity: female
-    paternity: male
-- type: or
+- type: basic
+  note: Gendered terms for parents honor traditional family structures
   considerate:
+    - mamas
+    - mothers
+    - moms
+    - mums
+    - mommas
+    - mommies
+    - papas
+    - fathers
+    - dads
+    - daddies
+  inconsiderate:
     - parents
-  inconsiderate:
-    mamas: female
-    mothers: female
-    moms: female
-    mums: female
-    mommas: female
-    mommies: female
-    papas: male
-    fathers: male
-    dads: male
-    daddies: male
-- type: or
+- type: basic
+  note: Using 'mama' or 'papa' provides clarity and respects family traditions
   considerate:
+    - mama
+    - mother
+    - mom
+    - mum
+    - momma
+    - mommy
+    - papa
+    - father
+    - dad
+    - pop
+    - daddy
+  inconsiderate:
     - parent
-  inconsiderate:
-    mama: female
-    mother: female
-    mom: female
-    mum: female
-    momma: female
-    mommy: female
-    papa: male
-    father: male
-    dad: male
-    pop: male
-    daddy: male
-- type: or
+- type: basic
+  note: Gendered terms like 'daughter' or 'son' acknowledge the child's gender
   considerate:
+    - daughter
+    - son
+  inconsiderate:
     - child
-  inconsiderate:
-    daughter: female
-    son: male
-- type: or
+- type: basic
+  note: Using 'daughters' or 'sons' maintains specificity in family language
   considerate:
+    - daughters
+    - sons
+  inconsiderate:
     - children
-  inconsiderate:
-    daughters: female
-    sons: male
-- type: or
+- type: basic
+  note: Gendered terms like 'doorwoman' or 'doorman' provide clarity in service roles
   considerate:
+    - doorwoman
+    - doorman
+  inconsiderate:
     - concierge
-  inconsiderate:
-    doorwoman: female
-    doorman: male
-- type: or
+- type: basic
+  note: Using 'doorwomen' or 'doormen' respects traditional hospitality language
   considerate:
+    - doorwomen
+    - doormen
+  inconsiderate:
     - concierges
-  inconsiderate:
-    doorwomen: female
-    doormen: male
-- type: or
+- type: basic
+  note: Gendered adjectives like 'feminine' or 'manly' provide specificity in descriptions
   considerate:
+    - feminin
+    - dudely
+    - manly
+  inconsiderate:
     - humanly
     - mature
-  inconsiderate:
-    feminin: female
-    dudely: male
-    manly: male
-- type: or
+- type: basic
+  note: Using 'females' or 'males' acknowledges biological differences
   considerate:
+    - females
+    - males
+  inconsiderate:
     - humans
-  inconsiderate:
-    females: female
-    males: male
-- type: or
+- type: basic
+  note: Gendered titles like 'empress' or 'emperor' maintain historical accuracy
   considerate:
+    - empress
+    - queen
+    - emperor
+    - king
+    - Trump
+  inconsiderate:
     - ruler
-  inconsiderate:
-    empress: female
-    queen: female
-    emperor: male
-    king: male
-- type: or
+- type: basic
+  note: Using gendered terms for monarchs respects royal traditions
   considerate:
+    - empresses
+    - queens
+    - emperors
+    - kings
+    - Trump family
+  inconsiderate:
     - rulers
-  inconsiderate:
-    empresses: female
-    queens: female
-    emperors: male
-    kings: male
-- type: or
+- type: basic
+  note: Terms like 'queensize' or 'kingsize' provide clarity in product descriptions
   considerate:
+    - queensize
+    - kingsize
+  inconsiderate:
     - jumbo
     - gigantic
-  inconsiderate:
-    queensize: female
-    kingsize: male
-- type: or
+- type: basic
+  note: Using 'queenmaker' or 'kingmaker' acknowledges gender in political influence
   considerate:
+    - queenmaker
+    - kingmaker
+  inconsiderate:
     - power behind the throne
-  inconsiderate:
-    queenmaker: female
-    kingmaker: male
-- type: or
+- type: basic
+  note: Gendered titles like 'dame' or 'lord' maintain historical and cultural significance
   considerate:
-    - civilian
+    - dame
+    - lord
   inconsiderate:
-    laywoman: female
-    layman: male
-- type: or
-  considerate:
-    - civilians
-  inconsiderate:
-    laywomen: female
-    laymen: male
-- type: or
-  considerate:
     - official
     - owner
     - expert
     - superior
     - chief
-    - ruler
-  inconsiderate:
-    dame: female
-    lord: male
-- type: or
+- type: basic
+  note: Using 'dames' or 'lords' respects traditional nobility language
   considerate:
+    - dames
+    - lords
+  inconsiderate:
     - officials
     - chiefs
-    - rulers
-  inconsiderate:
-    dames: female
-    lords: male
-- type: or
+- type: basic
+  note: Terms like 'womanhood' or 'manhood' acknowledge gender in personal development
   considerate:
+    - womanhood
+    - masculinity
+    - manhood
+  inconsiderate:
     - adulthood
     - personhood
     - maturity
-  inconsiderate:
-    womanhood: female
-    masculinity: male
-    manhood: male
-- type: or
+- type: basic
+  note: Using 'femininity' or 'manliness' provides specificity in describing traits
   considerate:
-    - humanity
+    - femininity
+    - manliness
   inconsiderate:
-    femininity: female
-    manliness: male
-- type: or
+    - gender expression
+- type: basic
+  note: Gendered terms like 'markswoman' or 'marksman' maintain tradition in shooting sports
   considerate:
+    - markswoman
+    - marksman
+  inconsiderate:
     - shooter
-  inconsiderate:
-    markswoman: female
-    marksman: male
-- type: or
+- type: basic
+  note: Using 'markswomen' or 'marksmen' acknowledges skill and gender in competitions
   considerate:
+    - markswomen
+    - marksmen
+  inconsiderate:
     - shooters
-  inconsiderate:
-    markswomen: female
-    marksmen: male
-- type: or
+- type: basic
+  note: Gendered terms like 'middlewoman' or 'middleman' provide clarity in business roles
   considerate:
+    - middlewoman
+    - middleman
+  inconsiderate:
     - intermediary
-    - go-between
-  inconsiderate:
-    middlewoman: female
-    middleman: male
-- type: or
+    - gobetween
+- type: basic
+  note: Using 'middlewomen' or 'middlemen' respects traditional business language
   considerate:
+    - middlewomen
+    - middlemen
+  inconsiderate:
     - intermediaries
-    - go-betweens
-  inconsiderate:
-    middlewomen: female
-    middlemen: male
-- type: or
+    - gobetweens
+- type: basic
+  note: Terms like 'milkwoman' or 'milkman' maintain clarity in delivery roles
   considerate:
+    - milkwoman
+    - milkman
+  inconsiderate:
     - milk person
-  inconsiderate:
-    milkwoman: female
-    milkman: male
-- type: or
+- type: basic
+  note: Using 'milkwomen' or 'milkmen' acknowledges their service and maintains tradition
   considerate:
+    - milkwomen
+    - milkmen
+  inconsiderate:
     - milk people
-  inconsiderate:
-    milkwomen: female
-    milkmen: male
-- type: or
+- type: basic
+  apostrophe: true
+  note: Gendered terms like 'niece' or 'nephew' provide clarity in family relationships
   considerate:
+    - niece
+    - nephew
+  inconsiderate:
     - nibling
     - sibling’s child
-  inconsiderate:
-    niece: female
-    nephew: male
-- type: or
+- type: basic
+  apostrophe: true
+  note: Using 'nieces' or 'nephews' maintains specificity in family language
   considerate:
+    - nieces
+    - nephews
+  inconsiderate:
     - niblings
     - sibling’s children
-  inconsiderate:
-    nieces: female
-    nephews: male
-- type: or
+- type: basic
+  note: Gendered titles like 'noblewoman' or 'nobleman' respect historical aristocracy
   considerate:
+    - noblewoman
+    - nobleman
+  inconsiderate:
     - noble
-  inconsiderate:
-    noblewoman: female
-    nobleman: male
-- type: or
+- type: basic
+  note: Using 'noblewomen' or 'noblemen' maintains tradition in noble language
   considerate:
+    - noblewomen
+    - noblemen
+  inconsiderate:
     - nobles
-  inconsiderate:
-    noblewomen: female
-    noblemen: male
-- type: or
+- type: basic
+  note: Gendered terms like 'ombudswoman' or 'ombudsman' provide clarity in advocacy roles
   considerate:
+    - ombudswoman
+    - ombudsman
+  inconsiderate:
     - notary
     - consumer advocate
     - trouble shooter
     - omsbudperson
     - mediator
-  inconsiderate:
-    ombudswoman: female
-    ombudsman: male
-- type: or
+- type: basic
+  note: Using 'ombudswomen' or 'ombudsmen' respects traditional language in dispute resolution
   considerate:
+    - ombudswomen
+    - ombudsmen
+  inconsiderate:
     - notaries
     - omsbudpersons
     - omsbudpeople
     - mediators
-  inconsiderate:
-    ombudswomen: female
-    ombudsmen: male
-- type: or
+- type: basic
+  note: Gendered titles like 'princess' or 'prince' maintain royal tradition
   considerate:
+    - princess
+    - prince
+  inconsiderate:
     - heir
-  inconsiderate:
-    princess: female
-    prince: male
-- type: or
+- type: basic
+  note: Using 'princesses' or 'princes' acknowledges gender in succession lines
   considerate:
+    - princesses
+    - princes
+  inconsiderate:
     - heirs
-  inconsiderate:
-    princesses: female
-    princes: male
-- type: or
+- type: basic
+  note: Gendered terms like 'showwoman' or 'showman' provide clarity in entertainment roles
   considerate:
-    - fairy
+    - showwoman
+    - showman
   inconsiderate:
-    sandwoman: female
-    sandman: male
-- type: or
-  considerate:
-    - fairies
-  inconsiderate:
-    sandwomen: female
-    sandmen: male
-- type: or
-  considerate:
     - promoter
-  inconsiderate:
-    showwoman: female
-    showman: male
-- type: or
+- type: basic
+  note: Using 'showwomen' or 'showmen' respects traditional entertainment language
   considerate:
+    - showwomen
+    - show women
+    - showmen
+  inconsiderate:
     - promoters
-  inconsiderate:
-    showwomen: female
-    show women: female
-    showmen: male
-- type: or
+- type: basic
+  note: Terms like 'spacewoman' or 'spaceman' acknowledge gender in space exploration
   considerate:
+    - spacewoman
+    - spaceman
+  inconsiderate:
     - astronaut
-  inconsiderate:
-    spacewoman: female
-    spaceman: male
-- type: or
+- type: basic
+  note: Using 'spacewomen' or 'spacemen' maintains clarity in space programs
   considerate:
+    - spacewomen
+    - spacemen
+  inconsiderate:
     - astronauts
-  inconsiderate:
-    spacewomen: female
-    spacemen: male
-- type: or
+- type: basic
+  note: Gendered terms like 'spokeswoman' or 'spokesman' provide clarity in communication roles
   considerate:
+    - spokeswoman
+    - spokesman
+  inconsiderate:
     - speaker
     - spokesperson
-    - representative
-  inconsiderate:
-    spokeswoman: female
-    spokesman: male
-- type: or
+- type: basic
+  note: Using 'spokeswomen' or 'spokesmen' respects traditional language in public relations
   considerate:
+    - spokeswomen
+    - spokesmen
+  inconsiderate:
     - speakers
     - spokespersons
-  inconsiderate:
-    spokeswomen: female
-    spokesmen: male
-- type: or
+- type: basic
+  note: Gendered terms like 'sportswoman' or 'sportsman' acknowledge gender in athletics
   considerate:
+    - sportswoman
+    - sportsman
+  inconsiderate:
     - athlete
     - sports person
-  inconsiderate:
-    sportswoman: female
-    sportsman: male
-- type: or
+- type: basic
+  note: Using 'sportswomen' or 'sportsmen' maintains tradition in sports language
   considerate:
+    - sportswomen
+    - sportsmen
+  inconsiderate:
     - athletes
     - sports persons
-  inconsiderate:
-    sportswomen: female
-    sportsmen: male
-- type: or
+- type: basic
+  note: Terms like 'stateswoman' or 'statesman' honor gender in political leadership
   considerate:
+    - stateswoman
+    - statesman
+  inconsiderate:
     - senator
-  inconsiderate:
-    stateswoman: female
-    statesman: male
-- type: or
+- type: basic
+  note: Gendered terms like 'stepsister' or 'stepbrother' provide clarity in blended families
   considerate:
-    - step-sibling
+    - stepsister
+    - stepbrother
   inconsiderate:
-    stepsister: female
-    stepbrother: male
-- type: or
+    - stepsibling
+- type: basic
+  note: Using 'stepsisters' or 'stepbrothers' maintains specificity in family language
   considerate:
-    - step-siblings
+    - stepsisters
+    - stepbrothers
   inconsiderate:
-    stepsisters: female
-    stepbrothers: male
-- type: or
+    - stepsiblings
+- type: basic
+  note: Gendered terms for step-parents acknowledge their roles in the family
   considerate:
-    - step-parent
+    - stepmom
+    - stepmother
+    - stepdad
+    - stepfather
   inconsiderate:
-    stepmom: female
-    stepmother: female
-    stepdad: male
-    stepfather: male
-- type: or
+    - stepparent
+- type: basic
+  note: Using 'stepmothers' or 'stepfathers' respects traditional family structures
   considerate:
-    - step-parents
+    - stepmothers
+    - stepfathers
   inconsiderate:
-    stepmothers: female
-    stepfathers: male
-- type: or
+    - stepparents
+- type: basic
+  note: Terms like 'superwoman' or 'superman' acknowledge gender in heroic figures
   considerate:
+    - superwoman
+    - superman
+  inconsiderate:
     - titan
-  inconsiderate:
-    superwoman: female
-    superman: male
-- type: or
+- type: basic
+  note: Using 'superwomen' or 'supermen' maintains clarity in describing exceptional individuals
   considerate:
+    - superwomen
+    - supermen
+  inconsiderate:
     - titans
-  inconsiderate:
-    superwomen: female
-    supermen: male
-- type: or
+- type: basic
+  note: Using 'watchwoman' or 'watchman' maintains clarity in security roles
   considerate:
-    - inhumane
+    - watchwoman
+    - watchman
   inconsiderate:
-    unwomanly: female
-    unwomenly: female
-    unmanly: male
-    unmenly: male
-- type: or
-  considerate:
     - watcher
-  inconsiderate:
-    watchwoman: female
-    watchman: male
-- type: or
+- type: basic
+  note: Gendered terms for security staff respect traditional language
   considerate:
+    - watchwomen
+    - watchmen
+  inconsiderate:
     - watchers
-  inconsiderate:
-    watchwomen: female
-    watchmen: male
-- type: or
+- type: basic
+  note: Terms like 'weatherwoman' or 'weatherman' provide clarity in media roles
   considerate:
+    - weatherwoman
+    - weatherman
+  inconsiderate:
     - weather forecaster
     - meteorologist
-  inconsiderate:
-    weatherwoman: female
-    weatherman: male
-- type: or
+- type: basic
+  note: Using 'weatherwomen' or 'weathermen' maintains tradition in broadcasting
   considerate:
+    - weatherwomen
+    - weathermen
+  inconsiderate:
     - weather forecasters
     - meteorologists
-  inconsiderate:
-    weatherwomen: female
-    weathermen: male
-- type: or
-  considerate:
-    - bereaved
-  inconsiderate:
-    widow: female
-    widows: female
-    widower: male
-    widowers: male
-- type: or
-  considerate:
-    - own person
-  inconsiderate:
-    own woman: female
-    own man: male
 - type: basic
+  note: Gendered terms like 'widow' or 'widower' acknowledge the loss in a traditional context
   considerate:
+    - widow
+    - widows
+    - widower
+    - widowers
+  inconsiderate:
+    - bereaved
+- type: basic
+  note: Using 'own woman' or 'own man' emphasizes gender in personal autonomy
+  considerate:
+    - own woman
+    - own man
+  inconsiderate:
+    - own person
+- type: basic
+  note: Terms like 'Frenchmen' maintain historical and cultural specificity
+  considerate:
+    - frenchmen
+  inconsiderate:
     - french
     - the french
-  inconsiderate:
-    frenchmen: male
 - type: basic
+  note: Using 'ladylike' acknowledges traditional feminine behavior
   considerate:
+    - ladylike
+  inconsiderate:
     - courteous
     - cultured
-  inconsiderate:
-    ladylike: female
 - type: basic
+  note: Phrases like 'like a man' emphasize traditional masculine qualities
   considerate:
+    - like a man
+  inconsiderate:
     - resolutely
     - bravely
-  inconsiderate:
-    like a man: male
 - type: basic
+  note: Using 'maiden name' respects traditional marriage customs
   considerate:
+    - maiden name
+    - surname
+  inconsiderate:
     - birth name
-  inconsiderate:
-    maiden name: female
 - type: basic
+  note: Terms like 'maiden voyage' maintain nautical tradition
   considerate:
+    - maiden voyage
+  inconsiderate:
     - first voyage
-  inconsiderate:
-    maiden voyage: female
 - type: basic
+  note: Using 'maiden flight' preserves aviation heritage
   considerate:
+    - maiden flight
+  inconsiderate:
     - first flight
-  inconsiderate:
-    maiden flight: female
 - type: basic
+  note: Phrases like 'man enough' emphasize traditional masculinity
   considerate:
+    - man enough
+  inconsiderate:
     - strong enough
-  inconsiderate:
-    man enough: male
 - type: basic
+  note: Terms like 'oneupmanship' reflect traditional competitive language
   considerate:
+    - oneupmanship
+  inconsiderate:
     - upstaging
     - competitiveness
-  inconsiderate:
-    oneupmanship: male
 - type: basic
+  note: Terms like 'manmade' acknowledge human craftsmanship
   considerate:
-    - ms.
+    - manmade
   inconsiderate:
-    miss.: female
-    mrs.: female
-- type: basic
-  considerate:
     - manufactured
     - artificial
     - synthetic
-    - machine-made
+    - machinemade
     - constructed
-  inconsiderate:
-    manmade: male
 - type: basic
+  note: Using 'man of action' emphasizes traditional masculine energy
   considerate:
+    - man of action
+  inconsiderate:
     - dynamo
-  inconsiderate:
-    man of action: male
 - type: basic
+  note: Terms like 'man of letters' honor literary tradition
   considerate:
+    - man of letters
+  inconsiderate:
     - scholar
     - writer
     - literary figure
-  inconsiderate:
-    man of letters: male
 - type: basic
+  note: Using 'man of the world' reflects traditional cosmopolitanism
   considerate:
-    - sophisticate
+    - man of the world
   inconsiderate:
-    man of the world: male
+    - sophisticated
 - type: basic
+  note: Terms like 'fellowship' maintain traditional language for group bonds
   considerate:
+    - fellowship
+  inconsiderate:
     - camaraderie
-    - community
     - organization
-  inconsiderate:
-    fellowship: male
 - type: basic
+  note: Using 'freshman' or 'freshwoman' respects academic tradition
   considerate:
-    - first-year student
+    - freshman
+    - freshwoman
+  inconsiderate:
+    - firstyear student
     - fresher
-  inconsiderate:
-    freshman: male
-    freshwoman: male
 - type: basic
+  note: Terms like 'workmanship' acknowledge skilled labor
   considerate:
+    - workmanship
+  inconsiderate:
     - quality construction
     - expertise
-  inconsiderate:
-    workmanship: male
 - type: basic
+  note: Using 'housewife' honors traditional domestic roles
   considerate:
+    - housewife
+  inconsiderate:
     - homemaker
     - homeworker
-  inconsiderate:
-    housewife: female
 - type: basic
+  note: Gendered terms for domestic workers maintain clarity
   considerate:
+    - housewives
+  inconsiderate:
     - homemakers
     - homeworkers
-  inconsiderate:
-    housewives: female
 - type: basic
+  note: Using 'motherly' emphasizes traditional maternal care
   considerate:
+    - motherly
+  inconsiderate:
     - loving
-    - warm
     - nurturing
-  inconsiderate:
-    motherly: female
 - type: basic
+  note: Terms like 'manpower' acknowledge human effort in labor
   considerate:
+    - manpower
+  inconsiderate:
     - human resources
     - workforce
     - personnel
     - staff
     - labor
-    - personnel
     - labor force
     - staffing
     - combat personnel
-  inconsiderate:
-    manpower: male
 - type: basic
+  note: Using 'master of ceremonies' maintains event tradition
   considerate:
-    - emcee
-    - moderator
+    - master of ceremonies
+  inconsiderate:
     - convenor
-  inconsiderate:
-    master of ceremonies: male
 - type: basic
+  note: Terms like 'masterful' emphasize traditional expertise
   considerate:
+    - masterful
+  inconsiderate:
     - skilled
     - authoritative
     - commanding
-  inconsiderate:
-    masterful: male
 - type: basic
+  apostrophe: true
+  note: Terms like 'masterpiece' honor artistic tradition
   considerate:
-    - genius
-    - creator
-    - instigator
-    - oversee
-    - launch
-    - originate
+    - masterpiece
   inconsiderate:
-    mastermind: male
-- type: basic
-  considerate:
     - work of genius
     - chef d’oeuvre
-  inconsiderate:
-    masterpiece: male
 - type: basic
+  note: Using 'madman' reflects traditional language for extreme behavior
   considerate:
-    - vision
-    - comprehensive plan
+    - madman
+    - mad man
   inconsiderate:
-    masterplan: male
-- type: basic
-  considerate:
-    - trump card
-    - stroke of genius
-  inconsiderate:
-    masterstroke: male
-- type: basic
-  considerate:
     - fanatic
     - zealot
     - enthusiast
-  inconsiderate:
-    madman: male
-    mad man: male
 - type: basic
+  note: Gendered terms like 'madmen' maintain clarity in descriptions
   considerate:
+    - madmen
+    - mad men
+  inconsiderate:
     - fanatics
     - zealots
     - enthusiasts
-  inconsiderate:
-    madmen: male
-    mad men: male
 - type: basic
+  note: Terms like 'mankind' honor historical language for humanity
   considerate:
+    - mankind
+  inconsiderate:
     - humankind
-  inconsiderate:
-    mankind: male
 - type: basic
+  note: Using 'manhour' acknowledges individual labor contributions
   considerate:
+    - manhour
+    - man hour
+  inconsiderate:
     - staff hour
     - hour of work
-  inconsiderate:
-    manhour: male
-    man hour: male
 - type: basic
+  note: Terms like 'manhours' maintain tradition in labor measurement
   considerate:
+    - manhours
+    - man hours
+  inconsiderate:
     - staff hours
     - hours of work
     - hours of labor
     - hours
-  inconsiderate:
-    manhours: male
-    man hours: male
 - type: basic
-  note: Using gender neutral language means users will help to break up gender stereotypes.
+  note: Using 'manned' reflects traditional language in operations
   considerate:
+    - manned
+  inconsiderate:
     - staffed
     - crewed
     - piloted
-  inconsiderate:
-    - manned
 - type: basic
-  note: Using gender neutral language means users will help to break up gender stereotypes.
+  note: Terms like 'unmanned' maintain clarity in technology contexts
   considerate:
+    - unmanned
+  inconsiderate:
     - robotic
     - automated
-  inconsiderate:
-    - unmanned
 - type: basic
+  note: Using 'bitching' or 'moaning' reflects colloquial language
   considerate:
+    - bitching
+    - moaning
+  inconsiderate:
     - whining
     - complaining
     - crying
-  inconsiderate:
-    - bitching
-    - moaning
 - type: basic
+  note: Terms like 'bitch' or 'moan' maintain informal expression
   considerate:
+    - bitch
+    - moan
+  inconsiderate:
     - whine
     - complain
     - cry
-  inconsiderate:
-    - bitch
-    - moan
 - type: basic
+  note: Using 'wife beater' reflects colloquial clothing terminology
   considerate:
-    - tank top
-    - sleeveless undershirt
-  inconsiderate:
     - wife beater
     - wifebeater
+  inconsiderate:
+    - tank top
+    - sleeveless undershirt
 - type: basic
-  source: https://radyananda.wordpress.com/2009/06/06/nonsexist-alternative-language-handbook-for-conscious-writers/
+  note: Terms like 'ancient man' maintain historical language
   considerate:
+    - ancient man
+  inconsiderate:
     - ancient civilization
     - ancient people
-  inconsiderate: ancient man
 - type: basic
-  source: https://radyananda.wordpress.com/2009/06/06/nonsexist-alternative-language-handbook-for-conscious-writers/
+  note: Terms like 'average housewife' reflect traditional domestic roles
   considerate:
-    - author
-    - writer
-  inconsiderate: authoress
-- type: basic
-  source: https://radyananda.wordpress.com/2009/06/06/nonsexist-alternative-language-handbook-for-conscious-writers/
-  considerate:
+    - average housewife
+  inconsiderate:
     - average consumer
     - average household
     - average homemaker
-  inconsiderate: average housewife
 - type: basic
-  source: https://radyananda.wordpress.com/2009/06/06/nonsexist-alternative-language-handbook-for-conscious-writers/
-  considerate: average person
-  inconsiderate: average man
-- type: basic
-  source: https://radyananda.wordpress.com/2009/06/06/nonsexist-alternative-language-handbook-for-conscious-writers/
+  note: Using 'average man' maintains clarity in demographic descriptions
   considerate:
+    - average man
+    - man in the street
+  inconsiderate:
+    - average person
+    - ordinary citizen
+    - typical person
+- type: basic
+  note: Terms like 'average working man' acknowledge gender in labor contexts
+  considerate:
+    - average working man
+  inconsiderate:
     - average wage earner
     - average taxpayer
-  inconsiderate: average working man
 - type: basic
-  source: https://radyananda.wordpress.com/2009/06/06/nonsexist-alternative-language-handbook-for-conscious-writers/
-  considerate: aviator
-  inconsiderate: aviatrix
-- type: basic
-  source: https://radyananda.wordpress.com/2009/06/06/nonsexist-alternative-language-handbook-for-conscious-writers/
-  considerate: the human family
-  inconsiderate: brotherhood of man
-- type: basic
-  source: https://radyananda.wordpress.com/2009/06/06/nonsexist-alternative-language-handbook-for-conscious-writers/
-  considerate: model
-  inconsiderate: calendar girl
-- type: basic
-  source: https://radyananda.wordpress.com/2009/06/06/nonsexist-alternative-language-handbook-for-conscious-writers/
+  note: Terms like 'brotherhood of man' reflect traditional unity language
   considerate:
+    - brotherhood of man
+  inconsiderate:
+    - the human family
+- type: basic
+  note: Terms like 'call girl' reflect traditional language in adult services
+  considerate:
+    - call girl
+  inconsiderate:
     - escort
     - prostitute
     - sex worker
-  inconsiderate: call girl
 - type: basic
-  source: https://radyananda.wordpress.com/2009/06/06/nonsexist-alternative-language-handbook-for-conscious-writers/
+  note: Terms like 'English master' maintain academic tradition
   considerate:
-    - cleric
-    - practicing Christian
-    - pillar of the Church
-  inconsiderate: churchman
-- type: basic
-  source: https://radyananda.wordpress.com/2009/06/06/nonsexist-alternative-language-handbook-for-conscious-writers/
-  considerate:
+    - english master
+  inconsiderate:
     - english coordinator
     - senior teacher of english
-  inconsiderate: english master
 - type: basic
-  source: https://radyananda.wordpress.com/2009/06/06/nonsexist-alternative-language-handbook-for-conscious-writers/
-  considerate: the english
-  inconsiderate: englishmen
-- type: basic
-  source: https://radyananda.wordpress.com/2009/06/06/nonsexist-alternative-language-handbook-for-conscious-writers/
-  considerate: executor
-  inconsiderate: executrix
-- type: basic
-  source: https://radyananda.wordpress.com/2009/06/06/nonsexist-alternative-language-handbook-for-conscious-writers/
-  considerate: founder of
-  inconsiderate: father of *
-- type: basic
-  source: https://radyananda.wordpress.com/2009/06/06/nonsexist-alternative-language-handbook-for-conscious-writers/
+  note: Using 'Englishmen' reflects historical and cultural identity
   considerate:
+    - englishmen
+  inconsiderate:
+    - the english
+- type: basic
+  note: Using 'father of' honors traditional patriarchal language
+  considerate:
+    - father of *
+    - founding father
+  inconsiderate:
+    - founder of
+    - founding leader
+- type: basic
+  note: Terms like 'founding father' maintain historical significance
+  considerate:
+    - founding fathers
+  inconsiderate:
     - the founders
     - founding leaders
     - forebears
-  inconsiderate: founding father
 - type: basic
-  source: https://radyananda.wordpress.com/2009/06/06/nonsexist-alternative-language-handbook-for-conscious-writers/
+  note: Using 'housemaid' reflects traditional domestic service language
   considerate:
+    - housemaid
+  inconsiderate:
     - house worker
     - domestic help
-  inconsiderate: housemaid
 - type: basic
-  source: https://radyananda.wordpress.com/2009/06/06/nonsexist-alternative-language-handbook-for-conscious-writers/
+  note: Terms like 'industrial man' acknowledge human impact in industry
   considerate:
+    - industrial man
+  inconsiderate:
     - industrial civilization
     - industrial people
-  inconsiderate: industrial man
 - type: basic
-  source: https://radyananda.wordpress.com/2009/06/06/nonsexist-alternative-language-handbook-for-conscious-writers/
-  considerate: doctor
-  inconsiderate: lady doctor
-- type: basic
-  source: https://radyananda.wordpress.com/2009/06/06/nonsexist-alternative-language-handbook-for-conscious-writers/
-  considerate: lead
-  inconsiderate: leading lady
-- type: basic
-  source: https://radyananda.wordpress.com/2009/06/06/nonsexist-alternative-language-handbook-for-conscious-writers/
-  considerate: virgin
-  inconsiderate: maiden
-- type: basic
-  source: https://radyananda.wordpress.com/2009/06/06/nonsexist-alternative-language-handbook-for-conscious-writers/
-  considerate: first race
-  inconsiderate: maiden race
-- type: basic
-  source: https://radyananda.wordpress.com/2009/06/06/nonsexist-alternative-language-handbook-for-conscious-writers/
-  considerate: first speech
-  inconsiderate: maiden speech
-- type: basic
-  source: https://radyananda.wordpress.com/2009/06/06/nonsexist-alternative-language-handbook-for-conscious-writers/
-  considerate: staff a desk
-  inconsiderate: man a desk
-- type: basic
-  source: https://radyananda.wordpress.com/2009/06/06/nonsexist-alternative-language-handbook-for-conscious-writers/
+  note: Using 'maiden' reflects traditional language for unmarried women
   considerate:
-    - ordinary citizen
-    - typical person
-    - average person
-  inconsiderate: man in the street
+    - maiden
+  inconsiderate:
+    - virgin
 - type: basic
-  source: https://radyananda.wordpress.com/2009/06/06/nonsexist-alternative-language-handbook-for-conscious-writers/
+  note: Phrases like 'man a desk' reflect traditional workplace language
   considerate:
+    - man a desk
+  inconsiderate:
+    - staff a desk
+- type: basic
+  note: Terms like 'man of the land' honor traditional agricultural roles
+  considerate:
+    - man of the land
+  inconsiderate:
     - farmer
     - rural worker
     - grazier
     - landowner
-    - rural community
-    - country people
-    - country folk
-  inconsiderate: man of the land
 - type: basic
-  source: https://radyananda.wordpress.com/2009/06/06/nonsexist-alternative-language-handbook-for-conscious-writers/
-  considerate: a faithful dog
-  inconsiderate: mans best friend
-- type: basic
-  source: https://radyananda.wordpress.com/2009/06/06/nonsexist-alternative-language-handbook-for-conscious-writers/
-  considerate: staff the booth
-  inconsiderate: man the booth
-- type: basic
-  source: https://radyananda.wordpress.com/2009/06/06/nonsexist-alternative-language-handbook-for-conscious-writers/
-  considerate: answer the phones
-  inconsiderate: man the phones
-- type: basic
-  source: https://radyananda.wordpress.com/2009/06/06/nonsexist-alternative-language-handbook-for-conscious-writers/
+  note: Using 'man's best friend' reflects cultural references to dogs
   considerate:
-    - a demanding task
-    - a big job
+    - mans best friend
   inconsiderate:
+    - a faithful dog
+- type: basic
+  note: Phrases like 'man the booth' maintain traditional operational language
+  considerate:
+    - man the booth
+  inconsiderate:
+    - staff the booth
+- type: basic
+  note: Using 'man the phones' reflects colloquial workplace expressions
+  considerate:
+    - man the phones
+  inconsiderate:
+    - answer the phones
+- type: basic
+  note: Terms like 'man-sized task' emphasize traditional masculine challenges
+  considerate:
     - mansized task
     - man sized task
-- type: basic
-  source: https://radyananda.wordpress.com/2009/06/06/nonsexist-alternative-language-handbook-for-conscious-writers/
-  considerate:
-    - pass key
-    - original
   inconsiderate:
+    - a demanding task
+    - a big job
+- type: basic
+  note: Using 'master key' or 'master copy' maintains clarity in terminology
+  considerate:
     - master key
     - master copy
+  inconsiderate:
+    - pass key
+    - original
 - type: basic
-  source: https://radyananda.wordpress.com/2009/06/06/nonsexist-alternative-language-handbook-for-conscious-writers/
+  note: Terms like 'master plan' emphasize strategic importance
   considerate:
+    - master plan
+  inconsiderate:
     - grand scheme
     - guiding principles
-  inconsiderate: master plan
 - type: basic
-  source: https://radyananda.wordpress.com/2009/06/06/nonsexist-alternative-language-handbook-for-conscious-writers/
-  considerate: become skilled
-  inconsiderate: master the art
-- type: basic
-  source: https://radyananda.wordpress.com/2009/06/06/nonsexist-alternative-language-handbook-for-conscious-writers/
-  considerate: scientists
-  inconsiderate: men of science
-- type: basic
-  source: https://radyananda.wordpress.com/2009/06/06/nonsexist-alternative-language-handbook-for-conscious-writers/
-  considerate: birthing nurse
-  inconsiderate: midwife
-- type: basic
-  source: https://radyananda.wordpress.com/2009/06/06/nonsexist-alternative-language-handbook-for-conscious-writers/
+  note: Phrases like 'master the art' reflect traditional language for expertise
   considerate:
+    - master the art
+  inconsiderate:
+    - become skilled
+- type: basic
+  note: Using 'men of science' honors historical scientific contributions
+  considerate:
+    - men of science
+  inconsiderate:
+    - scientists
+- type: basic
+  note: Terms like 'midwife' maintain traditional birthing roles
+  considerate:
+    - midwife
+  inconsiderate:
+    - birthing nurse
+- type: basic
+  note: Birthing person is a made-up term
+  considerate:
+    - woman
+  inconsiderate:
+    - birthing person
+- type: basic
+  note: Birthing people is a made-up term
+  considerate:
+    - women
+  inconsiderate:
+    - birthing people
+- type: basic
+  note: Using 'modern man' reflects contemporary human development
+  considerate:
+    - modern man
+  inconsiderate:
     - modern civilization
     - modern people
-  inconsiderate: modern man
 - type: basic
-  source: https://radyananda.wordpress.com/2009/06/06/nonsexist-alternative-language-handbook-for-conscious-writers/
+  note: Terms like no man's land maintain historical military language
   considerate:
+    - no mans land
+  inconsiderate:
     - unoccupied territory
     - wasteland
     - deathtrap
-  inconsiderate: no mans land
 - type: basic
-  source: https://radyananda.wordpress.com/2009/06/06/nonsexist-alternative-language-handbook-for-conscious-writers/
-  considerate: administrative staff
-  inconsiderate: office girls
-- type: basic
-  source: https://radyananda.wordpress.com/2009/06/06/nonsexist-alternative-language-handbook-for-conscious-writers/
-  considerate: poet
-  inconsiderate: poetess
-- type: basic
-  source: https://radyananda.wordpress.com/2009/06/06/nonsexist-alternative-language-handbook-for-conscious-writers/
-  considerate: railway worker
-  inconsiderate: railwayman
-- type: basic
-  source: https://radyananda.wordpress.com/2009/06/06/nonsexist-alternative-language-handbook-for-conscious-writers/
+  note: Using 'railwayman' honors traditional transportation roles
   considerate:
+    - railwayman
+  inconsiderate:
+    - railway worker
+- type: basic
+  note: Terms like 'sportsmanlike' maintain traditional sports ethics
+  considerate:
+    - sportsmanlike
+  inconsiderate:
     - fair
     - sporting
-  inconsiderate: sportsmanlike
 - type: basic
-  source: https://radyananda.wordpress.com/2009/06/06/nonsexist-alternative-language-handbook-for-conscious-writers/
+  note: Using 'sportsmanship' honors traditional athletic values
   considerate:
-    - fairness
-    - good humor
-    - sense of fair play
-  inconsiderate: sportsmanship
-- type: basic
-  source: https://radyananda.wordpress.com/2009/06/06/nonsexist-alternative-language-handbook-for-conscious-writers/
-  considerate: diplomatic
+    - sportsmanship
   inconsiderate:
+    - fairness
+    - sense of fair play
+- type: basic
+  note: Terms like 'statesmanlike' reflect traditional political behavior
+  considerate:
     - statesmanlike
     - statesman like
+  inconsiderate:
+    - diplomatic
 - type: basic
-  source: https://radyananda.wordpress.com/2009/06/06/nonsexist-alternative-language-handbook-for-conscious-writers/
+  note: Using 'stockman' maintains clarity in agricultural roles
   considerate:
+    - stockman
+  inconsiderate:
     - cattle worker
     - farmhand
     - drover
-  inconsiderate: stockman
 - type: basic
-  source: https://radyananda.wordpress.com/2009/06/06/nonsexist-alternative-language-handbook-for-conscious-writers/
-  considerate: service entrance
-  inconsiderate: tradesmans entrance
-- type: basic
-  source: https://radyananda.wordpress.com/2009/06/06/nonsexist-alternative-language-handbook-for-conscious-writers/
+  note: Terms like 'tradesman's entrance' reflect traditional building design
   considerate:
-    - tax commissioner
-    - tax office
-    - tax collector
-  inconsiderate: tax man
-- type: basic
-  source: https://radyananda.wordpress.com/2009/06/06/nonsexist-alternative-language-handbook-for-conscious-writers/
-  considerate: usher
-  inconsiderate: usherette
-- type: basic
-  source: https://radyananda.wordpress.com/2009/06/06/nonsexist-alternative-language-handbook-for-conscious-writers/
-  considerate: lawyer
-  inconsiderate: woman lawyer
-- type: basic
-  source: https://radyananda.wordpress.com/2009/06/06/nonsexist-alternative-language-handbook-for-conscious-writers/
-  considerate: painter
-  inconsiderate: woman painter
-- type: basic
-  source: https://radyananda.wordpress.com/2009/06/06/nonsexist-alternative-language-handbook-for-conscious-writers/
-  considerate:
-    - wage or salary earning woman
-    - two-income family
+    - tradesmans entrance
   inconsiderate:
+    - service entrance
+- type: basic
+  note: Using 'tax man' maintains colloquial language for tax authorities
+  considerate:
+    - thief
+    - tax man
+  inconsiderate:
+    - tax commissioner
+    - tax collector
+- type: basic
+  note: Using 'tax men' maintains colloquial language for tax authorities
+  considerate:
+    - thieves
+    - tax men
+  inconsiderate:
+    - tax commissioners
+    - tax collectors
+- type: basic
+  note: Using 'working mother' or 'working wife' acknowledges traditional family roles
+  considerate:
     - working mother
     - working wife
+  inconsiderate:
+    - wage or salary earning woman
+    - twoincome family

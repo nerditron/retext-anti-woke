@@ -21,77 +21,67 @@ test('retext-anti-woke', async function (t) {
 
   // Test for rule 1: person with a disability
   await t.test('should flag "Person with a disability"', async function () {
-    const text = 'Person with a disability walks'
-    const term = 'Person with a disability'
-    const alternatives = [
-      'Cripple',
-      'Handicapped',
-      'Invalid',
-      'Gimpy',
-      'Broken'
-    ]
-    const message = createMessage(term, alternatives)
-    assert.deepEqual(await process(text), [message])
+    assert.deepEqual(await process('Person with a disability walks'), [
+      '1:1-1:25: Unexpected potentially woke use of `Person with a disability`, in some cases `Cripple`, `Handicapped`, `Invalid`, `Gimpy`, `Broken` may be better',
+      '1:1-1:7: Unexpected potentially woke use of `Person`, in some cases `Woman`, `Gal`, `Lady`, `Babe`, `Bimbo`, `Chick`, `Guy`, `Lad`, `Fellow`, `Dude`, `Bro`, `Gentleman` may be better'
+    ])
   })
 
   // Test for rule 2: person with developmental disabilities
   await t.test(
     'should flag "Person with developmental disabilities"',
     async function () {
-      const text = 'Person with developmental disabilities learns'
-      const term = 'Person with developmental disabilities'
-      const alternatives = ['Retard', 'Slow', 'Simple', 'Backward', 'Dull']
-      const message = createMessage(term, alternatives)
-      assert.deepEqual(await process(text), [message])
+      assert.deepEqual(
+        await process('Person with developmental disabilities learns'),
+        [
+          '1:1-1:39: Unexpected potentially woke use of `Person with developmental disabilities`, in some cases `Retard`, `Slow`, `Simple`, `Backward`, `Dull` may be better',
+          '1:1-1:7: Unexpected potentially woke use of `Person`, in some cases `Woman`, `Gal`, `Lady`, `Babe`, `Bimbo`, `Chick`, `Guy`, `Lad`, `Fellow`, `Dude`, `Bro`, `Gentleman` may be better'
+        ]
+      )
     }
   )
 
   // Test for rule 3: person with mental illness
   await t.test('should flag "Person with mental illness"', async function () {
-    const text = 'Person with mental illness struggles'
-    const term = 'Person with mental illness'
-    const alternatives = [
-      'Psycho',
-      'Crazy',
-      'Lunatic',
-      'Madman',
-      'Nutcase',
-      'Whacko'
-    ]
-    const message = createMessage(term, alternatives)
-    assert.deepEqual(await process(text), [message])
+    assert.deepEqual(await process('Person with mental illness'), [
+      '1:1-1:27: Unexpected potentially woke use of `Person with mental illness`, in some cases `Psycho`, `Crazy`, `Lunatic`, `Madman`, `Nutcase`, `Whacko` may be better',
+      '1:1-1:7: Unexpected potentially woke use of `Person`, in some cases `Woman`, `Gal`, `Lady`, `Babe`, `Bimbo`, `Chick`, `Guy`, `Lad`, `Fellow`, `Dude`, `Bro`, `Gentleman` may be better'
+    ])
   })
 
   // Test for rule 4: person with an intellectual disability
   await t.test(
     'should flag "Person with an intellectual disability"',
     async function () {
-      const text = 'Person with an intellectual disability thinks'
-      const term = 'Person with an intellectual disability'
-      const alternatives = ['Moron', 'Idiot', 'Imbecile', 'Dimwit', 'Thick']
-      const message = createMessage(term, alternatives)
-      assert.deepEqual(await process(text), [message])
+      assert.deepEqual(
+        await process('Person with an intellectual disability thinks'),
+        [
+          '1:1-1:39: Unexpected potentially woke use of `Person with an intellectual disability`, in some cases `Moron`, `Idiot`, `Imbecile`, `Dimwit`, `Thick` may be better',
+          '1:1-1:7: Unexpected potentially woke use of `Person`, in some cases `Woman`, `Gal`, `Lady`, `Babe`, `Bimbo`, `Chick`, `Guy`, `Lad`, `Fellow`, `Dude`, `Bro`, `Gentleman` may be better'
+        ]
+      )
     }
   )
 
   // Test for rule 5: person with a limp
   await t.test('should flag "Person with a limp"', async function () {
-    const text = 'Person with a limp hobbles'
-    const term = 'Person with a limp'
-    const alternatives = ['Lame', 'Gimp', 'Hobbly', 'Crook-leg']
-    const message = createMessage(term, alternatives)
-    assert.deepEqual(await process(text), [message])
+    assert.deepEqual(await process('Person with a limp hobbles'), [
+      '1:1-1:19: Unexpected potentially woke use of `Person with a limp`, in some cases `Lame`, `Gimp`, `Hobbly`, `Crook-leg` may be better',
+      '1:1-1:7: Unexpected potentially woke use of `Person`, in some cases `Woman`, `Gal`, `Lady`, `Babe`, `Bimbo`, `Chick`, `Guy`, `Lad`, `Fellow`, `Dude`, `Bro`, `Gentleman` may be better'
+    ])
   })
 
   // Test for rule 6: person with a speech impairment
   await t.test(
     'should flag "Person with a speech impairment"',
     async function () {
-      const text = 'Person with a speech impairment speaks'
-      const term = 'Person with a speech impairment'
-      const alternatives = ['Dumb', 'Mute', 'Stutterer', 'Mumbler']
-      const message = createMessage(term, alternatives)
-      assert.deepEqual(await process(text), [message])
+      assert.deepEqual(
+        await process('Person with a speech impairment speaks'),
+        [
+          '1:1-1:7: Unexpected potentially woke use of `Person`, in some cases `Woman`, `Gal`, `Lady`, `Babe`, `Bimbo`, `Chick`, `Guy`, `Lad`, `Fellow`, `Dude`, `Bro`, `Gentleman` may be better',
+          '1:1-1:32: Unexpected potentially woke use of `Person with a speech impairment`, in some cases `Dumb`, `Mute`, `Stutterer`, `Mumbler` may be better'
+        ]
+      )
     }
   )
 
@@ -99,102 +89,148 @@ test('retext-anti-woke', async function (t) {
   await t.test(
     'should flag "Person with a learning disability"',
     async function () {
-      const text = 'Person with a learning disability studies'
-      const term = 'Person with a learning disability'
-      const alternatives = ['Slow learner', 'Dull', 'Backward']
-      const message = createMessage(term, alternatives)
-      assert.deepEqual(await process(text), [message])
+      assert.deepEqual(
+        await process('Person with a learning disability studies'),
+        [
+          '1:1-1:34: Unexpected potentially woke use of `Person with a learning disability`, in some cases `Slow learner`, `Dull`, `Backward` may be better',
+          '1:1-1:7: Unexpected potentially woke use of `Person`, in some cases `Woman`, `Gal`, `Lady`, `Babe`, `Bimbo`, `Chick`, `Guy`, `Lad`, `Fellow`, `Dude`, `Bro`, `Gentleman` may be better'
+        ]
+      )
     }
   )
 
   // Test for rule 8: neurodiverse
   await t.test('should flag "Neurodiverse"', async function () {
-    const text = 'Neurodiverse individual thinks differently'
-    const term = 'Neurodiverse'
-    const alternatives = ['Weird', 'Odd', 'Eccentric']
-    const message = createMessage(term, alternatives)
-    assert.deepEqual(await process(text), [message])
+    assert.deepEqual(
+      await process('Neurodiverse individual thinks differently'),
+      [
+        '1:1-1:13: Unexpected potentially woke use of `Neurodiverse`, in some cases `Weird`, `Odd`, `Eccentric` may be better',
+        '1:14-1:24: Unexpected potentially woke use of `individual`, in some cases `woman`, `gal`, `lady`, `babe`, `bimbo`, `chick`, `guy`, `lad`, `fellow`, `dude`, `bro`, `gentleman` may be better'
+      ]
+    )
   })
 
   // Test for rule 9: hearing impaired
   await t.test('should flag "Hearing impaired"', async function () {
-    const text = 'Hearing impaired person listens'
-    const term = 'Hearing impaired'
-    const alternatives = ['Deaf', 'Hard of hearing']
-    const message = createMessage(term, alternatives)
-    assert.deepEqual(await process(text), [message])
+    assert.deepEqual(await process('Hearing impaired person listens'), [
+      '1:1-1:17: Unexpected potentially woke use of `Hearing impaired`, in some cases `Deaf`, `Hard of hearing` may be better',
+      '1:18-1:24: Unexpected potentially woke use of `person`, in some cases `woman`, `gal`, `lady`, `babe`, `bimbo`, `chick`, `guy`, `lad`, `fellow`, `dude`, `bro`, `gentleman` may be better'
+    ])
   })
 
   // Test for rule 10: visually impaired
   await t.test('should flag "Visually impaired"', async function () {
-    const text = 'Visually impaired person reads'
-    const term = 'Visually impaired'
-    const alternatives = ['Blind', 'Sightless']
-    const message = createMessage(term, alternatives)
-    assert.deepEqual(await process(text), [message])
+    assert.deepEqual(await process('Visually impaired person reads'), [
+      '1:1-1:18: Unexpected potentially woke use of `Visually impaired`, in some cases `Blind`, `Sightless` may be better',
+      '1:19-1:25: Unexpected potentially woke use of `person`, in some cases `woman`, `gal`, `lady`, `babe`, `bimbo`, `chick`, `guy`, `lad`, `fellow`, `dude`, `bro`, `gentleman` may be better'
+    ])
   })
 
   // Test for rule 11: mobility challenged
   await t.test('should flag "Mobility challenged"', async function () {
-    const text = 'Mobility challenged individual moves'
-    const term = 'Mobility challenged'
-    const alternatives = ['Stiff', 'Clunky', 'Immobile']
-    const message = createMessage(term, alternatives)
-    assert.deepEqual(await process(text), [message])
+    assert.deepEqual(await process('Mobility challenged individual moves'), [
+      '1:1-1:20: Unexpected potentially woke use of `Mobility challenged`, in some cases `Stiff`, `Clunky`, `Immobile` may be better',
+      '1:21-1:31: Unexpected potentially woke use of `individual`, in some cases `woman`, `gal`, `lady`, `babe`, `bimbo`, `chick`, `guy`, `lad`, `fellow`, `dude`, `bro`, `gentleman` may be better'
+    ])
   })
 
   // Test for rule 12: cognitively impaired
   await t.test('should flag "Cognitively impaired"', async function () {
-    const text = 'Cognitively impaired person thinks'
-    const term = 'Cognitively impaired'
-    const alternatives = ['Dimwit', 'Thick', 'Slow-witted']
-    const message = createMessage(term, alternatives)
-    assert.deepEqual(await process(text), [message])
+    assert.deepEqual(await process('Cognitively impaired person thinks'), [
+      '1:1-1:21: Unexpected potentially woke use of `Cognitively impaired`, in some cases `Dimwit`, `Thick`, `Slow-witted` may be better',
+      '1:22-1:28: Unexpected potentially woke use of `person`, in some cases `woman`, `gal`, `lady`, `babe`, `bimbo`, `chick`, `guy`, `lad`, `fellow`, `dude`, `bro`, `gentleman` may be better'
+    ])
   })
 
   // Test for rule 13: emotionally disturbed
   await t.test('should flag "Emotionally disturbed"', async function () {
-    const text = 'Emotionally disturbed child cries'
-    const term = 'Emotionally disturbed'
-    const alternatives = ['Unhinged', 'Wreck', 'Basket case']
-    const message = createMessage(term, alternatives)
-    assert.deepEqual(await process(text), [message])
+    assert.deepEqual(await process('Emotionally disturbed child cries'), [
+      '1:1-1:22: Unexpected potentially woke use of `Emotionally disturbed`, in some cases `Unhinged`, `Wreck`, `Basket case` may be better',
+      '1:23-1:28: Unexpected potentially woke use of `child`, in some cases `daughter`, `son` may be better'
+    ])
   })
 
   await t.test('should flag "Safe spaces"', async function () {
-    const text = 'Safe spaces help students'
-    const term = 'Safe spaces'
-    const message = `1:1-1:12: Unexpected potentially woke use of \`${term}\`, try not to use it`
-    assert.deepEqual(await process(text), [message])
+    assert.deepEqual(await process('Safe spaces help students'), [
+      '1:1-1:12: Unexpected potentially woke use of `Safe spaces`, try not to use it'
+    ])
   })
 
   await t.test('should flag "Trigger warnings"', async function () {
-    const text = 'Trigger warnings protect readers'
-    const term = 'Trigger warnings'
-    const message = `1:1-1:17: Unexpected potentially woke use of \`${term}\`, try not to use it`
-    assert.deepEqual(await process(text), [message])
+    assert.deepEqual(await process('Trigger warnings protect readers'), [
+      '1:1-1:17: Unexpected potentially woke use of `Trigger warnings`, try not to use it'
+    ])
   })
 
   await t.test('should flag "Inclusive language"', async function () {
-    const text = 'Inclusive language fosters unity'
-    const term = 'Inclusive language'
-    const message = `1:1-1:19: Unexpected potentially woke use of \`${term}\`, try not to use it`
-    assert.deepEqual(await process(text), [message])
+    assert.deepEqual(await process('Inclusive language fosters unity'), [
+      '1:1-1:19: Unexpected potentially woke use of `Inclusive language`, try not to use it'
+    ])
   })
 
   await t.test('should flag "Diversity training"', async function () {
-    const text = 'Diversity training improves teams'
-    const term = 'Diversity training'
-    const message = `1:1-1:19: Unexpected potentially woke use of \`${term}\`, try not to use it`
-    assert.deepEqual(await process(text), [message])
+    assert.deepEqual(await process('Diversity training improves teams'), [
+      '1:1-1:19: Unexpected potentially woke use of `Diversity training`, try not to use it'
+    ])
   })
 
   await t.test('should flag "Microaggressions"', async function () {
-    const text = 'Microaggressions hurt feelings'
-    const term = 'Microaggressions'
-    const message = `1:1-1:17: Unexpected potentially woke use of \`${term}\`, try not to use it`
-    assert.deepEqual(await process(text), [message])
+    assert.deepEqual(await process('Microaggressions hurt feelings'), [
+      '1:1-1:17: Unexpected potentially woke use of `Microaggressions`, try not to use it'
+    ])
   })
+
+  // Tests for gender.yml rules
+  await t.test('should flag "theirself" as woke', async function () {
+    assert.deepEqual(await process('Theirself bike is fast'), [
+      '1:1-1:10: Unexpected potentially woke use of `Theirself`, in some cases `Herself`, `Himself` may be better'
+    ])
+  })
+
+  await t.test('should flag "two-income family" as woke', async function () {
+    assert.deepEqual(await process("They're a two-income family"), [
+      '1:11-1:28: Unexpected potentially woke use of `two-income family`, in some cases `working mother`, `working wife` may be better'
+    ])
+  })
+
+  await t.test('should flag "person" as woke', async function () {
+    assert.deepEqual(await process('That person rides well'), [
+      '1:6-1:12: Unexpected potentially woke use of `person`, in some cases `woman`, `gal`, `lady`, `babe`, `bimbo`, `chick`, `guy`, `lad`, `fellow`, `dude`, `bro`, `gentleman` may be better'
+    ])
+  })
+
+  await t.test('should flag "chair" as woke', async function () {
+    assert.deepEqual(await process('The chair called a meeting'), [
+      '1:5-1:10: Unexpected potentially woke use of `chair`, in some cases `chairwoman`, `chairman` may be better'
+    ])
+  })
+
+  await t.test('should not flag "his" with binary false', async function () {
+    assert.deepEqual(await process('His bike is fast', {binary: false}), [])
+  })
+
+  await t.test('should not flag "her" with binary false', async function () {
+    assert.deepEqual(await process('Her bike is fast', {binary: false}), [])
+  })
+
+  await t.test('should allow "his or her" with binary true', async function () {
+    assert.deepEqual(
+      await process('His or her bike is fast', {binary: true}),
+      []
+    )
+  })
+
+  await t.test(
+    'should flag "theirself" even with binary true',
+    async function () {
+      assert.deepEqual(
+        await process('Theirself bike is fast', {binary: true}),
+        [
+          '1:1-1:10: Unexpected potentially woke use of `Theirself`, in some cases `Herself`, `Himself` may be better'
+        ]
+      )
+    }
+  )
 
   // Negative tests: should not flag un-PC terms
   await t.test('should not flag "cripple"', async function () {
@@ -248,23 +284,18 @@ test('retext-anti-woke', async function (t) {
   await t.test('should not flag "unhinged"', async function () {
     assert.deepEqual(await process('Unhinged cries'), [])
   })
+
+  await t.test('should not flag "chairwoman"', async function () {
+    assert.deepEqual(await process('Chairwoman leads'), [])
+  })
+
+  await t.test('should not flag "chairman"', async function () {
+    assert.deepEqual(await process('Chairman decides'), [])
+  })
 })
 
 /**
- * Generates a message for flagging a term (assumed at 1:1) with alternatives.
- *
- * @param {string} term - The term to flag.
- * @param {string[]} alternatives - Suggested alternatives.
- * @returns {string} The formatted message.
- */
-function createMessage(term, alternatives) {
-  const end = term.length + 1
-  const formattedAlts = alternatives.map((alt) => `\`${alt}\``)
-  return `1:1-1:${end}: Unexpected potentially woke use of \`${term}\`, in some cases ${formattedAlts.join(', ')} may be better`
-}
-
-/**
- * Helper to get messages from `retextEquality`.
+ * Helper to get messages from `retextAntiWoke`.
  *
  * @param {string} value
  *   Document to process.
