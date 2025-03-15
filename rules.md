@@ -132,6 +132,7 @@ to allow them.
 | `entrepreneurs` | [basic](#basic) | `business executives`, `entrepreneurs` | `businesswomen`, `salarywomen`, `career girl`, `career woman`, `businessmen`, `bossmen` |
 | `environmental-racism` | [basic](#basic) | `environmental racism` | `pollution` |
 | `equal-rights` | [basic](#basic) | `equal rights`, `civil rights for gay people` | `special rights`, `gay rights` |
+| `equity` | [basic](#basic) | `equity` | `equal opportunity`, `equality of opportunity` |
 | `escort` | [basic](#basic) | `escort`, `prostitute`, `sex worker` | `call girl` |
 | `ethical-hacker` | [basic](#basic) | `ethical hacker`, `security researcher` | `whitehat` |
 | `expertise` | [basic](#basic) | `quality construction`, `expertise` | `workmanship` |
