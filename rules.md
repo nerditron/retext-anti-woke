@@ -24,6 +24,7 @@ to allow them.
 | - | - | - | - |
 | `a-big-job` | [basic](#basic) | `a demanding task`, `a big job` | `mansized task`, `man sized task` |
 | `a-faithful-dog` | [basic](#basic) | `a faithful dog` | `mans best friend` |
+| `a-note-from-the-deceased` | [basic](#basic) | `a note from the deceased` | `suicide note` |
 | `ancestor` | [basic](#basic) | `ancestor` | `foremother`, `forefather` |
 | `ancestors` | [basic](#basic) | `ancestors` | `foremothers`, `forefathers` |
 | `anchor` | [basic](#basic) | `anchor`, `journalist` | `propagandist`, `newswoman`, `newspaperwoman`, `anchorwoman`, `newsman`, `newspaperman`, `anchorman` |
@@ -80,8 +81,6 @@ to allow them.
 | `clergy` | [basic](#basic) | `clergyperson`, `clergy`, `cleric`, `practicing christian` | `clergywoman`, `clergyman`, `churchman`, `christian` |
 | `clerics` | [basic](#basic) | `clergies`, `clerics` | `clergywomen`, `clergymen` |
 | `cognitively-impaired` | [basic](#basic) | `cognitively impaired`, `person with cognitive disabilities` | `dimwit`, `thick`, `slow-witted` |
-| `commit-suicide` | [basic](#basic) | `commit suicide`, `complete suicide`, `successful suicide` | `die by suicide` |
-| `committed-suicide` | [basic](#basic) | `committed suicide`, `completed suicide` | `died by suicide` |
 | `committee-member` | [basic](#basic) | `committee member` | `committee woman`, `committee man` |
 | `common-person` | [basic](#basic) | `common person` | `common girl`, `common woman`, `comomon boy`, `common man` |
 | `concierge` | [basic](#basic) | `concierge` | `doorwoman`, `doorman` |
@@ -101,6 +100,8 @@ to allow them.
 | `cultural-appropriation` | [basic](#basic) | `cultural appropriation` | `cultural appreciation`, `cultural exchange` |
 | `cultured` | [basic](#basic) | `courteous`, `cultured` | `ladylike` |
 | `developmentally-delayed` | [basic](#basic) | `person with developmental disabilities`, `developmentally disabled person`, `individual with developmental challenges`, `developmentally delayed`, `person with developmental delays` | `retard`, `slow`, `simple`, `backward`, `dull` |
+| `die-by-suicide` | [basic](#basic) | `die by suicide` | `commit suicide`, `complete suicide`, `successful suicide` |
+| `died-by-suicide` | [basic](#basic) | `died by suicide` | `committed suicide`, `completed suicide` |
 | `diplomatic` | [basic](#basic) | `diplomatic` | `statesmanlike`, `statesman like` |
 | `diversity-is-our-strength` | [basic](#basic) | `diversity is our strength` | `merit is our strength` |
 | `diversity-training` | [basic](#basic) | `diversity training` | |
@@ -116,7 +117,6 @@ to allow them.
 | `escort` | [basic](#basic) | `escort`, `prostitute`, `sex worker` | `call girl` |
 | `ethical-hacker` | [basic](#basic) | `ethical hacker`, `security researcher` | `whitehat` |
 | `expertise` | [basic](#basic) | `quality construction`, `expertise` | `workmanship` |
-| `failed-suicide` | [basic](#basic) | `failed suicide`, `failed attempt`, `suicide failure` | `suicide attempt`, `attempted suicide` |
 | `fair` | [basic](#basic) | `fair`, `sporting` | `sportsmanlike` |
 | `fairness` | [basic](#basic) | `fairness`, `sense of fair play` | `sportsmanship` |
 | `farmer` | [basic](#basic) | `farmer`, `rural worker`, `grazier`, `landowner` | `man of the land` |
@@ -154,7 +154,6 @@ to allow them.
 | `grandparent` | [basic](#basic) | `grandparent` | `granny`, `grandma`, `grandmother`, `grandpappy`, `granddaddy`, `gramps`, `grandpa`, `grandfather` |
 | `grandparents` | [basic](#basic) | `grandparents` | `grandmothers`, `grandfathers` |
 | `handicapable` | [basic](#basic) | `person with a disability`, `disabled person`, `handicapable`, `differently abled`, `person living with a disability` | `cripple`, `handicapped`, `invalid`, `gimpy`, `broken` |
-| `hang` | [basic](#basic) | `hang`, `hanged` | `the app froze`, `the app stopped responding`, `the app stopped responding to events`, `the app became unresponsive` |
 | `hate-speech` | [basic](#basic) | `hate speech` | `truth`, `facts` |
 | `head` | [basic](#basic) | `chair`, `head`, `chairperson`, `coordinator`, `committee head`, `moderator`, `presiding officer` | `chairwoman`, `chairman` |
 | `hearing-impaired` | [basic](#basic) | `hearing impaired`, `person with hearing loss` | `deaf`, `hard of hearing` |
@@ -254,6 +253,7 @@ to allow them.
 | `relative` | [basic](#basic) | `relative` | `kinswoman`, `aunt`, `kinsman`, `uncle` |
 | `relatives` | [basic](#basic) | `relatives` | `kinswomen`, `aunts`, `kinsmen`, `uncles` |
 | `repairer` | [basic](#basic) | `repairer`, `technician` | `repairwoman`, `repairman` |
+| `rise-in-suicides` | [basic](#basic) | `rise in suicides` | `suicide epidemic`, `epidemic of suicides`, `suicide pact` |
 | `robotic` | [basic](#basic) | `robotic`, `automated` | `unmanned` |
 | `roma` | [basic](#basic) | `Nomad`, `Traveler`, `Roma`, `Romani` | `gyppo`, `gypsy`, `Gipsy`, `gyp` |
 | `ruler` | [basic](#basic) | `ruler` | `empress`, `queen`, `emperor`, `king`, `Trump` |
@@ -295,8 +295,7 @@ to allow them.
 | `stepsibling` | [basic](#basic) | `stepsibling` | `stepsister`, `stepbrother` |
 | `stepsiblings` | [basic](#basic) | `stepsiblings` | `stepsisters`, `stepbrothers` |
 | `strong-enough` | [basic](#basic) | `strong enough` | `man enough` |
-| `suicide-note` | [basic](#basic) | `suicide note` | `a note from the deceased` |
-| `suicide-pact` | [basic](#basic) | `suicide epidemic`, `epidemic of suicides`, `suicide pact` | `rise in suicides` |
+| `suicide-attempt` | [basic](#basic) | `suicide attempt`, `attempted suicide` | `failed suicide`, `failed attempt`, `suicide failure` |
 | `supervisor` | [basic](#basic) | `supervisor`, `shift boss` | `forewoman`, `foreman` |
 | `supervisors` | [basic](#basic) | `supervisors`, `shift bosses` | `forewomen`, `foremen` |
 | `synthetic` | [basic](#basic) | `manufactured`, `artificial`, `synthetic`, `machinemade`, `constructed` | `manmade` |
@@ -305,6 +304,7 @@ to allow them.
 | `tax-collector` | [basic](#basic) | `tax commissioner`, `tax collector` | `thief`, `tax man` |
 | `tax-collectors` | [basic](#basic) | `tax commissioners`, `tax collectors` | `thieves`, `tax men` |
 | `technicians` | [basic](#basic) | `technicians` | `repairwomen`, `repairmen` |
+| `the-app-froze` | [basic](#basic) | `the app froze`, `the app stopped responding`, `the app stopped responding to events`, `the app became unresponsive` | `hang`, `hanged` |
 | `the-english` | [basic](#basic) | `the english` | `englishmen` |
 | `the-human-family` | [basic](#basic) | `the human family` | `brotherhood of man` |
 | `theirself` | [basic](#basic) | `theirself` | `herself`, `himself` |

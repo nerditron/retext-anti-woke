@@ -496,6 +496,70 @@ test('retext-anti-woke', async function (t) {
   await t.test('should not flag "merit is our strength"', async function () {
     assert.deepEqual(await process('Merit is our strength prevails'), [])
   })
+
+  // Tests for suicide.yml rules
+  await t.test('should flag "died by suicide" as woke', async function () {
+    assert.deepEqual(await process('Died by suicide yesterday'), [
+      '1:1-1:16: Unexpected potentially woke use of `Died by suicide`, in some cases `Committed suicide`, `Completed suicide` may be better'
+    ])
+  })
+
+  await t.test('should flag "die by suicide" as woke', async function () {
+    assert.deepEqual(await process('Might die by suicide soon'), [
+      '1:7-1:21: Unexpected potentially woke use of `die by suicide`, in some cases `commit suicide`, `complete suicide`, `successful suicide` may be better'
+    ])
+  })
+
+  await t.test('should flag "rise in suicides" as woke', async function () {
+    assert.deepEqual(await process('Rise in suicides reported'), [
+      '1:1-1:17: Unexpected potentially woke use of `Rise in suicides`, in some cases `Suicide epidemic`, `Epidemic of suicides`, `Suicide pact` may be better'
+    ])
+  })
+
+  await t.test('should flag "suicide attempt" as woke', async function () {
+    assert.deepEqual(await process('Suicide attempt failed'), [
+      '1:1-1:16: Unexpected potentially woke use of `Suicide attempt`, in some cases `Failed suicide`, `Failed attempt`, `Suicide failure` may be better'
+    ])
+  })
+
+  await t.test(
+    'should flag "a note from the deceased" as woke',
+    async function () {
+      assert.deepEqual(await process('A note from the deceased found'), [
+        '1:1-1:25: Unexpected potentially woke use of `A note from the deceased`, in some cases `Suicide note` may be better'
+      ])
+    }
+  )
+
+  await t.test('should flag "the app froze" as woke', async function () {
+    assert.deepEqual(await process('The app froze suddenly'), [
+      '1:1-1:14: Unexpected potentially woke use of `The app froze`, in some cases `Hang`, `Hanged` may be better'
+    ])
+  })
+
+  await t.test('should not flag "committed suicide"', async function () {
+    assert.deepEqual(await process('Committed suicide last night'), [])
+  })
+
+  await t.test('should not flag "commit suicide"', async function () {
+    assert.deepEqual(await process('Might commit suicide later'), [])
+  })
+
+  await t.test('should not flag "suicide epidemic"', async function () {
+    assert.deepEqual(await process('Suicide epidemic grows'), [])
+  })
+
+  await t.test('should not flag "failed suicide"', async function () {
+    assert.deepEqual(await process('Failed suicide'), [])
+  })
+
+  await t.test('should not flag "suicide note"', async function () {
+    assert.deepEqual(await process('Suicide note discovered'), [])
+  })
+
+  await t.test('should not flag "hang"', async function () {
+    assert.deepEqual(await process('App might hang soon'), [])
+  })
 })
 
 /**
