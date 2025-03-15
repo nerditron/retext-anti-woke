@@ -232,6 +232,49 @@ test('retext-anti-woke', async function (t) {
     }
   )
 
+  // Tests for lgbtq.yml rules
+  await t.test('should flag "transgender" as woke', async function () {
+    assert.deepEqual(await process('Transgender rights'), [
+      '1:1-1:12: Unexpected potentially woke use of `Transgender`, in some cases `Tranny` may be better'
+    ])
+  })
+
+  await t.test('should flag "gay" as woke', async function () {
+    assert.deepEqual(await process('Gay rights matter'), [
+      '1:1-1:4: Unexpected potentially woke use of `Gay`, in some cases `Fag`, `Faggot`, `Dyke`, `Homo`, `Sodomite` may be better'
+    ])
+  })
+
+  await t.test('should flag "homosexual" as woke', async function () {
+    assert.deepEqual(await process('Homosexual marriage'), [
+      '1:1-1:11: Unexpected potentially woke use of `Homosexual`, in some cases `Homo` may be better'
+    ])
+  })
+
+  await t.test('should flag "transgender person" as woke', async function () {
+    assert.deepEqual(await process('Transgender person speaks'), [
+      '1:1-1:12: Unexpected potentially woke use of `Transgender`, in some cases `Tranny` may be better',
+      '1:1-1:19: Unexpected potentially woke use of `Transgender person`, in some cases `Shemale`, `She male`, `Heshe`, `Shehe` may be better',
+      '1:13-1:19: Unexpected potentially woke use of `person`, in some cases `woman`, `gal`, `lady`, `babe`, `bimbo`, `chick`, `guy`, `lad`, `fellow`, `dude`, `bro`, `gentleman` may be better'
+    ])
+  })
+
+  await t.test('should not flag "tranny"', async function () {
+    assert.deepEqual(await process('Tranny rights'), [])
+  })
+
+  await t.test('should not flag "fag"', async function () {
+    assert.deepEqual(await process('Fag protests'), [])
+  })
+
+  await t.test('should not flag "homo"', async function () {
+    assert.deepEqual(await process('Homo marriage'), [])
+  })
+
+  await t.test('should not flag "shemale"', async function () {
+    assert.deepEqual(await process('Shemale speaks'), [])
+  })
+
   // Negative tests: should not flag un-PC terms
   await t.test('should not flag "cripple"', async function () {
     assert.deepEqual(await process('Cripple walks'), [])
