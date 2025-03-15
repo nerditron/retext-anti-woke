@@ -8,9 +8,9 @@
 [![Backers][backers-badge]][collective]
 [![Chat][chat-badge]][chat]
 
-**[retext][]** plugin to shred woke, politically correct, far-left, and commie
-nonsense from your text, replacing it with raw, unfiltered language that says
-it like it is.
+**[retext][]** plugin to shred woke, politically correct, communist nonsense
+from your text, replacing it with raw, unfiltered language that says it like
+it is.
 
 ## Contents
 
@@ -21,6 +21,7 @@ it like it is.
 * [API](#api)
   * [`unified().use(retextAntiWoke[, options])`](#unifieduseretextantiwoke-options)
   * [`Options`](#options)
+  * [Fields](#fields)
 * [Messages](#messages)
 * [Types](#types)
 * [Compatibility](#compatibility)
@@ -30,21 +31,18 @@ it like it is.
 
 ## What is this?
 
-This package is a [unified][] ([retext][]) plugin that doesn’t coddle your
-feelings.
-It’s a fork of “retext-equality”, flipped on its head to hunt down
-and destroy woke jargon—think “social justice,” “microaggressions,”
-“safe spaces,” and “proletariat”—and swap them out for direct, no-nonsense
-alternatives.
-Sick of the PC police?
-This is your weapon.
+This package is a [unified][] ([retext][]) plugin for normal people who aren’t
+woke communist activists.
+Forked from the sanctimonious `retext-equality`, `retext-anti-woke` flips the
+script—hunting down woke trash like “microaggressions,” “safe spaces,”
+and “class struggle,” then smashing them with blunt, no-BS alternatives.
 
 ## When should I use this?
 
-Use it when you’re done with the woke word salad and want your writing to hit
-hard and clear.
-If you’re a writer who’s tired of tiptoeing around snowflakes,
-this plugin’s got your back.
+Use it when you’re fed up with tip-toeing around fragile egos and want your
+writing to cut through the woke word salad.
+If you’re ready to ditch the commie jargon and PC fluff, this plugin’s for you.
+Don’t bother if you’re too weak to handle the truth.
 
 ## Install
 
@@ -52,21 +50,7 @@ This package is [ESM only][esm].
 In Node.js (version 16+), install with [npm][]:
 
 ```sh
-npm install retext-anti-woke
-```
-
-In Deno with [`esm.sh`][esmsh]:
-
-```javascript
-import retextAntiWoke from 'https://esm.sh/retext-anti-woke@7'
-```
-
-In browsers with [`esm.sh`][esmsh]:
-
-```html
-<script type="module">
-  import retextAntiWoke from 'https://esm.sh/retext-anti-woke@7?bundle'
-</script>
+npm install
 ```
 
 ## Use
@@ -83,9 +67,9 @@ Run this module example.js:
 import retextEnglish from 'retext-english'
 import retextAntiWoke from 'retext-anti-woke'
 import retextStringify from 'retext-stringify'
-import { read } from 'to-vfile'
-import { unified } from 'unified'
-import { reporter } from 'vfile-reporter'
+import {read} from 'to-vfile'
+import {unified} from 'unified'
+import {reporter} from 'vfile-reporter'
 
 const file = await unified()
   .use(retextEnglish)
@@ -95,14 +79,46 @@ const file = await unified()
 console.error(reporter(file))
 ```
 
-And watch node “example.js” rip it apart:
+Execute it with `node example.js` and watch the woke crap get torched:
 
 ```txt
 example.txt
-1:1-1:10  warning  Unexpected woke use of ‘Privilege’, try ‘merit’
-1:39-1:47 warning  Unexpected woke use of ‘allyship’, try ‘support’
+  1:1-1:10   warning  Unexpected woke use of `Privilege`, try `merit`
+  1:39-1:47  warning  Unexpected woke use of `allyship`, try `support`
+  1:55-1:66  warning  Unexpected woke use of `safe spaces`, try not to use it
+  1:71-1:82  warning  Unexpected woke use of `proletariat`, try `poor` or `poors`
 
- 2 warnings
+⚠ 4 warnings
+```
+
+Want to ignore some woke garbage?
+Pass options like a real man:
+
+```javascript
+import retextEnglish from 'retext-english'
+import retextAntiWoke from 'retext-anti-woke'
+import retextStringify from 'retext-stringify'
+import {read} from 'to-vfile'
+import {unified} from 'unified'
+import {reporter} from 'vfile-reporter'
+
+const file = await unified()
+  .use(retextEnglish)
+  .use(retextAntiWoke, {ignore: ['safe spaces']})
+  .process(await read('example.txt'))
+
+console.error(reporter(file))
+```
+
+Now it skips the “safe spaces” whining:
+
+```txt
+example.txt
+  1:1-1:10   warning  Unexpected woke use of `Privilege`, try `merit`
+  1:39-1:47  warning  Unexpected woke use of `allyship`, try `support`
+  1:71-1:82  warning  Unexpected woke use of `proletariat`, try `poor` or `poors`
+
+⚠ 3 warnings
 ```
 
 ## API
@@ -112,14 +128,14 @@ The default export is [retextAntiWoke][api-retext-anti-woke].
 
 ### `unified().use(retextAntiWoke[, options])`
 
-Rip out woke nonsense from your text.
+Rip out the woke nonsense and replace it with words that don’t suck.
 
-###### Parameters
+#### Parameters
 
 * `options` ([`Options`][api-options], optional)
   — configuration to tweak the shredding
 
-###### Returns
+#### Returns
 
 Transform ([`Transformer`][unified-transformer]).
 
@@ -127,12 +143,10 @@ Transform ([`Transformer`][unified-transformer]).
 
 Configuration (TypeScript type).
 
-###### Fields
+### Fields
 
 * `ignore` (`Array<string>`, optional)
   — woke terms you’re too weak to ditch
-* `binary` (`boolean`, default: `false`)
-  — allow “they” or “them” if you’re into that
 
 ## Messages
 
@@ -145,8 +159,9 @@ Some come with a note to tell it like it is.
 
 ## Types
 
-This package is fully typed with [TypeScript][].
-It exports the additional type [`Options`][api-options].
+Fully typed with [TypeScript][].
+Exports the extra type `Options` (#options).
+No woke ambiguity here.
 
 ## Compatibility
 
@@ -173,9 +188,7 @@ New English rules will automatically be added to `rules.md`.
 When you are happy with the new rule, add a test for it in
 [`test.js`][file-test], and open a pull request.
 
-See [`contributing.md`][contributing] in [`retextjs/.github`][health] for ways
-to get started.
-See [`support.md`][support] for ways to get help.
+See [`readme.md`][contributing] to get started.
 
 This project has a [code of conduct][coc].
 
@@ -215,15 +228,11 @@ This project has a [code of conduct][coc].
 
 [esm]: https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c
 
-[esmsh]: https://esm.sh
-
 [typescript]: https://www.typescriptlang.org
 
 [health]: https://github.com/retextjs/.github
 
-[contributing]: https://github.com/retextjs/.github/blob/main/contributing.md
-
-[support]: https://github.com/retextjs/.github/blob/main/support.md
+[contributing]: https://github.com/nerditron/retext-anti-woke
 
 [coc]: https://github.com/nerditron/retext-anti-woke/blob/main/code-of-conduct.md
 
