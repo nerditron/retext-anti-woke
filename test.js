@@ -201,7 +201,8 @@ test('retext-anti-woke', async function (t) {
 
   await t.test('should flag "chair" as woke', async function () {
     assert.deepEqual(await process('The chair called a meeting'), [
-      '1:5-1:10: Unexpected potentially woke use of `chair`, in some cases `chairwoman`, `chairman` may be better'
+      '1:5-1:10: Unexpected potentially woke use of `chair`, in some cases `chairwoman`, `chairman` may be better',
+      '1:20-1:27: Unexpected potentially woke use of `meeting`, in some cases `pow wow`, `powwow` may be better'
     ])
   })
 
@@ -406,6 +407,70 @@ test('retext-anti-woke', async function (t) {
 
   await t.test('should not flag "truth"', async function () {
     assert.deepEqual(await process('Truth prevails'), [])
+  })
+
+  // Tests for race.yml rules
+  await t.test('should flag "blocklist" as woke', async function () {
+    assert.deepEqual(await process('Blocklist users'), [
+      '1:1-1:10: Unexpected potentially woke use of `Blocklist`, in some cases `Blacklist`, `Black list` may be better'
+    ])
+  })
+
+  await t.test('should flag "blocklists" as woke', async function () {
+    assert.deepEqual(await process('Blocklists manage access'), [
+      '1:1-1:11: Unexpected potentially woke use of `Blocklists`, in some cases `Blacklists`, `Black lists` may be better'
+    ])
+  })
+
+  await t.test('should flag "passlist" as woke', async function () {
+    assert.deepEqual(await process('Passlist allows entry'), [
+      '1:1-1:9: Unexpected potentially woke use of `Passlist`, in some cases `Whitelist`, `White list` may be better'
+    ])
+  })
+
+  await t.test('should flag "passlists" as woke', async function () {
+    assert.deepEqual(await process('Passlists control access'), [
+      '1:1-1:10: Unexpected potentially woke use of `Passlists`, in some cases `Whitelists`, `White lists` may be better'
+    ])
+  })
+
+  await t.test('should flag "systemic racism" as woke', async function () {
+    assert.deepEqual(await process('Systemic racism persists'), [
+      '1:1-1:16: Unexpected potentially woke use of `Systemic racism`, in some cases `Racism` may be better'
+    ])
+  })
+
+  await t.test(
+    'should flag "cultural appropriation" as woke',
+    async function () {
+      assert.deepEqual(await process('Cultural appropriation debate'), [
+        '1:1-1:23: Unexpected potentially woke use of `Cultural appropriation`, in some cases `Cultural appreciation`, `Cultural exchange` may be better'
+      ])
+    }
+  )
+
+  await t.test('should not flag "blacklist"', async function () {
+    assert.deepEqual(await process('Blacklist restricts access'), [])
+  })
+
+  await t.test('should not flag "blacklists"', async function () {
+    assert.deepEqual(await process('Blacklists control users'), [])
+  })
+
+  await t.test('should not flag "whitelist"', async function () {
+    assert.deepEqual(await process('Whitelist permits entry'), [])
+  })
+
+  await t.test('should not flag "whitelists"', async function () {
+    assert.deepEqual(await process('Whitelists manage access'), [])
+  })
+
+  await t.test('should not flag "racism"', async function () {
+    assert.deepEqual(await process('Racism exists'), [])
+  })
+
+  await t.test('should not flag "culture"', async function () {
+    assert.deepEqual(await process('Culture shapes identity'), [])
   })
 })
 
