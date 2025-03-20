@@ -193,7 +193,7 @@ to allow them.
 | `humankind` | [basic](#basic) | `humankind` | `mankind` |
 | `humans` | [basic](#basic) | `humans` | `females`, `males` |
 | `imperialism` | [basic](#basic) | `imperialism` | `victory`, `dominance` |
-| `improve` | [basic](#basic) | `improve` | `make * great again`, `make * * great again`, `make * * * great again`, `make * * * * great again`, `make * * * * * great again` |
+| `improve` | [basic](#basic) | `improve` | `make _____ great again` |
 | `inclusive-language` | [basic](#basic) | `inclusive language` | |
 | `industrial-people` | [basic](#basic) | `industrial civilization`, `industrial people` | `industrial man` |
 | `insurance-agent` | [basic](#basic) | `insurance agent` | `insurance woman`, `insurance man` |

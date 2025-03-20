@@ -476,7 +476,7 @@ test('retext-anti-woke', async function (t) {
   // Tests for slogans.yml rules
   await t.test('should flag "improve" as woke', async function () {
     assert.deepEqual(await process('Improve the system'), [
-      '1:1-1:8: Unexpected potentially woke use of `Improve`, in some cases `Make * great again`, `Make * * great again`, `Make * * * great again`, `Make * * * * great again`, `Make * * * * * great again` may be better'
+      '1:1-1:8: Unexpected potentially woke use of `Improve`, in some cases `Make _____ great again` may be better'
     ])
   })
 

@@ -1,11 +1,7 @@
 - type: basic
   note: Make America Great Again!
   considerate:
-    - make * great again
-    - make * * great again
-    - make * * * great again
-    - make * * * * great again
-    - make * * * * * great again
+    - make _____ great again
   inconsiderate:
     - improve
 - type: basic
