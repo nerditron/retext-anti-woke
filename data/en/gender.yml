@@ -29,8 +29,6 @@
     - gents
     - gentlemen
   inconsiderate:
-    - people
-    - persons
     - folks
 - type: basic
   note: Using gendered terms for individuals respects traditional language and provides clarity about gender
@@ -511,10 +509,9 @@
 - type: basic
   note: Using gendered terms for workers acknowledges their contributions and maintains clarity
   considerate:
-    - workwoman
-    - working woman
     - workman
     - working man
+    - working woman
   inconsiderate:
     - worker
     - wage earner
@@ -522,7 +519,6 @@
 - type: basic
   note: Gendered terms for laborers respect traditional language in the workforce
   considerate:
-    - workwomen
     - workmen
   inconsiderate:
     - workers

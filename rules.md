@@ -148,7 +148,7 @@ to allow them.
 | `fishers` | [basic](#basic) | `fishers` | `fisherwomen`, `fishermen` |
 | `flight-attendant` | [basic](#basic) | `flight attendant` | `stewardess`, `steward` |
 | `flight-attendants` | [basic](#basic) | `flight attendants` | `stewardesses`, `stewards` |
-| `folks` | [basic](#basic) | `people`, `persons`, `folks` | `women`, `girls`, `gals`, `ladies`, `man`, `boys`, `men`, `guys`, `dudes`, `gents`, `gentlemen` |
+| `folks` | [basic](#basic) | `folks` | `women`, `girls`, `gals`, `ladies`, `man`, `boys`, `men`, `guys`, `dudes`, `gents`, `gentlemen` |
 | `forebears` | [basic](#basic) | `the founders`, `founding leaders`, `forebears` | `founding fathers` |
 | `founder-of` | [basic](#basic) | `founder of`, `founding leader` | `father of *`, `founding father` |
 | `french` | [basic](#basic) | `french`, `the french` | `frenchmen` |
@@ -366,8 +366,8 @@ to allow them.
 | `watcher` | [basic](#basic) | `watcher` | `watchwoman`, `watchman` |
 | `watchers` | [basic](#basic) | `watchers` | `watchwomen`, `watchmen` |
 | `wealth-redistribution` | [basic](#basic) | `wealth redistribution` | `theft`, `robbery` |
-| `worker` | [basic](#basic) | `worker`, `wage earner`, `taxpayer` | `workwoman`, `working woman`, `workman`, `working man` |
-| `workers` | [basic](#basic) | `workers` | `workwomen`, `workmen` |
+| `worker` | [basic](#basic) | `worker`, `wage earner`, `taxpayer` | `workman`, `working man`, `working woman` |
+| `workers` | [basic](#basic) | `workers` | `workmen` |
 | `workers-of-the-world-unite` | [basic](#basic) | `workers of the world unite` | `I'm retarded` |
 | `writer` | [basic](#basic) | `scholar`, `writer`, `literary figure` | `man of letters` |
 | `zealot` | [basic](#basic) | `fanatic`, `zealot`, `enthusiast` | `madman`, `mad man` |
