@@ -262,7 +262,7 @@ to allow them.
 | `orientation` | [basic](#basic) | `sexual orientation`, `orientation` | `sexual preference` |
 | `own-person` | [basic](#basic) | `own person` | `own woman`, `own man` |
 | `owner` | [basic](#basic) | `official`, `owner`, `expert`, `superior`, `chief` | `dame`, `lord` |
-| `pal` | [basic](#basic) | `person`, `friend`, `pal`, `folk`, `individual` | `woman`, `gal`, `lady`, `babe`, `bimbo`, `chick`, `guy`, `lad`, `fellow`, `dude`, `bro`, `gentleman` |
+| `pal` | [basic](#basic) | `pal`, `folk` | `woman`, `gal`, `lady`, `babe`, `bimbo`, `chick`, `guy`, `lad`, `fellow`, `dude`, `bro`, `gentleman` |
 | `parent` | [basic](#basic) | `parent` | `mama`, `mother`, `mom`, `mum`, `momma`, `mommy`, `papa`, `father`, `dad`, `pop`, `daddy` |
 | `parental` | [basic](#basic) | `parental` | `maternity`, `paternity` |
 | `parents` | [basic](#basic) | `parents` | `mamas`, `mothers`, `moms`, `mums`, `mommas`, `mommies`, `papas`, `fathers`, `dads`, `daddies` |
