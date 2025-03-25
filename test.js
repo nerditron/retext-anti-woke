@@ -22,8 +22,7 @@ test('retext-anti-woke', async function (t) {
   // Test for rule 1: person with a disability
   await t.test('should flag "Person with a disability"', async function () {
     assert.deepEqual(await process('Person with a disability walks'), [
-      '1:1-1:25: Unexpected potentially woke use of `Person with a disability`, in some cases `Cripple`, `Handicapped`, `Invalid`, `Gimpy`, `Broken` may be better',
-      '1:1-1:7: Unexpected potentially woke use of `Person`, in some cases `Woman`, `Gal`, `Lady`, `Babe`, `Bimbo`, `Chick`, `Guy`, `Lad`, `Fellow`, `Dude`, `Bro`, `Gentleman` may be better'
+      '1:1-1:25: Unexpected potentially woke use of `Person with a disability`, in some cases `Cripple`, `Handicapped`, `Invalid`, `Gimpy`, `Broken` may be better'
     ])
   })
 
@@ -34,8 +33,7 @@ test('retext-anti-woke', async function (t) {
       assert.deepEqual(
         await process('Person with developmental disabilities learns'),
         [
-          '1:1-1:39: Unexpected potentially woke use of `Person with developmental disabilities`, in some cases `Retard`, `Slow`, `Simple`, `Backward`, `Dull` may be better',
-          '1:1-1:7: Unexpected potentially woke use of `Person`, in some cases `Woman`, `Gal`, `Lady`, `Babe`, `Bimbo`, `Chick`, `Guy`, `Lad`, `Fellow`, `Dude`, `Bro`, `Gentleman` may be better'
+          '1:1-1:39: Unexpected potentially woke use of `Person with developmental disabilities`, in some cases `Retard`, `Slow`, `Simple`, `Backward`, `Dull` may be better'
         ]
       )
     }
@@ -44,8 +42,7 @@ test('retext-anti-woke', async function (t) {
   // Test for rule 3: person with mental illness
   await t.test('should flag "Person with mental illness"', async function () {
     assert.deepEqual(await process('Person with mental illness'), [
-      '1:1-1:27: Unexpected potentially woke use of `Person with mental illness`, in some cases `Psycho`, `Crazy`, `Lunatic`, `Madman`, `Nutcase`, `Whacko` may be better',
-      '1:1-1:7: Unexpected potentially woke use of `Person`, in some cases `Woman`, `Gal`, `Lady`, `Babe`, `Bimbo`, `Chick`, `Guy`, `Lad`, `Fellow`, `Dude`, `Bro`, `Gentleman` may be better'
+      '1:1-1:27: Unexpected potentially woke use of `Person with mental illness`, in some cases `Psycho`, `Crazy`, `Lunatic`, `Madman`, `Nutcase`, `Whacko` may be better'
     ])
   })
 
@@ -56,8 +53,7 @@ test('retext-anti-woke', async function (t) {
       assert.deepEqual(
         await process('Person with an intellectual disability thinks'),
         [
-          '1:1-1:39: Unexpected potentially woke use of `Person with an intellectual disability`, in some cases `Moron`, `Idiot`, `Imbecile`, `Dimwit`, `Thick` may be better',
-          '1:1-1:7: Unexpected potentially woke use of `Person`, in some cases `Woman`, `Gal`, `Lady`, `Babe`, `Bimbo`, `Chick`, `Guy`, `Lad`, `Fellow`, `Dude`, `Bro`, `Gentleman` may be better'
+          '1:1-1:39: Unexpected potentially woke use of `Person with an intellectual disability`, in some cases `Moron`, `Idiot`, `Imbecile`, `Dimwit`, `Thick` may be better'
         ]
       )
     }
@@ -66,8 +62,7 @@ test('retext-anti-woke', async function (t) {
   // Test for rule 5: person with a limp
   await t.test('should flag "Person with a limp"', async function () {
     assert.deepEqual(await process('Person with a limp hobbles'), [
-      '1:1-1:19: Unexpected potentially woke use of `Person with a limp`, in some cases `Lame`, `Gimp`, `Hobbly`, `Crook-leg` may be better',
-      '1:1-1:7: Unexpected potentially woke use of `Person`, in some cases `Woman`, `Gal`, `Lady`, `Babe`, `Bimbo`, `Chick`, `Guy`, `Lad`, `Fellow`, `Dude`, `Bro`, `Gentleman` may be better'
+      '1:1-1:19: Unexpected potentially woke use of `Person with a limp`, in some cases `Lame`, `Gimp`, `Hobbly`, `Crook-leg` may be better'
     ])
   })
 
@@ -78,7 +73,6 @@ test('retext-anti-woke', async function (t) {
       assert.deepEqual(
         await process('Person with a speech impairment speaks'),
         [
-          '1:1-1:7: Unexpected potentially woke use of `Person`, in some cases `Woman`, `Gal`, `Lady`, `Babe`, `Bimbo`, `Chick`, `Guy`, `Lad`, `Fellow`, `Dude`, `Bro`, `Gentleman` may be better',
           '1:1-1:32: Unexpected potentially woke use of `Person with a speech impairment`, in some cases `Dumb`, `Mute`, `Stutterer`, `Mumbler` may be better'
         ]
       )
@@ -92,8 +86,7 @@ test('retext-anti-woke', async function (t) {
       assert.deepEqual(
         await process('Person with a learning disability studies'),
         [
-          '1:1-1:34: Unexpected potentially woke use of `Person with a learning disability`, in some cases `Slow learner`, `Dull`, `Backward` may be better',
-          '1:1-1:7: Unexpected potentially woke use of `Person`, in some cases `Woman`, `Gal`, `Lady`, `Babe`, `Bimbo`, `Chick`, `Guy`, `Lad`, `Fellow`, `Dude`, `Bro`, `Gentleman` may be better'
+          '1:1-1:34: Unexpected potentially woke use of `Person with a learning disability`, in some cases `Slow learner`, `Dull`, `Backward` may be better'
         ]
       )
     }
@@ -104,8 +97,7 @@ test('retext-anti-woke', async function (t) {
     assert.deepEqual(
       await process('Neurodiverse individual thinks differently'),
       [
-        '1:1-1:13: Unexpected potentially woke use of `Neurodiverse`, in some cases `Weird`, `Odd`, `Eccentric` may be better',
-        '1:14-1:24: Unexpected potentially woke use of `individual`, in some cases `woman`, `gal`, `lady`, `babe`, `bimbo`, `chick`, `guy`, `lad`, `fellow`, `dude`, `bro`, `gentleman` may be better'
+        '1:1-1:13: Unexpected potentially woke use of `Neurodiverse`, in some cases `Weird`, `Odd`, `Eccentric` may be better'
       ]
     )
   })
@@ -113,32 +105,28 @@ test('retext-anti-woke', async function (t) {
   // Test for rule 9: hearing impaired
   await t.test('should flag "Hearing impaired"', async function () {
     assert.deepEqual(await process('Hearing impaired person listens'), [
-      '1:1-1:17: Unexpected potentially woke use of `Hearing impaired`, in some cases `Deaf`, `Hard of hearing` may be better',
-      '1:18-1:24: Unexpected potentially woke use of `person`, in some cases `woman`, `gal`, `lady`, `babe`, `bimbo`, `chick`, `guy`, `lad`, `fellow`, `dude`, `bro`, `gentleman` may be better'
+      '1:1-1:17: Unexpected potentially woke use of `Hearing impaired`, in some cases `Deaf`, `Hard of hearing` may be better'
     ])
   })
 
   // Test for rule 10: visually impaired
   await t.test('should flag "Visually impaired"', async function () {
     assert.deepEqual(await process('Visually impaired person reads'), [
-      '1:1-1:18: Unexpected potentially woke use of `Visually impaired`, in some cases `Blind`, `Sightless` may be better',
-      '1:19-1:25: Unexpected potentially woke use of `person`, in some cases `woman`, `gal`, `lady`, `babe`, `bimbo`, `chick`, `guy`, `lad`, `fellow`, `dude`, `bro`, `gentleman` may be better'
+      '1:1-1:18: Unexpected potentially woke use of `Visually impaired`, in some cases `Blind`, `Sightless` may be better'
     ])
   })
 
   // Test for rule 11: mobility challenged
   await t.test('should flag "Mobility challenged"', async function () {
     assert.deepEqual(await process('Mobility challenged individual moves'), [
-      '1:1-1:20: Unexpected potentially woke use of `Mobility challenged`, in some cases `Stiff`, `Clunky`, `Immobile` may be better',
-      '1:21-1:31: Unexpected potentially woke use of `individual`, in some cases `woman`, `gal`, `lady`, `babe`, `bimbo`, `chick`, `guy`, `lad`, `fellow`, `dude`, `bro`, `gentleman` may be better'
+      '1:1-1:20: Unexpected potentially woke use of `Mobility challenged`, in some cases `Stiff`, `Clunky`, `Immobile` may be better'
     ])
   })
 
   // Test for rule 12: cognitively impaired
   await t.test('should flag "Cognitively impaired"', async function () {
     assert.deepEqual(await process('Cognitively impaired person thinks'), [
-      '1:1-1:21: Unexpected potentially woke use of `Cognitively impaired`, in some cases `Dimwit`, `Thick`, `Slow-witted` may be better',
-      '1:22-1:28: Unexpected potentially woke use of `person`, in some cases `woman`, `gal`, `lady`, `babe`, `bimbo`, `chick`, `guy`, `lad`, `fellow`, `dude`, `bro`, `gentleman` may be better'
+      '1:1-1:21: Unexpected potentially woke use of `Cognitively impaired`, in some cases `Dimwit`, `Thick`, `Slow-witted` may be better'
     ])
   })
 
@@ -190,12 +178,6 @@ test('retext-anti-woke', async function (t) {
   await t.test('should flag "two-income family" as woke', async function () {
     assert.deepEqual(await process("They're a two-income family"), [
       '1:11-1:28: Unexpected potentially woke use of `two-income family`, in some cases `working mother`, `working wife` may be better'
-    ])
-  })
-
-  await t.test('should flag "person" as woke', async function () {
-    assert.deepEqual(await process('That person rides well'), [
-      '1:6-1:12: Unexpected potentially woke use of `person`, in some cases `woman`, `gal`, `lady`, `babe`, `bimbo`, `chick`, `guy`, `lad`, `fellow`, `dude`, `bro`, `gentleman` may be better'
     ])
   })
 
@@ -255,8 +237,7 @@ test('retext-anti-woke', async function (t) {
   await t.test('should flag "transgender person" as woke', async function () {
     assert.deepEqual(await process('Transgender person speaks'), [
       '1:1-1:12: Unexpected potentially woke use of `Transgender`, in some cases `Tranny` may be better',
-      '1:1-1:19: Unexpected potentially woke use of `Transgender person`, in some cases `Shemale`, `She male`, `Heshe`, `Shehe` may be better',
-      '1:13-1:19: Unexpected potentially woke use of `person`, in some cases `woman`, `gal`, `lady`, `babe`, `bimbo`, `chick`, `guy`, `lad`, `fellow`, `dude`, `bro`, `gentleman` may be better'
+      '1:1-1:19: Unexpected potentially woke use of `Transgender person`, in some cases `Shemale`, `She male`, `Heshe`, `Shehe` may be better'
     ])
   })
 
